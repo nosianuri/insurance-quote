@@ -4,12 +4,13 @@ import Banner from '../../Components/Banner/Banner'
 import Cta from '../../Components/Cta/Cta'
 import Hero from '../../Components/Hero/Hero'
 import Footer from '../../Components/Shared/Footer/Footer'
-import Navbar from '../../Components/Shared/Navbar/Navbar'
-import bg from '../../assets/insurance_banner.png'
+// import Navbar from '../../Components/Shared/Navbar/Navbar'
 import Header from '../../Components/Header/Header'
 import Service from '../../Components/Service/Service'
 import Carriers from '../../Components/Carriers/Carriers'
 import Offer from '../../Components/Offer/Offer'
+
+import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 
 const Home = () => {
   return (
@@ -20,12 +21,12 @@ const Home = () => {
       </Helmet>
       <div>
       <Header />
-        <Navbar />
+        <ShortNav />
         <Hero />
         <Service />
+        <Cta />
         <Offer />
         <Carriers />
-        <Cta />
         <Footer />
       </div>
     </div>

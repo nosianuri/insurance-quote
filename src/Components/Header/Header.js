@@ -4,9 +4,9 @@ import Button from '../Shared/Button/Button';
 
 const Header = () => {
   return (
-    <div className='flex align-middle items-center justify-between px-16 py-2'>
+    <div className='flex items-center justify-between lg:px-16 py-2'>
         <div>
-            <img className='w-56' src={Logo} alt="" />
+            <img className='lg:w-56 w-40' src={Logo} alt="" />
         </div>
         <div>
             <Button />

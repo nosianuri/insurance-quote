@@ -79,7 +79,7 @@ const Service = () => {
         
     ]
     return (
-        <div className='mx-36 my-16'>
+        <div className='lg:mx-36 lg:my-16'>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 pl-5'>
         {
             products.map(product => <Services
