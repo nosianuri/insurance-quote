@@ -1,47 +1,73 @@
 export const menuItems = [
     {
-      title: "Home",
+        title: "Home",
+        link: "/",
     },
     {
-      title: "Services",
-      submenu: [
-        {
-          title: "web design",
-        },
-        {
-          title: "web development",
-          submenu: [
+        title: "Insurance",
+        submenu: [
             {
-              title: "Frontend",
+                title: "Home Insurance",
+                submenu: [
+                    {
+                        title: "Home Insurance",
+                        link: "/home-insurance",
+                    },
+                    {
+                        title: "Final Expense Insurance",
+                        link: "/finalexpense-insurance",
+                    },
+                ],
             },
             {
-              title: "Backend",
-              submenu: [
-                {
-                  title: "NodeJS",
-                },
-                {
-                  title: "PHP",
-                },
-              ],
+                title: "Auto Insurance",
+                submenu: [
+                    {
+                        title: "Motorcycle Insurance",
+                        link: "/motorcycle-insurance",
+                    },
+                    {
+                        title: "Car Insurance",
+                        link: "/car-insurance",
+                    },
+                    {
+                        title: "auto Insurance",
+                        link: "/auto-insurance",
+                    },
+                ],
             },
-          ],
-        },
-        {
-          title: "SEO",
-        },
-      ],
+            {
+                title: "Other types",
+                submenu: [
+                    {
+                        title: "Life Insurance",
+                        link: "/life-insurance",
+                    },
+                    {
+                        title: "Medicare Insurance",
+                        link: "/medicare-insurance",
+                    },
+                    {
+                        title: "Health Insurance",
+                        link: "/health-insurance",
+                    },
+                    {
+                        title: "ACA Insurance",
+                        link: "/aca-insurance",
+                    },
+                ],
+            },
+        ],
     },
     {
-      title: "About",
-      submenu: [
-        {
-          title: "Who we are",
-        },
-        {
-          title: "Our values",
-        },
-      ],
+        title: "About",
+        submenu: [
+            {
+                title: "Who we are",
+            },
+            {
+                title: "Our values",
+            },
+        ],
     },
-  ];
-  
+];

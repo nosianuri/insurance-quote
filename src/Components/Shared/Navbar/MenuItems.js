@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Dropdown from './Dropdown';
 
-const MenuItems = ({items, depthLevel}) => {
+const MenuItems = ({items, link, depthLevel}) => {
   const [dropdown, setDropdown] = useState(false);
 
   let ref = useRef();
@@ -54,7 +54,7 @@ const MenuItems = ({items, depthLevel}) => {
           />
         </>
       ) : (
-        <a href="/#">{items.title}</a>
+        <a href={items.link}>{items.title}</a>
       )}
     </li>
   )

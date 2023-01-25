@@ -7,7 +7,7 @@ const Button = () => {
         // </button>
         <div className='text-center'>
             <p className=''>Our Agents can help you save</p>
-            <a href="/"><p className='text-[#13C61C] font-semibold'>(844) 501-0362</p></a>
+            <a href="tel:18445010362"><p className='text-[#13C61C] font-semibold'><i class="fa-solid fa-phone-volume pr-3"></i>(844) 501-0362</p></a>
             
         </div>
     )
