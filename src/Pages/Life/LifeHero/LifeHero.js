@@ -1,6 +1,6 @@
 import React from 'react'
 import LifeForm from './LifeForm'
-import life from '../../../assets/life-insurance.webp'
+import life from '../../../assets/life6.avif'
 
 const LifeHero = () => {
   return (

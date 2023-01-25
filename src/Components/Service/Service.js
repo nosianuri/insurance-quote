@@ -80,6 +80,12 @@ const Service = () => {
     ]
     return (
         <div className='lg:mx-36 lg:my-16'>
+        <div className='text-center mb-10'>
+            <h1 className='font-semibold text-5xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
+            <p>Are you looking for insurance with better coverage, better prices, or just better service? We’ve got you covered!</p>
+            <p>Let us help you find the right auto, home, life and commercial insurance.</p>
+            <p>We represent numerous insurance companies to find you the best coverage and the best rate.</p>
+        </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 pl-5'>
         {
             products.map(product => <Services

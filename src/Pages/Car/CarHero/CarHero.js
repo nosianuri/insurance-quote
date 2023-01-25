@@ -1,5 +1,5 @@
 import React from 'react'
-import car from '../../../assets/classic-car-insurance.webp'
+import car from '../../../assets/car.webp'
 import CarForm from './CarForm'
 
 const CarHero = () => {

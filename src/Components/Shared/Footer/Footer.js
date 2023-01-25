@@ -12,19 +12,19 @@ const Footer = () => {
                     </div>
                     <div>
                         <span class="footer-title">About</span>
-                        <a class="link link-hover">About us</a>
-                        <a class="link link-hover">Xustomer Care</a>
-                        <a class="link link-hover">Claims</a>
-                        <a class="link link-hover">Careers</a>
-                        <a class="link link-hover">Privacy Policy</a>
+                        <a href='/' class="link link-hover hover:text-[#3e37b7]">About us</a>
+                        <a href='/' class="link link-hover hover:text-[#3e37b7]">Customer Care</a>
+                        <a href='/' class="link link-hover hover:text-[#3e37b7]">Claims</a>
+                        <a href='/' class="link link-hover hover:text-[#3e37b7]">Careers</a>
+                        <a href='/privacy-policy' class="link link-hover hover:text-[#3e37b7]">Privacy Policy</a>
                     </div>
                     <div>
                         <span class="footer-title">Services</span>
-                        <a class="link link-hover hpver:text-[]">Car Insurance</a>
-                        <a class="link link-hover">Health Insurance</a>
-                        <a class="link link-hover">Medicare Insurance</a>
-                        <a class="link link-hover">Life insurance</a>
-                        <a class="link link-hover">Burial insurance</a>
+                        <a href='/car-insurance' class="link link-hover hover:text-[#3e37b7]">Car Insurance</a>
+                        <a href='/health-insurance' class="link link-hover hover:text-[#3e37b7]">Health Insurance</a>
+                        <a href='/medicare-insurance' class="link link-hover hover:text-[#3e37b7]">Medicare Insurance</a>
+                        <a href='/life-insurance' class="link link-hover hover:text-[#3e37b7]">Life insurance</a>
+                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#3e37b7]">Burial insurance</a>
                     </div>
                     <div>
                         <span class="footer-title">Social</span>
@@ -42,7 +42,7 @@ const Footer = () => {
                 </footer>
                 <footer class="footer footer-center p-4 bg-[#3e37b7] text-white">
                     <div>
-                        <p>Copyright © 2023 - INSURANCE TRENDY QUOTE | ALL RIGHTS RESERVED.</p>
+                        <p className='lg:text-sm text-xs'>Copyright © 2023 - INSURANCE TRENDY QUOTE | ALL RIGHTS RESERVED.</p>
                     </div>
                 </footer>
             </div>

@@ -11,7 +11,7 @@ const Terms = () => {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Privacy Policy | Insurance Trendy Quote </title>
+                <title>Terms of Use | Insurance Trendy Quote </title>
             </Helmet>
             <Header />
             <ShortNav />

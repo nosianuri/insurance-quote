@@ -9,7 +9,7 @@ import Header from '../../Components/Header/Header'
 import Service from '../../Components/Service/Service'
 import Carriers from '../../Components/Carriers/Carriers'
 import Offer from '../../Components/Offer/Offer'
-
+import MainBanner from '../../Components/MainBanner/MainBanner';
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 
 const Home = () => {
@@ -22,10 +22,13 @@ const Home = () => {
       <div>
       <Header />
         <ShortNav />
-        <Hero />
+        <MainBanner />
         <Service />
         <Cta />
         <Offer />
+        <div className='lg:mx-36 mx-5'>
+        <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
+        </div>
         <Carriers />
         <Footer />
       </div>

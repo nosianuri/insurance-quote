@@ -1,5 +1,40 @@
+/* category */
+.contentWidth {
+  width: 80%;
+  overflow-x:hidden
+}
+.category {
+  width: 20% !important;
+  background-color: #3e37b7;
+  color: white;
+  box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
+  height: 500px;
+  padding: 15px 0;
+  border-radius: 2px;
+  /* margin-top: 5px; */
+}
 
+.category img{
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
 
+.category span{
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+
+.category .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+.category .box:hover {
+  background-color: #a3a2c1;
+  cursor: pointer;
+}
+/* category */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,5 +52,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .category {
+    display: none;
+  }
+  .contentWidth {
+    width: 100%;
   }
 }
