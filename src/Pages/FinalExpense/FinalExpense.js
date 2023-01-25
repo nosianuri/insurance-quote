@@ -4,6 +4,8 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import FeAbout from './FeAbout/FeAbout'
+import FeHero from './FeHero/FeHero'
 
 const FinalExpense = () => {
   return (
@@ -14,6 +16,8 @@ const FinalExpense = () => {
       </Helmet>
       <Header />
       <ShortNav />
+      <FeHero />
+      <FeAbout />
       <Carriers />
       <Footer />
     </div>

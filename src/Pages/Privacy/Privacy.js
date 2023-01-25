@@ -4,24 +4,22 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
-import HealthAbout from './HealthAbout/HealthAbout'
-import HealthHero from './HealthHero/HealthHero'
+import PrivacyBody from './PrivacyBody'
 
-const Health = () => {
-  return (
-    <div>
-      <Helmet>
+const Privacy = () => {
+    return (
+        <>
+        <Helmet>
         <meta charSet="utf-8" />
-        <title>Health Insurance | Insurance Trendy Quote </title>
+        <title>Privacy Policy | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
       <ShortNav />
-      <HealthHero />
-      <HealthAbout />
+      <PrivacyBody />
       <Carriers />
       <Footer />
-    </div>
-  )
+        </>
+    )
 }
 
-export default Health
+export default Privacy

@@ -4,6 +4,8 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import HiAbout from './HiAbout/HiAbout'
+import HiHero from './HiHero/HiHero'
 
 const HomeInsurance = () => {
   return (
@@ -14,6 +16,8 @@ const HomeInsurance = () => {
       </Helmet>
       <Header />
       <ShortNav />
+      <HiHero />
+      <HiAbout />
       <Carriers />
       <Footer />
     </div>

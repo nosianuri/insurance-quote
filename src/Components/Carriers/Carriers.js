@@ -16,7 +16,7 @@ const Carriers = () => {
             <img className='lg:w-52' src={img4} alt="" />
             <img className='lg:w-52' src={img5} alt="" />
         </div>
-        <p className='text-center'><span className='text-[#584FF7] underline'><a href="/">Privacy Policy</a></span> | <span className='text-[#584FF7] underline'><a href="/">Terms of Use</a></span> | <span className='text-[#584FF7] underline'><a href="/">Do not sell my personal information</a></span> | <span className='text-[#584FF7] underline'><a href="/">California Privacy Choices</a></span> | <span className='text-[#584FF7] underline'><a href="/">Cookies and Other Technology</a></span></p>
+        <p className='text-center'><span className='text-[#584FF7] hover:underline'><a href="/privacy-policy">Privacy Policy</a></span> | <span className='text-[#584FF7] hover:underline'><a href="/terms&use">Terms of Use</a></span> | <span className='text-[#584FF7] hover:underline'><a href="/">Do not sell my personal information</a></span> | <span className='text-[#584FF7] hover:underline'><a href="/">California Privacy Choices</a></span> | <span className='text-[#584FF7] hover:underline'><a href="/">Cookies and Other Technology</a></span></p>
         <p className='text-center my-3'>2582 So Songbird Cir</p>
     </div>
   )

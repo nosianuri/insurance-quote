@@ -10,6 +10,8 @@ import HomeInsurance from './Pages/HomeInsurance/HomeInsurance';
 import Life from './Pages/Life/Life';
 import Medicare from './Pages/Medicare/Medicare';
 import Motorcycle from './Pages/Motorcycle/Motorcycle';
+import Privacy from './Pages/Privacy/Privacy';
+import Terms from './Pages/Terms/Terms';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
      <Route path='/life-insurance' element={<Life />} />
      <Route path='/medicare-insurance' element={<Medicare />} />
      <Route path='/motorcycle-insurance' element={<Motorcycle />} />
+     <Route path='/privacy-policy' element={<Privacy />} />
+     <Route path='/terms&use' element={<Terms />} />
      </Routes>
     </>
   );

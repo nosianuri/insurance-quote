@@ -4,6 +4,8 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import MotorAbout from './MotorAbout/MotorAbout'
+import MotorHero from './MotorHero/MotorHero'
 
 const Motorcycle = () => {
   return (
@@ -14,6 +16,8 @@ const Motorcycle = () => {
       </Helmet>
       <Header />
       <ShortNav />
+      <MotorHero />
+      <MotorAbout />
       <Carriers />
       <Footer />
     </div>

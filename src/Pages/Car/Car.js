@@ -4,6 +4,8 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import CarAbout from './CarAbout/CarAbout'
+import CarHero from './CarHero/CarHero'
 
 const Car = () => {
   return (
@@ -14,6 +16,8 @@ const Car = () => {
       </Helmet>
       <Header />
       <ShortNav />
+      <CarHero />
+      <CarAbout />
       <Carriers />
       <Footer />
     </div>

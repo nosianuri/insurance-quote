@@ -4,6 +4,8 @@ import Carriers from '../../Components/Carriers/Carriers';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Shared/Footer/Footer';
 import ShortNav from '../../Components/Shared/Navbar/ShortNav';
+import McAbout from './McAbout/McAbout';
+import McHero from './McHero/McHero';
 
 const Medicare = () => {
   return (
@@ -14,6 +16,8 @@ const Medicare = () => {
       </Helmet>
       <Header />
       <ShortNav />
+      <McHero />
+      <McAbout />
       <Carriers />
       <Footer />
     </div>

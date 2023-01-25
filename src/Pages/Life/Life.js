@@ -4,6 +4,7 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import LifeHero from './LifeHero/LifeHero'
 
 const Life = () => {
   return (
@@ -14,6 +15,7 @@ const Life = () => {
       </Helmet>
       <Header />
       <ShortNav />
+      <LifeHero />
       <Carriers />
       <Footer />
     </div>
