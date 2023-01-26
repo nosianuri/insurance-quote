@@ -15,7 +15,6 @@ const Health = () => {
         <title>Health Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <HealthHero />
       <HealthAbout />
       <Carriers />

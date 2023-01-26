@@ -11,6 +11,7 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Offer from '../../Components/Offer/Offer'
 import MainBanner from '../../Components/MainBanner/MainBanner';
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import About from '../../Components/About/About'
 
 const Home = () => {
   return (

@@ -15,7 +15,6 @@ const Car = () => {
         <title>Car Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <CarHero />
       <CarAbout />
       <Carriers />

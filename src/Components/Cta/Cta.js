@@ -1,10 +1,10 @@
 import React from 'react';
-import cta from '../../assets/cta_bg.webp';
+import cta from '../../assets/diff-better-btm-shape.webp';
 import './Cta.css';
 
 const Cta = () => {
   return (
-    <div className='cta'>
+    <div className="cta">
       <div className=''>
       <div className='lg:mx-36 lg:px-36 text-center py-28 '>
       <h2 className=' lg:text-5xl text-2xl leading-tight'>Get The Coverage You Need And The Protection You Deserve!</h2>

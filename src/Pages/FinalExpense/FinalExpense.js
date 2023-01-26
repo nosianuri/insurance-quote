@@ -15,7 +15,6 @@ const FinalExpense = () => {
         <title>Final Expense Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <FeHero />
       <FeAbout />
       <Carriers />

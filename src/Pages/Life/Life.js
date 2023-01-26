@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
-import ShortNav from '../../Components/Shared/Navbar/ShortNav'
+import LifeAbout from './LifeAbout/LifeAbout'
 import LifeHero from './LifeHero/LifeHero'
 
 const Life = () => {
@@ -14,8 +14,8 @@ const Life = () => {
         <title>Life Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <LifeHero />
+      <LifeAbout />
       <Carriers />
       <Footer />
     </div>

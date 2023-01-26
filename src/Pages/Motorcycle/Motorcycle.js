@@ -15,7 +15,6 @@ const Motorcycle = () => {
         <title>Motorcycle Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <MotorHero />
       <MotorAbout />
       <Carriers />

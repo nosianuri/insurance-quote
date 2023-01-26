@@ -15,7 +15,6 @@ const Auto = () => {
         <title>Auto Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <AutoHero />
       <AutoAbout />
       <Carriers />

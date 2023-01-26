@@ -15,7 +15,6 @@ const Medicare = () => {
         <title>medicare Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <McHero />
       <McAbout />
       <Carriers />

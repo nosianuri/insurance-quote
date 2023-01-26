@@ -15,7 +15,6 @@ const HomeInsurance = () => {
         <title>Home Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <HiHero />
       <HiAbout />
       <Carriers />

@@ -23,14 +23,14 @@ const Service = () => {
         {
             _id: 2,
             name: 'Medicare',
-            description: 'As a rental property owner, you work hard to maintain your properties and use them as a source of income. You need to protect your assets with an insurance company that has your back, from property damages to personal injury.',
+            description: 'As a rental property owner, you work hard to maintain your properties and use them as a source of income. You need to protect your assets with an insurance company. ',
             link: '/medicare-insurance',
             img: img2
         },
         {
             _id: 3,
             name: 'Car Insurance',
-            description: 'Classic and antique cars are unique assets. Since they are investments you can also drive for pleasure, its essential to have comprehensive coverage in case of an unfortunate accident.',
+            description: 'Classic and antique cars are unique assets. Since they are investments you can also drive for pleasure to have comprehensive coverage in case of an unfortunate accident.',
             link: '/car-insurance',
             img: img3
         },

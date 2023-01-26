@@ -15,7 +15,6 @@ const Aca = () => {
         <title>Aca Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <ShortNav />
       <AcaHero />
       <AcaAbout />
       <Carriers />
