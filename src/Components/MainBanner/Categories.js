@@ -1,48 +1,57 @@
 import React from 'react'
+import img1 from '../../assets/home_anim.png';
+import img2 from '../../assets/medicare_anim.png';
+import img3 from '../../assets/car_anim.png';
+import img4 from '../../assets/aca_anim.png';
+import img5 from '../../assets/health_anim.png';
+import img6 from '../../assets/life_anim.png';
+import img7 from '../../assets/auto_anim.png';
+import img8 from '../../assets/motorcycle_anim.png';
+import img9 from '../../assets/money_anim.png';
 
 const Categories = () => {
     const data = [
         {
-            cateImg: "https://i.ibb.co/2YYrbMZ/rocking-chair.png",
+            cateImg: img4,
             cateName: "ACA Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/qMT5Nyq/building.png",
+            cateImg: img7,
             cateName: "Auto Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/VBRZRFb/windshield.png",
+            cateImg: img3,
             cateName: "Car Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/fFPkZKm/workspace.png",
+            cateImg: img9,
             cateName: "Final Expense Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/fFPkZKm/workspace.png",
+            cateImg: img5,
             cateName: "Health Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/fFPkZKm/workspace.png",
+            cateImg: img1,
             cateName: "Home Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/fFPkZKm/workspace.png",
+            cateImg: img6,
             cateName: "Life Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/fFPkZKm/workspace.png",
+            cateImg: img2,
             cateName: "Medicare Insurance",
         },
         {
-            cateImg: "https://i.ibb.co/fFPkZKm/workspace.png",
+            cateImg: img8,
             cateName: "Motorcycle Insurance",
         },
     ]
   return (
     <>
-        <div className='category'>
-        <h1 className='text-center mb-5 text-2xl'>All Category Insurance</h1>
+        <div className='category bg-[#92a3ec] bg-opacity-25'>
+        <h1 className='text-center mb-10 text-2xl'>All Category Insurance</h1>
             {data.map((value, index) => {
                 return (
                     <div className='box flex' key={index}>

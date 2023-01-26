@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='text-center'>
             <div>
-                <footer class="footer p-10 bg-[#c1c4d0]  justify-center lg:gap-20">
+                <footer class="footer p-10 bg-[#c9c6c6] bg-opacity-25  justify-center lg:gap-20">
                     <div>
                         <img className='w-48' src={Logo} alt="" />
                         <p>Insurance Trendy Quote<br />We Save Your Time & Money</p>

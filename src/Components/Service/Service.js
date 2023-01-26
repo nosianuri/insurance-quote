@@ -1,14 +1,13 @@
 import React from 'react'
-import { products } from '../Shared/data';
-import img1 from '../../assets/building.png';
-import img2 from '../../assets/workspace.png';
-import img3 from '../../assets/rocking-chair.png';
-import img4 from '../../assets/windshield.png';
-import img5 from '../../assets/windshield.png';
-import img6 from '../../assets/windshield.png';
-import img7 from '../../assets/windshield.png';
-import img8 from '../../assets/windshield.png';
-import img9 from '../../assets/windshield.png';
+import img1 from '../../assets/home_anim.png';
+import img2 from '../../assets/medicare_anim.png';
+import img3 from '../../assets/car_anim.png';
+import img4 from '../../assets/aca_anim.png';
+import img5 from '../../assets/health_anim.png';
+import img6 from '../../assets/life_anim.png';
+import img7 from '../../assets/auto_anim.png';
+import img8 from '../../assets/motorcycle_anim.png';
+import img9 from '../../assets/money_anim.png';
 import Services from './Services';
 
 const Service = () => {
@@ -22,7 +21,7 @@ const Service = () => {
         },
         {
             _id: 2,
-            name: 'Medicare',
+            name: 'Medicare Insurance',
             description: 'As a rental property owner, you work hard to maintain your properties and use them as a source of income. You need to protect your assets with an insurance company. ',
             link: '/medicare-insurance',
             img: img2
@@ -36,14 +35,14 @@ const Service = () => {
         },
         {
             _id: 4,
-            name: 'ACA',
+            name: 'ACA Insurance',
             description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
             link: '/aca-insurance',
             img: img4
         },
         {
             _id: 5,
-            name: 'Health Insurance- Under 65',
+            name: 'Health Insurance',
             description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
             link: '/health-insurance',
             img: img5

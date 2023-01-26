@@ -5,8 +5,8 @@
 }
 .category {
   width: 20% !important;
-  background-color: #3e37b7;
-  color: white;
+  /* background-color: #f5f4fb; */
+  font-weight: 700;
   box-shadow: rgb(43 52 69 / 10%) 0 4px 16px;
   height: 500px;
   padding: 15px 0;
@@ -31,7 +31,7 @@
   padding: 0 20px;
 }
 .category .box:hover {
-  background-color: #a3a2c1;
+  background-color: #d1cff8;
   cursor: pointer;
 }
 /* category */
