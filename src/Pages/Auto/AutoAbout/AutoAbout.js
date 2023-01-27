@@ -41,8 +41,8 @@ const AutoAbout = () => {
         </ul>
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='font-bold lg:text-3xl text-xl'>Get better home insurance today</h1>
-            <p className='my-3 lg:text-md text-sm'>Get a sense of pricing or weigh your coverage options to easily insure your home.</p>
+            <h1 className='font-bold lg:text-3xl text-xl'>Get better Auto insurance today</h1>
+            <p className='my-3 lg:text-md text-sm'>Auto insurance offers the right protection to meet your specific needs.</p>
             <a href="#top-form">
             <button className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>

@@ -10,8 +10,8 @@ const HealthAbout = () => {
         <p className='mt-5'>At Emil Rummel Agency, we understand that years of hard work go into building a business. We know that your Michigan business means the world to you. Protecting something you’ve worked for is important and, at Emil Rummel Agency, we’re here for you. Let us take care of you by finding options that work within your company’s budget. As an independent agency, we have relationships with several insurance and financial service providers. We’ll find the right option tailored to your business’ unique needs.</p>
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='font-bold lg:text-3xl text-xl'>Get better home insurance today</h1>
-            <p className='my-3 lg:text-md text-sm'>Get a sense of pricing or weigh your coverage options to easily insure your home.</p>
+            <h1 className='font-bold lg:text-3xl text-xl'>Get better health insurance today</h1>
+            <p className='my-3 lg:text-md text-sm'>See what's new in health, care and the community. Explore our health insurance plans.</p>
             <a href="#top-form">
             <button className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>

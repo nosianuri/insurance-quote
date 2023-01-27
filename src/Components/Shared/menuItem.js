@@ -31,7 +31,7 @@ export const menuItems = [
                         link: "/car-insurance",
                     },
                     {
-                        title: "auto Insurance",
+                        title: "Auto Insurance",
                         link: "/auto-insurance",
                     },
                 ],

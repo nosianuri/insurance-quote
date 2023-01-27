@@ -50,8 +50,8 @@ const LifeAbout = () => {
         <p>Permanent life insurance is a policy that lasts from the time you buy it until the time you pass away—assuming all ongoing payments are made. On top of paying a death benefit to your family, it can also include a separate cash value savings component. Cash value can benefit you while alive by helping you pay your premiums, take out loans on your policy and more.</p>
       <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='font-bold lg:text-3xl text-xl'>Get better home insurance today</h1>
-            <p className='my-3 lg:text-md text-sm'>Get a sense of pricing or weigh your coverage options to easily insure your home.</p>
+            <h1 className='font-bold lg:text-3xl text-xl'>Get better life insurance today</h1>
+            <p className='my-3 lg:text-md text-sm'>Get affordable life insurance and financial protection. Affordable life insurance made easier for everyone</p>
             <a href="#top-form">
             <button className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>

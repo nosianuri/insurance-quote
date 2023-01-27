@@ -36,42 +36,42 @@ const Service = () => {
         {
             _id: 4,
             name: 'ACA Insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Under the ACA, every premium rate increase or more for non-grandfathered coverage in the individual, small group markets must be reviewed and made publicly available. ',
             link: '/aca-insurance',
             img: img4
         },
         {
             _id: 5,
             name: 'Health Insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Learn about your health plan or find coverage for you and your family. Get information , including Medicaid, Medicare, and find help paying for medical bills.',
             link: '/health-insurance',
             img: img5
         },
         {
             _id: 6,
             name: 'Life insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Get affordable life insurance and financial protection for the people you care about the most. Explore the kinds of protection we offer to cover you and your family.',
             link: '/life-insurance',
             img: img6
         },
         {
             _id: 7,
             name: 'Auto Insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Start a auto insurance quote and see how much you can save! We all need auto insurance, and the best place to start is with a free car insurance quote. ',
             link: '/auto-insurance',
             img: img7
         },
         {
             _id: 8,
             name: 'Motorcycle Insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Our motorcycle insurance will keep you protected and give you year-round peace of mind, whether your bike is on the road or in storage during the winter months.',
             link: '/motorcycle-insurance',
             img: img8
         },
         {
             _id: 9,
             name: 'Final Expense Insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Final expense insurance is a whole life policy that pays medical bills and funeral expenses when you die. It’s also known as burial or funeral insurance.',
             link: '/finalexpense-insurance',
             img: img9
         },
