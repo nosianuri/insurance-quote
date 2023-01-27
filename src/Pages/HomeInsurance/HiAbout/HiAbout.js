@@ -3,9 +3,9 @@ import './HiAbout.css';
 
 const HiAbout = () => {
   return (
-    <div className='mx-36 my-10'>
-      <div className='mx-28'>
-        <h1 className='font-semibold text-3xl'>Home insurance in Caro, Frankenmuth, Saginaw, and surrounding areas.</h1>
+    <div className='lg:mx-36 my-10'>
+      <div className='lg:mx-28 mx-5'>
+        <h1 className='font-semibold lg:text-5xl text-2xl text-center mb-5'>Home Insurance Guides & Advice</h1>
         <p className='my-5'>Your home is one of your biggest assets, and it’s important to do all that you can to protect it. We’ll help you plan for the unexpected with insurance coverage that’s just right for you and your family.</p>
         <div className='lg:w-full w-full h-[1px] bg-gray-300'></div>
         <p className='my-5'>Your home is both a valuable asset and the center of your life, so it’s extra-important to cover every risk with homeowners insurance. Get the right policy and you’ll take care of the small and large risks related to owning a house at the same time.</p>
@@ -35,11 +35,11 @@ const HiAbout = () => {
             <li>Off Premises Theft</li>
           </ul>
         </div>
-        <div className='flex'>
+        <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='font-bold text-3xl'>Get better home insurance today</h1>
-            <p className='my-3'>Get a sense of pricing or weigh your coverage options to easily insure your home.</p>
-            <button className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+            <h1 className='font-bold lg:text-3xl text-xl'>Get better home insurance today</h1>
+            <p className='my-3 lg:text-md text-sm'>Get a sense of pricing or weigh your coverage options to easily insure your home.</p>
+            <button className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
           </div>
           <div className=''>
             <img src="https://i.ibb.co/3FRg4xt/Allstate-Library.png" alt="" />

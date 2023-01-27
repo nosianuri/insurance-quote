@@ -2,7 +2,7 @@ import React from 'react'
 
 const PrivacyBody = () => {
   return (
-    <div>
+    <div className='lg:mt-24'>
          <div className='m-5'>
          <h1 className='font-bold text-5xl text-center'>Privacy Policy</h1>
             <h3 className='font-semibold text-xl mt-5'>We’re serious about your privacy.</h3>

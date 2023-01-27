@@ -14,38 +14,47 @@ const Categories = () => {
         {
             cateImg: img4,
             cateName: "ACA Insurance",
+            link: "/aca-insurance",
         },
         {
             cateImg: img7,
             cateName: "Auto Insurance",
+            link: "/auto-insurance",
         },
         {
             cateImg: img3,
             cateName: "Car Insurance",
+            link: "/car-insurance",
         },
         {
             cateImg: img9,
             cateName: "Final Expense Insurance",
+            link: "/finalexpense-insurance",
         },
         {
             cateImg: img5,
             cateName: "Health Insurance",
+            link: "/health-insurance",
         },
         {
             cateImg: img1,
             cateName: "Home Insurance",
+            link: "/home-insurance",
         },
         {
             cateImg: img6,
             cateName: "Life Insurance",
+            link: "/life-insurance",
         },
         {
             cateImg: img2,
             cateName: "Medicare Insurance",
+            link: "/medicare-insurance",
         },
         {
             cateImg: img8,
             cateName: "Motorcycle Insurance",
+            link: "/motorcycle-insurance",
         },
     ]
   return (
@@ -56,7 +65,7 @@ const Categories = () => {
                 return (
                     <div className='box flex' key={index}>
                     <img src={value.cateImg} alt="" />
-                    <span>{value.cateName}</span>
+                    <span><a href={value.link}>{value.cateName}</a></span>
                     </div>
                 )
             })}

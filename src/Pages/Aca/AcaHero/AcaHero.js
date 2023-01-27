@@ -7,7 +7,7 @@ const AcaHero = () => {
     <div style={{
         background: `url(${aca})`
     }} class="bg-no-repeat !bg-cover">
-        <div className='lg:px-32 px-8 bg-white bg-opacity-25'>
+        <div className='lg:px-32 px-5 bg-white bg-opacity-25 lg:pt-0 pt-16'>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center justify-center pt-20'>
                 <div className='lg:py-16 py-5 lg:mx-16 '>
                     <h1 className='lg:text-5xl  text-4xl text-center font-semibold uppercase text-[#3e37b7]'>ACA INSURANCE </h1>

@@ -31,7 +31,9 @@ const SlideCard = () => {
                                     <div className='bg-black bg-opacity-40 lg:w-[450px] w-[350px] p-5 shadow-xl'>
                                     <h1 className='font-bold text-white'>{value.title}</h1>
                                         <p className='text-white'>{value.desc}</p>
+                                        <a href={value.link}>
                                         <button className='btn bg-[#3e37b7] text-white hover:bg-[#daa440] border-none'>Get Free Quote</button>
+                                        </a>
                                     </div>
                                         
                                     </div>

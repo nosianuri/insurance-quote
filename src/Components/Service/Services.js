@@ -8,7 +8,7 @@ const Services = (props) => {
                 <img src={img} alt="" className='h-20 w-16 my-6 mx-auto' />
                 <h2 className='text-center px-2 font-bold text-xl mb-2'>{name}</h2>
                 <p className='text-center px-2 pb-5'>{description}</p>
-                <a href="/" className='bg-[#584FF7] text-white p-3 text-center font-bold'>Get a quote</a>
+                <a href={link} className='bg-[#584FF7] text-white p-3 text-center font-bold'>Get a quote</a>
             </div>
         </div>
         // <div class=" w-96 bg-base-100 shadow-xl ">

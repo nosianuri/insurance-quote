@@ -28,7 +28,7 @@ const MotorForm = () => {
         </div>
         <div className='text-center bg-[#3e37b7] rounded my-5'>
             <a href="/">
-                <button className='uppercase text-xl py-2 text-white'>Submit My Claim</button>
+                <button className='uppercase text-xl py-2 text-white font-bold'>Get quotes</button>
             </a>
         </div>
         

@@ -3,12 +3,14 @@ import Logo from '../../../assets/Insuranc.png';
 
 const Footer = () => {
     return (
-        <div className='text-center'>
+        <div className=''>
             <div>
-                <footer class="footer p-10 bg-[#c9c6c6] bg-opacity-25  justify-center lg:gap-20">
+                <footer class="footer lg:p-10 p-5 bg-[#c9c6c6] bg-opacity-25 lg:gap-20 ">
                     <div>
                         <img className='w-48' src={Logo} alt="" />
-                        <p>Insurance Trendy Quote<br />We Save Your Time & Money</p>
+                        {/* <p>Insurance is an invaluable asset that promises peace of mind for the best coverage in case any mishappen occurs. The best resourceful insurance advisor can help to achieve peace of mind and satisfaction.</p> */}
+                        {/* <p>Insurance Trendy Quote<br />We Save Your Time & Money</p> */}
+                        <p className='lg:w-96'>Insurance is an invaluable asset that promises peace of mind for the best coverage in case any mishappen occurs. The best resourceful insurance advisor can help to achieve peace of mind and satisfaction.</p>
                     </div>
                     <div>
                         <span class="footer-title">About</span>
@@ -24,10 +26,11 @@ const Footer = () => {
                         <a href='/health-insurance' class="link link-hover hover:text-[#3e37b7]">Health Insurance</a>
                         <a href='/medicare-insurance' class="link link-hover hover:text-[#3e37b7]">Medicare Insurance</a>
                         <a href='/life-insurance' class="link link-hover hover:text-[#3e37b7]">Life insurance</a>
-                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#3e37b7]">Burial insurance</a>
+                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#3e37b7]">Final Expense insurance</a>
                     </div>
                     <div>
                         <span class="footer-title">Social</span>
+                        
                         <div class="grid grid-flow-col gap-4">
                             <a className='text-[30px]' href='https://www.facebook.com/insurancetrendyquote'>
                             <i class="fa-brands fa-facebook text-[#3e37b7]"></i></a>
