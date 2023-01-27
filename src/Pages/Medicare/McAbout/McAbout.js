@@ -15,7 +15,7 @@ const McAbout = () => {
             <h1 className='font-bold lg:text-3xl text-xl'>Find medicare insurance plans for the whole family</h1>
             <p className='my-3 lg:text-md text-sm'>Making the Most of Your Medicare Insurance Plan: Get All the Benefits You Deserve.</p>
             <a href="#top-form">
-            <button className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+            <button id='service-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div className=''>

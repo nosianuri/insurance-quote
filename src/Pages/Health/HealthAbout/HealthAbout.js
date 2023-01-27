@@ -13,7 +13,7 @@ const HealthAbout = () => {
             <h1 className='font-bold lg:text-3xl text-xl'>Get better health insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>See what's new in health, care and the community. Explore our health insurance plans.</p>
             <a href="#top-form">
-            <button className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+            <button id='service-btn' className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div>

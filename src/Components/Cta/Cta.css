@@ -1,3 +1,43 @@
 .cta{
     background-image: linear-gradient(270deg,#d7dee4,#e7ecf1,#d7dee4);
 }
+
+#action-btn {
+    background: #daa440;
+    margin-top: 10px;
+    position: relative;
+    padding: 10px 30px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: 0;
+    z-index: 1;
+  }
+  
+  #action-btn::before {
+    content: "";
+    color: #fff;
+    position: absolute;
+    background: #3e37b7;
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    top: 0;
+    z-index: -1;
+    -webkit-transition: right 0.3s ease-in;
+  }
+  
+  #action-btn:hover::before {
+    right: 0;
+  }
+
+  @media screen and (max-width: 780px) {
+    #action-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    }
+  }
+  

@@ -25,7 +25,7 @@ const CarAbout = () => {
             <h1 className='font-bold lg:text-3xl text-xl'>Get a car insurance quote</h1>
             <p className='my-3 lg:text-md text-sm'>Select your car’s make and model to find discounts, safety ratings and auto insurance information for cars, trucks, electric vehicles and more.</p>
             <a href="#top-form">
-            <button className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+            <button id='service-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div className=''>
