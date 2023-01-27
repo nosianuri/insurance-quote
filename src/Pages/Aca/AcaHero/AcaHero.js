@@ -5,7 +5,7 @@ import aca from '../../../assets/aca1.jpg'
 const AcaHero = () => {
   return (
     <div style={{
-        background: `url(${aca})`
+        background: `url(https://i.ibb.co/RhM1K2m/ACA.jpg)`
     }} class="bg-no-repeat !bg-cover">
         <div className='lg:px-32 px-5 bg-white bg-opacity-25 lg:pt-0 pt-16'>
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 items-center justify-center pt-20'>

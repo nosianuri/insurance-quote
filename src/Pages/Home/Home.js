@@ -12,6 +12,9 @@ import Offer from '../../Components/Offer/Offer'
 import MainBanner from '../../Components/MainBanner/MainBanner';
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import About from '../../Components/About/About'
+import Insure from '../../Components/Insure/Insure'
+import Review from '../../Components/Review/Review'
+import Coverage from '../../Components/Covarage/Coverage'
 
 const Home = () => {
   return (
@@ -25,6 +28,9 @@ const Home = () => {
         <ShortNav />
         <MainBanner />
         <Service />
+        <Coverage />
+        <Insure />
+        <Review />
         <Cta />
         <Offer />
         <div className='lg:mx-36 mx-5'>

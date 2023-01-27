@@ -29,7 +29,7 @@ const Service = () => {
         {
             _id: 3,
             name: 'Car Insurance',
-            description: 'Classic and antique cars are unique assets. Since they are investments you can also drive for pleasure to have comprehensive coverage in case of an unfortunate accident.',
+            description: 'Classic and antique cars are unique assets. Since they are investments you can also drive for pleasure, it’s essential to have comprehensive coverage in case of an unfortunate accident.',
             link: '/car-insurance',
             img: img3
         },
@@ -78,7 +78,7 @@ const Service = () => {
         
     ]
     return (
-        <div className='lg:mx-36 mx-5 lg:my-16 my-5'>
+        <div className='lg:mx-36 mx-5 lg:my-16 my-5'  id='get-quote'>
         <div className='text-center mb-10'>
             <h1 className='font-semibold lg:text-5xl text-2xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
             <p>Are you looking for insurance with better coverage, better prices, or just better service? We’ve got you covered!</p>

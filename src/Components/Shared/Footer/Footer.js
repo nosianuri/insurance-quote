@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className=''>
             <div>
-                <footer class="footer lg:p-10 p-5 bg-[#c9c6c6] bg-opacity-25 lg:gap-20 ">
+                <footer class="footer lg:p-10 p-5 cta bg-opacity-25 lg:gap-20 ">
                     <div>
                         <img className='w-48' src={Logo} alt="" />
                         {/* <p>Insurance is an invaluable asset that promises peace of mind for the best coverage in case any mishappen occurs. The best resourceful insurance advisor can help to achieve peace of mind and satisfaction.</p> */}

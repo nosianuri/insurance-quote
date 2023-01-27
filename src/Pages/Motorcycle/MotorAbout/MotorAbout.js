@@ -31,10 +31,12 @@ const MotorAbout = () => {
           <div className='bg-base-100 shadow-2xl lg:p-10 p-5 lg:mr-[-335px] relative mt-8'>
             <h1 className='font-bold lg:text-3xl text-xl'>Get Progressive motorcycle insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>Get covered and get riding. Get a quick, personalized motorcycle insurance quote today, and then hit the open road.</p>
+            <a href="#top-form">
             <button className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+            </a>
           </div>
           <div>
-            <img src="https://i.ibb.co/kggN0qx/bottom-cta-motorcycle.jpg" alt="" />
+            <img src="https://i.ibb.co/pRBRDQP/motor-cycle-insurance.jpg" alt="" />
           </div>
         </div>
       </div>
