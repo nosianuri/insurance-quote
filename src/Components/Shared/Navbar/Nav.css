@@ -4,16 +4,16 @@ header {
     color: #212529;
   }
   
-  .nav-area {
-    /* display: flex;
+  /* .nav-area {
+    display: flex;
     align-items: center;
-    justify-items: center; */
-    /* max-width: 100%;
-    margin: 0 auto; */
-    /* padding: 0 20px; */
-    /* height: 58px; */
+    justify-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 58px;
   }
-  
+   */
   /* .logo {
     text-decoration: none;
     font-size: 25px;
@@ -51,7 +51,7 @@ header {
   .menu-items a,
   .menu-items button {
     text-align: left;
-    padding: 0.7rem 1rem;
+    padding: 0.3rem 1rem;
   }
   
   .menu-items a:hover,
@@ -96,3 +96,9 @@ header {
     top: -7px;
   }
   
+
+  @media screen and (max-width: 780px) {
+    .menu-items {
+      font-size: 12px;
+    }
+  }

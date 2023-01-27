@@ -15,14 +15,14 @@ const Service = () => {
         {
             _id: 1,
             name: 'Home Insurance',
-            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you.',
+            description: 'Home insurance provides you with financial support in the event of damage to tour home; damage to, or theft and claims of liability made against you that determine Home Insurance rates.',
             link: '/home-insurance',
             img: img1
         },
         {
             _id: 2,
             name: 'Medicare Insurance',
-            description: 'As a rental property owner, you work hard to maintain your properties and use them as a source of income. You need to protect your assets with an insurance company. ',
+            description: 'As a rental property owner, you work hard to maintain your properties and use them as a source of income. Also You need to protect your assets with an insurance company. ',
             link: '/medicare-insurance',
             img: img2
         },
@@ -78,14 +78,14 @@ const Service = () => {
         
     ]
     return (
-        <div className='lg:mx-36 lg:my-16'>
+        <div className='lg:mx-36 mx-5 lg:my-16 my-5'>
         <div className='text-center mb-10'>
-            <h1 className='font-semibold text-5xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
+            <h1 className='font-semibold lg:text-5xl text-2xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
             <p>Are you looking for insurance with better coverage, better prices, or just better service? We’ve got you covered!</p>
             <p>Let us help you find the right auto, home, life and commercial insurance.</p>
             <p>We represent numerous insurance companies to find you the best coverage and the best rate.</p>
         </div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 pl-5'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 lg:pl-5'>
         {
             products.map(product => <Services
              key={product._id}

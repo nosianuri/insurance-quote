@@ -5,7 +5,7 @@ import SliderHome from './SliderHome'
 const MainBanner = () => {
     return (
         <>
-            <section className=''>
+            <section>
                 <div className='flex '>
                     <Categories />
                     <SliderHome />

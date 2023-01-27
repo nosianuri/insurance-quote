@@ -16,19 +16,19 @@ import About from '../../Components/About/About'
 const Home = () => {
   return (
     <div>
-        <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Insurance Trendy Quote </title>
       </Helmet>
       <div>
-      <Header />
+        <Header />
         <ShortNav />
         <MainBanner />
         <Service />
         <Cta />
         <Offer />
         <div className='lg:mx-36 mx-5'>
-        <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
+          <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
         </div>
         <Carriers />
         <Footer />

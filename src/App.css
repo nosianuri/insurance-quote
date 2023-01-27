@@ -31,7 +31,8 @@
   padding: 0 20px;
 }
 .category .box:hover {
-  background-color: #d9d6f6;
+  background-color: #fff;
+  color: #3e37b7;
   cursor: pointer;
 }
 /* category */
