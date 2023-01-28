@@ -9,7 +9,7 @@ const Cta = () => {
           <h2 className=' lg:text-5xl text-2xl !leading-tight mb-5'>Get The Coverage You Need And The Protection You Deserve!</h2>
           <p className='my-3'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
           <a href="/#get-quote">
-            <button className='mb-10  bg-[#45f3ff]'
+            <button 
               padding="10px 15px"
               size="lg"
               border-color="#e64100"
