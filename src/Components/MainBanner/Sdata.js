@@ -3,7 +3,7 @@ const Sdata = [
         id: 1,
         title: "Life Insurance",
         desc: "Find Affordable Life Insurance Rates Based On Those Factors.",
-        cover: "https://i.ibb.co/P5pt1CB/life-banner.jpg",
+        cover: "https://i.ibb.co/sQ6VBMh/happy-life.jpg",
         link: "/life-insurance",
     },
     {
@@ -24,7 +24,7 @@ const Sdata = [
         id: 4,
         title: "Health insurance",
         desc: "You can enroll in or change plans if you have certain life events or income, or qualify for Medicaid or CHIP.",
-        cover: "https://i.ibb.co/rdXLSkK/healthy-banner.jpg",
+        cover: "https://i.ibb.co/cDdz8sG/old-man.jpg",
         link: "/health-insurance",
     },
 ]
