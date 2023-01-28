@@ -36,7 +36,7 @@ const Service = () => {
         {
             _id: 4,
             name: 'ACA Insurance',
-            description: 'Under the ACA, every premium rate increase or more for non-grandfathered coverage in the individual, small group markets must be reviewed and made publicly available. ',
+            description: 'Make affordable health insurance available to more people. The Patient Protection and Affordable Care Act, referred to as the Affordable Care Act or “ACA” for short.',
             link: '/aca-insurance',
             img: img4
         },
