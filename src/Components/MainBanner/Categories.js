@@ -63,7 +63,7 @@ const Categories = () => {
         <h1 className='text-center mb-8 text-2xl'>All Category Insurance</h1>
             {data.map((value, index) => {
                 return (
-                    <div className='box flex' key={index}>
+                    <div className='box flex category-btn' key={index}>
                     <img src={value.cateImg} alt="" />
                     <span><a href={value.link}>{value.cateName}</a></span>
                     </div>
