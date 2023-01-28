@@ -51,7 +51,7 @@ const Service = () => {
         {
             _id: 6,
             name: 'Life insurance',
-            description: 'Get affordable life insurance and financial protection for the people you care about the most. Explore the kinds of protection we offer to cover you and your family.',
+            description: 'Get affordable life insurance and financial protection for the people you care about the most. Explore the kinds of protection we offer to cover you and your family in better way.',
             link: '/life-insurance',
             img: img6
         },

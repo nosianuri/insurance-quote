@@ -60,7 +60,7 @@ const Categories = () => {
   return (
     <>
         <div className='category bg-[#92a3ec] bg-opacity-25'>
-        <h1 className='text-center mb-10 text-2xl'>All Category Insurance</h1>
+        <h1 className='text-center mb-5 text-2xl'>All Category Insurance</h1>
             {data.map((value, index) => {
                 return (
                     <div className='box flex' key={index}>

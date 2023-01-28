@@ -26,7 +26,7 @@ const SlideCard = () => {
                             <div style={{
                                 background: `url(${value.cover})`
                             }} class="bg-no-repeat !bg-cover">
-                                <div className=''>
+                                <div>
                                     <div className='lg:ml-[50px] ml-5 pt-32 pb-32'>
                                     <div className='bg-black bg-opacity-40 lg:w-[450px] w-[350px] p-5 shadow-xl'>
                                     <h1 className='head-title font-bold text-white'>{value.title}</h1>
