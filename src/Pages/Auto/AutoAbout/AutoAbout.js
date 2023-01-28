@@ -4,7 +4,7 @@ const AutoAbout = () => {
   return (
     <div className='lg:mx-36 my-10'>
     <div className='lg:mx-28 mx-5'>
-        <h1 className='font-semibold lg:text-5xl text-2xl text-center lg:mb-10 mb-5'>Auto insurance coverage options to better fit your needs</h1>
+        <h1 className='head-title font-semibold lg:text-5xl text-2xl text-center lg:mb-10 mb-5'>Auto insurance coverage options to better fit your needs</h1>
         <p>When it comes to car insurance, you’ve got plenty of coverage options. State Farm can help you find the right coverage. We’ll also help you find out how much auto insurance you might need. Coverage varies by state and your selection.</p>
         <div className='grid lg:grid-cols-2 grid-cols-1 lg:my-10 my-5'>
           <div className='p-5'>
@@ -41,7 +41,7 @@ const AutoAbout = () => {
         </ul>
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='font-bold lg:text-3xl text-xl'>Get better Auto insurance today</h1>
+            <h1 className='head-title font-bold lg:text-3xl text-xl'>Get better Auto insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>Auto insurance offers the right protection to meet your specific needs.</p>
             <a href="#top-form">
             <button id='service-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>

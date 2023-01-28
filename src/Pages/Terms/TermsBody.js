@@ -5,7 +5,7 @@ const TermsBody = () => {
         <div className='mt-24'>
             <div className='m-5'>
 
-                <h1 className='font-bold text-5xl text-center'>Terms & Use</h1>
+                <h1 className='head-title font-bold text-5xl text-center'>Terms & Use</h1>
                 <p className='my-5'>Last revised: January 20, 2023</p>
                 <p>These Terms of Use apply in connection with any websites, online services, and/or applications owned or operated by SmartFinancial.com Insurance LLC or Contactability.com LLC, Ohio LLCs (“we,” “us,” or “our”), including, without limitation, in connection with:</p>
                 <ul className='terms-article'>

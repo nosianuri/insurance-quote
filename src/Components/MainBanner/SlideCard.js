@@ -29,7 +29,7 @@ const SlideCard = () => {
                                 <div className=''>
                                     <div className='lg:ml-[50px] ml-5 pt-32 pb-32'>
                                     <div className='bg-black bg-opacity-40 lg:w-[450px] w-[350px] p-5 shadow-xl'>
-                                    <h1 className='font-bold text-white'>{value.title}</h1>
+                                    <h1 className='head-title font-bold text-white'>{value.title}</h1>
                                         <p className='text-white'>{value.desc}</p>
                                         <a href={value.link}>
                                         <button id='service-btn' className=' px-3 py-2 text-lg font-semibold bg-[#3e37b7] text-white hover:bg-[#daa440] border-none'>Get Free Quote</button>

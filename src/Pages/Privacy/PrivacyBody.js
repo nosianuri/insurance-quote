@@ -4,7 +4,7 @@ const PrivacyBody = () => {
   return (
     <div className='lg:mt-24'>
          <div className='m-5'>
-         <h1 className='font-bold text-5xl text-center'>Privacy Policy</h1>
+         <h1 className='head-title font-bold text-5xl text-center'>Privacy Policy</h1>
             <h3 className='font-semibold text-xl mt-5'>We’re serious about your privacy.</h3>
             <p className='mb-5'>Our goal is to professionally serve your insurance needs. In order to provide insurance services, we ask questions and collection information about you that is required to customize your coverage and find you the best insurance option available to us. We are obligated to protect the personal information you share with us, as well as other information we may collect as part of the insurance transaction.
             </p>

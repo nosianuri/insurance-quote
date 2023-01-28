@@ -5,7 +5,7 @@ const CarAbout = () => {
     <div className='lg:mx-36 my-10'>
     <div className='lg:mx-28 mx-5'>
     <div>
-      <h1 className='font-bold text-center lg:text-3xl text-2xl mb-5'>Affordable auto insurance on and off the road</h1>
+      <h1 className='head-title font-bold text-center lg:text-3xl text-2xl mb-5'>Affordable auto insurance on and off the road</h1>
       <p className='mb-3'>Car insurance policies offer fast, easy access to knowledgeable agents and innovative tools—like Drivewise®—to help safe drivers save money. Get a car insurance quote and stay protected on the road ahead.</p>
       <p className='mb-5'>Depending on the type of car insurance coverages included in your policy, covered vehicles may include most standard 2-door and 4-door vehicles, hybrid and electric cars, and rentals. Classic car insurance policies offer specialized coverage for collector or antique cars.</p>
       <h1 className='font-bold text-center lg:text-3xl text-xl mb-5'>Why do you need car insurance?</h1>
@@ -22,7 +22,7 @@ const CarAbout = () => {
     </div>
     <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='font-bold lg:text-3xl text-xl'>Get a car insurance quote</h1>
+            <h1 className='head-title font-bold lg:text-3xl text-xl'>Get a car insurance quote</h1>
             <p className='my-3 lg:text-md text-sm'>Select your car’s make and model to find discounts, safety ratings and auto insurance information for cars, trucks, electric vehicles and more.</p>
             <a href="#top-form">
             <button id='service-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>

@@ -81,7 +81,7 @@ const Service = () => {
     return (
         <div className='lg:mx-36 mx-5 lg:my-16 my-5'  id='get-quote'>
         <div className='text-center mb-10'>
-            <h1 className='font-semibold lg:text-5xl text-2xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
+            <h1 className='head-title font-semibold lg:text-5xl text-2xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
             <p>Are you looking for insurance with better coverage, better prices, or just better service? We’ve got you covered!</p>
             <p>Let us help you find the right auto, home, life and commercial insurance.</p>
             <p>We represent numerous insurance companies to find you the best coverage and the best rate.</p>
