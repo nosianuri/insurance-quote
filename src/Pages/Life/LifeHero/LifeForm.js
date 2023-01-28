@@ -6,8 +6,8 @@ const LifeForm = () => {
     <div className='p-5 '>
         <div className='bg-[#3e37b7] lg:px-10 px-2 rounded-t-xl text-white py-3' id="page-form">
             <h2 className='text-center lg:text-xl'>FILL OUT THE FORM BELOW</h2>
-            <h5 className='text-center lg:text-2xl text-xl'>TO GET YOUR FREE CLAIM REVIEW</h5>
-            <p className='text-center lg:text-xl'>You may be entitled to <span className='underline'>financial compensation!</span></p>
+            <h5 className='text-center lg:text-2xl text-xl uppercase'>Coverage for Wherever Life Takes</h5>
+            <p className='text-center lg:text-xl'>Access quotes from most trusted insurance carriers</p>
         </div>
         <div className='grid lg:grid-cols-2 grid-cols-1 py-5 lg:gap-8'>
             <div className='space-y-3 mb-3 lg:mb-0'>

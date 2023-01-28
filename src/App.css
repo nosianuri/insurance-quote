@@ -3,35 +3,26 @@
 }
 
 /* category */
-#category-btn {
-  background: #3e37b7;
-  margin-top: 10px;
+
+.category1 {
   position: relative;
-  padding: 10px 30px;
-  font-weight: 900;
-  font-size: 16px;
-  color: #fff;
-  border-radius: 5px;
-  text-transform: uppercase;
   outline: 0;
   z-index: 1;
 }
 
-#category-btn::before {
+.category1::before {
   content: "";
-  color: #fff;
   position: absolute;
-  background: #daa440;
-  border-radius: 5px;
+  background: #fff;
   bottom: 0;
   left: 0;
   right: 100%;
   top: 0;
   z-index: -1;
-  -webkit-transition: right 0.3s ease-in;
+  -webkit-transition: right 0.5s ease-in;
 }
 
-#category-btn:hover::before {
+.category1:hover::before {
   right: 0;
 }
 .contentWidth {
