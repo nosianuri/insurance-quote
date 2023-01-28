@@ -9,6 +9,7 @@ import img7 from '../../assets/auto_anim.png';
 import img8 from '../../assets/motorcycle_anim.png';
 import img9 from '../../assets/money_anim.png';
 import Services from './Services';
+import Carriers from '../Carriers/Carriers';
 
 const Service = () => {
     const products = [
@@ -85,6 +86,7 @@ const Service = () => {
             <p>Let us help you find the right auto, home, life and commercial insurance.</p>
             <p>We represent numerous insurance companies to find you the best coverage and the best rate.</p>
         </div>
+        <Carriers />
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 lg:pl-5'>
         {
             products.map(product => <Services

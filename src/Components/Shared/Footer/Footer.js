@@ -30,17 +30,19 @@ const Footer = () => {
                     </div>
                     <div>
                         <span class="footer-title">Social</span>
-                        
+
                         <div class="grid grid-flow-col gap-4">
                             <a className='text-[30px]' href='https://www.facebook.com/insurancetrendyquote'>
-                            <i class="fa-brands fa-facebook text-[#3e37b7]"></i></a>
+                                <i class="fa-brands fa-facebook text-[#3e37b7]"></i></a>
                             <a className='text-[30px]' href='/'>
-                            <i class="fa-brands fa-linkedin-in text-[#3e37b7]"></i>
+                                <i class="fa-brands fa-linkedin-in text-[#3e37b7]"></i>
                             </a>
                             <a className='text-[30px]' href='/'>
-                            <i class="fa-brands fa-twitter text-[#3e37b7]"></i>
+                                <i class="fa-brands fa-twitter text-[#3e37b7]"></i>
                             </a>
                         </div>
+                        <p className=''><span className='text-xs text-[#584FF7] hover:underline'><a href="/privacy-policy">Privacy Policy</a></span> | <span className='text-xs text-[#584FF7] hover:underline'><a href="/terms&use">Terms of Use</a></span> | <span className='text-xs text-[#584FF7] hover:underline'><a href="/">Do not sell my personal information</a></span> | <span className='text-xs text-[#584FF7] hover:underline'><a href="/">California Privacy Choices</a></span> | <span className='text-xs text-[#584FF7] hover:underline'><a href="/">Cookies and Other Technology</a></span></p>
+                        <p className='text-center lg:text-md text-xs my-3'>2582 So Songbird Cir</p>
                     </div>
                 </footer>
                 <footer class="footer footer-center p-4 bg-[#3e37b7] text-white">

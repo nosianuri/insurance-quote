@@ -27,6 +27,7 @@ const Home = () => {
         <Header />
         <ShortNav />
         <MainBanner />
+        {/* <Carriers /> */}
         <Service />
         <Coverage />
         <Insure />
@@ -36,7 +37,7 @@ const Home = () => {
         <div className='lg:mx-36 mx-5'>
           <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
         </div>
-        <Carriers />
+        
         <Footer />
       </div>
     </div>
