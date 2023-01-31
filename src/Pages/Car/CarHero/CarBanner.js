@@ -6,7 +6,7 @@ const CarBanner = () => {
     <div className='bg-[#3b3352] order-2 px-3'>
         <div className='lg:py-5 py-5 lg:mx-16 '>
             <img className='mx-auto mb-5 w-16 ' src="https://i.ibb.co/R6Rntxm/car-anim.png" alt="" />
-            <h1 className='head-title lg:text-4xl md:text-3xl text-white text-3xl text-center font-semibold'>HOME INSURANCE </h1>
+            <h1 className='head-title lg:text-4xl md:text-3xl text-white text-3xl text-center font-semibold'>CAR INSURANCE </h1>
             <h3 className='text-[#ede9e9] lg:text-xl md:text-lg text-md text-center  leading-tight font-semibold'>Coverage that protects your biggest asset.
             </h3>
             <form action="">

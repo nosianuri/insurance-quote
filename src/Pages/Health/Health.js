@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import HealthAbout from './HealthAbout/HealthAbout'
+import HealthBanner from './HealthHero/HealthBanner'
 import HealthHero from './HealthHero/HealthHero'
 
 const Health = () => {
@@ -15,7 +16,7 @@ const Health = () => {
         <title>Health Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <HealthHero />
+      <HealthBanner />
       <HealthAbout />
       <Carriers />
       <Footer />
