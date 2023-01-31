@@ -22,7 +22,10 @@ const Cta = () => {
               variant="outline-light"
               id="action-btn">Get a free quote</button>
           </a>
-          <p className='lg:text-2xl font-bold mt-3 hover:text-[#2d2640]'><a href="tel:18445010362">+1-844-501-0362</a></p>
+          <p className='lg:text-2xl font-bold mt-3 hover:text-[#2d2640]'><a href="tel:18445010362">(844) 501-0362
+
+
+</a></p>
         </div>
       </div>
     </div>
