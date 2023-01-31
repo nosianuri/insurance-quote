@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import CarAbout from './CarAbout/CarAbout'
+import CarBanner from './CarHero/CarBanner'
 import CarHero from './CarHero/CarHero'
 
 const Car = () => {
@@ -15,7 +16,7 @@ const Car = () => {
         <title>Car Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <CarHero />
+     <CarBanner />
       <CarAbout />
       <Carriers />
       <Footer />

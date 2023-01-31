@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import AutoAbout from './AutoAbout/AutoAbout'
+import AutoBanner from './AutoHero/AutoBanner'
 import AutoHero from './AutoHero/AutoHero'
 
 const Auto = () => {
@@ -15,7 +16,7 @@ const Auto = () => {
         <title>Auto Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <AutoHero />
+      <AutoBanner />
       <AutoAbout />
       <Carriers />
       <Footer />

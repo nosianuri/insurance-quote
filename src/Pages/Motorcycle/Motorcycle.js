@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import MotorAbout from './MotorAbout/MotorAbout'
+import MotorBanner from './MotorHero/MotorBanner'
 import MotorHero from './MotorHero/MotorHero'
 
 const Motorcycle = () => {
@@ -15,7 +16,7 @@ const Motorcycle = () => {
         <title>Motorcycle Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <MotorHero />
+      <MotorBanner />
       <MotorAbout />
       <Carriers />
       <Footer />

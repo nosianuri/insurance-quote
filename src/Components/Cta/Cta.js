@@ -9,7 +9,7 @@ const Cta = () => {
       <div className="">
         <div className='max-w-7xl mx-auto px-12 lg:px-36  text-center lg:py-20 py-10 '>
           <h2 className='head-title font-semibold lg:text-5xl text-2xl !leading-tight mb-5'>Get The Coverage You Need And The Protection You Deserve!</h2>
-          <p className='my-3'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
+          <p className='my-3 font-semibold'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
           <a href="/#get-quote">
             <button 
               padding="10px 15px"
@@ -22,7 +22,7 @@ const Cta = () => {
               variant="outline-light"
               id="action-btn">Get a free quote</button>
           </a>
-          <p className='lg:text-2xl mt-3 hover:text-[#2d2640]'><a href="tel:18445010362">+1-844-501-0362</a></p>
+          <p className='lg:text-2xl font-bold mt-3 hover:text-[#2d2640]'><a href="tel:18445010362">+1-844-501-0362</a></p>
         </div>
       </div>
     </div>

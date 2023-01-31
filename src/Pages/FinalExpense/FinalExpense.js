@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import FeAbout from './FeAbout/FeAbout'
+import FeBanner from './FeHero/FeBanner'
 import FeHero from './FeHero/FeHero'
 
 const FinalExpense = () => {
@@ -15,7 +16,7 @@ const FinalExpense = () => {
         <title>Final Expense Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <FeHero />
+      <FeBanner />
       <FeAbout />
       <Carriers />
       <Footer />

@@ -15,6 +15,7 @@ import About from '../../Components/About/About'
 import Insure from '../../Components/Insure/Insure'
 import Review from '../../Components/Review/Review'
 import Coverage from '../../Components/Covarage/Coverage'
+import BannerBody from '../../Components/Banner/BannerBody'
 
 const Home = () => {
   return (
@@ -26,7 +27,8 @@ const Home = () => {
       <div>
         <Header />
         <ShortNav />
-        <MainBanner />
+        <BannerBody />
+        
         {/* <Carriers /> */}
         <Service />
         <Coverage />

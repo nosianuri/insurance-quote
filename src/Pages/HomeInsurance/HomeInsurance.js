@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import HiAbout from './HiAbout/HiAbout'
+import HiBanner from './HiHero/HiBanner'
 import HiHero from './HiHero/HiHero'
 
 const HomeInsurance = () => {
@@ -15,7 +16,7 @@ const HomeInsurance = () => {
         <title>Home Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <HiHero />
+      <HiBanner />
       <HiAbout />
       <Carriers />
       <Footer />

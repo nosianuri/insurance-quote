@@ -5,6 +5,7 @@ import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import ShortNav from '../../Components/Shared/Navbar/ShortNav'
 import AcaAbout from './AcaAbout/AcaAbout'
+import AcaBanner from './AcaHero/AcaBanner'
 import AcaHero from './AcaHero/AcaHero'
 
 const Aca = () => {
@@ -15,7 +16,7 @@ const Aca = () => {
         <title>Aca Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <AcaHero />
+      <AcaBanner />
       <AcaAbout />
       <Carriers />
       <Footer />

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Services = (props) => {
-    const { name, img, description, link } = props.product;
+    const { name, img, link } = props.product;
     return (
         <div className='flex'>
             <div className='flex flex-col bg-white rounded-lg shadow-md hover:shadow-2xl w-full m-6 overflow-hidden'>

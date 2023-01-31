@@ -4,6 +4,7 @@ import Carriers from '../../Components/Carriers/Carriers'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Shared/Footer/Footer'
 import LifeAbout from './LifeAbout/LifeAbout'
+import LifeBanner from './LifeHero/LifeBanner'
 import LifeHero from './LifeHero/LifeHero'
 
 const Life = () => {
@@ -14,7 +15,7 @@ const Life = () => {
         <title>Life Insurance | Insurance Trendy Quote </title>
       </Helmet>
       <Header />
-      <LifeHero />
+      <LifeBanner />
       <LifeAbout />
       <Carriers />
       <Footer />
