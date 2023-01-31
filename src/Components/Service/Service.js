@@ -85,7 +85,6 @@ const Service = () => {
                 <p>Are you looking for insurance with better coverage, better prices, or just better service? We’ve got you covered!</p>
                 <p>Let us help you find the right auto, home, life and commercial insurance.</p>
                 <p>We represent numerous insurance companies to find you the best coverage and the best rate.</p>
-                
             </div>
 
             <div className='flex flex-wrap lg:gap-3 justify-center items-center '>

@@ -5,7 +5,7 @@ const MainBanner = () => {
     return (
         <>
             <section>
-                <div className=''> 
+                <div> 
                     <SliderHome />
                 </div>
             </section>
