@@ -2,10 +2,10 @@ import React from 'react'
 
 const McBanner = () => {
   return (
-    <div className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10'>
+    <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10'>
     <div className='bg-[#3b3352] order-2 px-3'>
         <div className='lg:py-5 py-5 lg:mx-16 '>
-            <img className='mx-auto mb-5 w-16 ' src="https://i.ibb.co/KxxQrz5/home-anim.png" alt="" />
+            <img className='mx-auto mb-5 w-16 ' src="https://i.ibb.co/9p1FbGH/medicare-anim.png" alt="" />
             <h1 className='head-title lg:text-4xl md:text-3xl text-white text-3xl text-center font-semibold'>HOME INSURANCE </h1>
             <h3 className='text-[#ede9e9] lg:text-xl md:text-lg text-md text-center  leading-tight font-semibold'>Coverage that protects your biggest asset.
             </h3>
