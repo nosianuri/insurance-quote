@@ -22,9 +22,8 @@ const CarBanner = () => {
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' type="text" name='zip' placeholder='ZIP' />
                     </div>
                 </div>
-                <div className='lg:w-full w-full h-[1px] bg-gray-300'></div>
 
-                <div className=' mt-3'>
+                <div>
                     <textarea className='rounded w-full p-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' name="" id="" cols="50" rows="2" placeholder='More details about your claim' ></textarea>
                 </div>
                 <div className='text-center bg-[#594c7a] rounded my-5'>
