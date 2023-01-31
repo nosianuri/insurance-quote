@@ -86,8 +86,8 @@ const Service = () => {
             <p>Let us help you find the right auto, home, life and commercial insurance.</p>
             <p>We represent numerous insurance companies to find you the best coverage and the best rate.</p>
         </div>
-        <Carriers />
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 lg:pl-5'>
+        
+            <div className='grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 lg:gap-5 lg:pl-5'>
         {
             products.map(product => <Services
              key={product._id}

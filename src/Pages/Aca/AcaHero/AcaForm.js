@@ -4,7 +4,7 @@ const AcaForm = () => {
   return (
     <div id='top-form' className='mb-16 bg-[#f0f0f0] border-8 border-[#f0f0f0] shadow-xl lg:my-16'>
     <div className='p-5 '>
-        <div className='bg-[#3e37b7] lg:px-10 px-2 rounded-t-xl text-white py-3' id="page-form">
+        <div className='bg-[#2d2640] lg:px-10 px-2 rounded-t-xl text-white py-3' id="page-form">
             <h2 className='text-center lg:text-xl'>FILL OUT THE FORM BELOW</h2>
             <h5 className='text-center lg:text-2xl text-xl uppercase'>Coverage for Wherever Life Takes</h5>
             <p className='text-center lg:text-xl'>Access quotes from most trusted insurance carriers </p>

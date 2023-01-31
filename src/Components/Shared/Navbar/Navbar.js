@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../../assets/Insuranc.png';
-import Button from '../Button/Button';
 import NavLinks from './NavLinks';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-[#584FF7] text-white">
+    <nav className="bg-[#2d2640] text-white">
     <div className="flex items-center font-medium justify-around">
       <div className="z-50 p-3 md:w-auto w-full flex justify-between">
         {/* <img src={Logo} alt="logo" className="md:cursor-pointer h-9" /> */}

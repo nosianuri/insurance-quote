@@ -12,7 +12,7 @@ const AboutCard = () => {
                     </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit amet consectetur piscing elit amet consectetur adipiscing elit sed et eletum nulla eu placerat felis etiam tincidunt orci lacus id varius dolor fermum sit amet.</p>
-                    <button className='px-3 text-white bg-[#3e37b7]'>
+                    <button className='px-3 text-white bg-[#2d2640]'>
                         Explore More <i className='fas fa-long-arrow-alt-right'></i>
                     </button>
                 </div>
@@ -20,7 +20,7 @@ const AboutCard = () => {
                     <img src='https://i.ibb.co/ZGCLffw/handshake.webp' alt='' />
                     <div className='control-btn'>
                         <button className='prev'>
-                            <i className='fas fa-play text-[#3e37b7]'></i>
+                            <i className='fas fa-play text-[#2d2640]'></i>
                         </button>
                     </div>
                 </div>

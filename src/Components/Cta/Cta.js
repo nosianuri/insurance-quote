@@ -3,9 +3,11 @@ import './Cta.css';
 
 const Cta = () => {
   return (
-    <div className='lg:mx-28'>
-      <div className="cta">
-        <div className='lg:mx-36 lg:px-36 mx-5 text-center lg:py-20 py-10 '>
+    <div style={{
+      background: `url(https://i.ibb.co/CBZBZnp/final-expense.jpg)`
+  }} class="bg-no-repeat !bg-cover">
+      <div className="">
+        <div className='max-w-7xl mx-auto px-12 lg:px-36  text-center lg:py-20 py-10 '>
           <h2 className='head-title font-semibold lg:text-5xl text-2xl !leading-tight mb-5'>Get The Coverage You Need And The Protection You Deserve!</h2>
           <p className='my-3'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
           <a href="/#get-quote">
@@ -20,7 +22,7 @@ const Cta = () => {
               variant="outline-light"
               id="action-btn">Get a free quote</button>
           </a>
-          <p className='lg:text-2xl mt-3 hover:text-[#584FF7]'><a href="tel:18445010362">+1-844-501-0362</a></p>
+          <p className='lg:text-2xl mt-3 hover:text-[#2d2640]'><a href="tel:18445010362">+1-844-501-0362</a></p>
         </div>
       </div>
     </div>

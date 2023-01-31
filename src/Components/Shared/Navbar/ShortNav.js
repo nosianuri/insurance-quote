@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 const ShortNav = () => {
     return (
-        <header className='bg-[#584FF7] text-white lg:px-16 shadow-2xl'>
+        <header className='bg-[#2d2640] text-white lg:px-16 shadow-2xl'>
             <div className="flex justify-center">
                 <Nav />     
             </div>

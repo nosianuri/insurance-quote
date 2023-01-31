@@ -10,7 +10,7 @@ const Sdata = [
         id: 2,
         title: "Home Insurance",
         desc: "Analyzing Cost Factors That Determine Home Insurance Rates.",
-        cover: "https://i.ibb.co/tQ4LzSY/home-top.jpg",
+        cover: "https://i.ibb.co/0thsnsC/Allstate-Library.png",
         link: "/home-insurance",
     },
     {

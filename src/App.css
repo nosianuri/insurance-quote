@@ -26,7 +26,7 @@
   right: 0;
 }
 .contentWidth {
-  width: 80%;
+  width: 100%;
   overflow-x:hidden
 }
 .category {
@@ -63,7 +63,7 @@
 }
 /* category */
 #service-btn {
-  background: #3e37b7;
+  background: #2d2640;
   margin-top: 10px;
   position: relative;
   padding: 10px 30px;
