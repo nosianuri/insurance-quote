@@ -3,6 +3,7 @@ import './App.css';
 import Aca from './Pages/Aca/Aca';
 import Auto from './Pages/Auto/Auto';
 import Car from './Pages/Car/Car';
+import Contact from './Pages/Contact/Contact';
 import FinalExpense from './Pages/FinalExpense/FinalExpense';
 import Health from './Pages/Health/Health';
 import Home from './Pages/Home/Home';
@@ -29,6 +30,7 @@ function App() {
      <Route path='/motorcycle-insurance' element={<Motorcycle />} />
      <Route path='/privacy-policy' element={<Privacy />} />
      <Route path='/terms&use' element={<Terms />} />
+     <Route path='/contact-us' element={<Contact />} />
      </Routes>
     </>
   );

@@ -2,8 +2,8 @@ import React from 'react'
 
 const HealthBanner = () => {
   return (
-    <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10'>
-    <div className='bg-[#3b3352] order-2 px-3'>
+    <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10 justify-center items-center bg-[#3b3352]'>
+    <div className=' order-2 px-3'>
         <div className='lg:py-5 py-5 lg:mx-16 '>
             <img className='mx-auto mb-5 w-16 ' src="https://i.ibb.co/1v9kSzc/health-anim.png" alt="" />
             <h1 className='head-title lg:text-4xl md:text-3xl text-white text-3xl text-center font-semibold'>HEALTH INSURANCE </h1>

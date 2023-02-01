@@ -72,6 +72,6 @@ export const menuItems = [
     },
     {
         title: "Contact Us",
-        link: "tel:18445010362",
+        link: "/contact-us",
     },
 ];
