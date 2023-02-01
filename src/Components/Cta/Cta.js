@@ -1,17 +1,16 @@
 import React from 'react';
 import './Cta.css';
+import cta from '../../assets/AllstateLibrary.png'
 
 const Cta = () => {
   return (
-    <div style={{
-      background: `url(https://i.ibb.co/CBZBZnp/final-expense.jpg)`
-  }} class="bg-no-repeat !bg-cover">
-      <div className="">
-        <div className='max-w-7xl mx-auto px-12 lg:px-36  text-center lg:py-20 py-10 '>
-          <h2 className='head-title font-semibold lg:text-5xl text-2xl !leading-tight mb-5'>Get The Coverage You Need And The Protection You Deserve!</h2>
-          <p className='my-3 font-semibold'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
+    <div className='bg-[#201e44] lg:mx-32 mx-3'>
+      <div className='grid lg:grid-cols-2 grid-cols-1 justify-center items-center'>
+        <div className='text-center px-10 '>
+          <h2 className='head-title font-semibold lg:text-2xl text-2xl !leading-tight mb-3 text-white'>Get The Coverage You Need And The Protection You Deserve!</h2>
+          <p className='my-3 text-white'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
           <a href="/#get-quote">
-            <button 
+            <button
               padding="10px 15px"
               size="lg"
               border-color="#e64100"
@@ -20,12 +19,13 @@ const Cta = () => {
               fontSize="18px"
               margin="0px auto 20px auto"
               variant="outline-light"
-              id="action-btn">Get a free quote</button>
+              id="service-btn">Get a free quote</button>
           </a>
-          <p className='lg:text-2xl font-bold mt-3 hover:text-[#2d2640]'><a href="tel:18445010362">(844) 501-0362
-
-
-</a></p>
+          {/* <p className='lg:text-2xl font-bold mt-3 text-white hover:text-[#2d2640]'><a href="tel:18445010362">(844) 501-0362
+          </a></p> */}
+        </div>
+        <div>
+          <img className='lg:order-last' src={cta} alt="" />
         </div>
       </div>
     </div>

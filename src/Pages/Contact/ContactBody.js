@@ -8,17 +8,25 @@ const ContactBody = () => {
             <div>
                 <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-10 md:pt-16 pt-10 justify-center items-center '>
                     <div className='lg:order-2'>
-                        <h2 className='lg:text-4xl text-2xl mb-5'><i class="fa-solid fa-message"></i> Customer Care Center</h2>
+                        <h2 className='lg:text-4xl text-2xl mb-5'><i class="fa-solid fa-message text-[#3b3352]"></i> Customer Care Center</h2>
                         <p className='mb-5'>Please contact your claim representative for status on an existing claim.</p>
                         <div className=''>
                             <div>
-                                <h4 className='text-xl font-semibold'>Send a message</h4>
-                                <p>For auto, home, and umbrella  policy questions, <a className='hover:underline' href="/login">log in</a> or <br /> <a className='hover:underline' href="/">register</a>.  For other products, fill out this <a className='hover:underline' href="#contact">request form</a>.</p>
+                                <h4 className='text-2xl font-semibold'>Send a message</h4>
+                                <p>For auto, home, and umbrella  policy questions, <a className='hover:underline font-semibold text-[#3b3352]' href="/login">log in</a> or <br /> <a className='hover:underline font-semibold text-[#3b3352]' href="/">register</a>.  For other products, fill out this <a className='hover:underline font-semibold text-[#3b3352]' href="#contact">request form</a>.</p>
+                            </div>
+                            
+                            <div className='mt-3'>
+                                <h4 className='text-2xl font-semibold '>Contact us on social media</h4>
+                                <p><a className=' hover:underline text-[#3b3352] font-semibold' href="/">(844) 501-0362</a></p>
+                                <p>We're available 24/7 hours.</p>
                             </div>
                             <div className='mt-3'>
-                                <h4 className='text-xl font-semibold '>Give us a call</h4>
-                                <a href="/"><p className='text-xl hover:underline'>844-501-0362</p></a>
-                                <p>We're available 24/7 hours.</p>
+                                <h4 className='text-2xl font-semibold '>Give us a call</h4>
+                                <p>Ask us a question on social, and we'll get back to you as soon as we can. <br /> And make sure you connect so we can stay friends! - <a className='hover:underline text-[#3b3352] font-semibold' href="https://www.facebook.com/insurancetrendyquote"> Facebook </a></p>
+                                <div className='mt-1'>
+                                
+                                </div>
                                 
                             </div>
                         </div>
@@ -35,7 +43,7 @@ const ContactBody = () => {
                             
                         </div> */}
                     </div>
-                    <div className='bg-[#3b3352] order-2 px-3'>
+                    <div className='bg-[#201e44] order-2 px-3 shadow-md hover:shadow-2xl'>
                         <div className='lg:py-5 py-5 lg:mx-16 '>
                             <div className='text-center pb-5'>
                                 <i class="fa-regular fa-handshake text-7xl text-white"></i>

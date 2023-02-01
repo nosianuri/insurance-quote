@@ -3,7 +3,7 @@ import contact from '../../assets/Home Insurance Remeber Forget .png'
 
 const ContactHero = () => {
   return (
-    <div className='bg-[#3b3352] lg:pt-24 md:pt-28'>
+    <div className='bg-[#201e44] lg:pt-24 md:pt-28'>
         <div className='grid lg:grid-cols-2 grid-cols-1 lg:pl-20 md:pl-5 px-3 lg:gap-32 gap-0 justify-center items-center'>
             <div className='lg:w-[650px] order-last md:order-first lg:order-first'>
                 <h1 className='uppercase lg:text-5xl md:text-3xl text-2xl font-semibold !leading-normal text-white lg:text-left text-center'>Contact For A Quick Quote</h1>

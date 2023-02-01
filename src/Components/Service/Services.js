@@ -3,8 +3,8 @@ import React from 'react'
 const Services = (props) => {
     const { name, img, link } = props.product;
     return (
-        <div className='flex'>
-            <div className='flex flex-col bg-white rounded-lg shadow-md hover:shadow-2xl w-full m-6 overflow-hidden'>
+        <div className='flex '>
+            <div className='flex flex-col bg-white rounded-lg shadow-md hover:shadow-2xl w-full m-6 overflow-hidden border-4 border-white border-b-[#2d2640]'>
             <a href={link}>
             <img src={img} alt="" className='h-20 w-16 my-6 mx-auto' />
             </a>

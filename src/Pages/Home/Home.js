@@ -16,6 +16,9 @@ import Insure from '../../Components/Insure/Insure'
 import Review from '../../Components/Review/Review'
 import Coverage from '../../Components/Covarage/Coverage'
 import BannerBody from '../../Components/Banner/BannerBody'
+import Compare from '../../Components/Compare/Compare'
+import Category from '../../Components/Category/Category'
+import CompareCard from '../../Components/Compare/CompareCard'
 
 const Home = () => {
   return (
@@ -28,17 +31,17 @@ const Home = () => {
         <Header />
         <ShortNav />
         <BannerBody />
-        
-        {/* <Carriers /> */}
         <Service />
         <Coverage />
-        <Insure />
-        <Review />
+        {/* <Insure />
+        <Compare /> */}
+        <CompareCard />
         <Cta />
-        <Offer />
-        <div className='lg:mx-36 mx-5'>
+        {/* <Offer /> */}
+        {/* <div className='lg:mx-36 mx-5'>
           <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
-        </div>
+        </div> */}
+        <Category />
         <Carriers />
         <Footer />
       </div>

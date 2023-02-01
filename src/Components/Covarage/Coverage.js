@@ -1,10 +1,10 @@
 import React from 'react';
-import coverage from '../../assets/Testimonial_Gerry_Desktop_2_0.png';
+import coverage from '../../assets/coverage.png';
 
 const Coverage = () => {
   return (
     <div>
-      <div className='cta p-10 my-16 '>
+      <div className='cta mx-10 py-10 my-16 '>
         <div className='lg:flex justify-center items-center space-y-5 gap-10 lg:mx-28'>
           <div className='order-last'>
             <h2 className='head-title font-semibold lg:text-4xl text-2xl'>Get The Coverage You Need</h2>
