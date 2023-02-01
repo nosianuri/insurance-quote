@@ -7,7 +7,7 @@ const HiAbout = () => {
     <div className='lg:mx-36 my-10'>
       <div className='lg:mx-28 mx-5'>
         <h1 className='head-title font-semibold lg:text-5xl text-2xl text-center mb-5'>Home Insurance Guides & Advice</h1>
-        <p className='my-5'>Your home is one of your biggest assets, and it’s important to do all that you can to protect it. We’ll help you plan for the unexpected with insurance coverage that’s just right for you and your family.</p>
+        <p className='my-5'>At Insurance Trendy Quote, we strive to provide our customers with the most competitive rates for their home insurance needs. We understand that cost is a major factor in determining coverage and are eager to share valuable information about the factors that will influence this cost. Your home is one of your biggest assets, and it’s important to do all that you can to protect it. We’ll help you plan for the unexpected with insurance coverage that’s just right for you and your family.</p>
         <HiInfo />
         <div className='lg:w-full w-full h-[1px] bg-gray-300'></div>
         <p className='my-5'>Your home is both a valuable asset and the center of your life, so it’s extra-important to cover every risk with homeowners insurance. Get the right policy and you’ll take care of the small and large risks related to owning a house at the same time.</p>
@@ -42,7 +42,7 @@ const HiAbout = () => {
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get better home insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>Get a sense of pricing or weigh your coverage options to easily insure your home.</p>
             <a href="#top-form">
-            <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+              <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div>
