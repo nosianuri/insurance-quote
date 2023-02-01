@@ -26,7 +26,7 @@ const FeBanner = () => {
                         <div>
                             <textarea className='rounded w-full p-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' name="" id="" cols="50" rows="2" placeholder='More details about your claim' ></textarea>
                         </div>
-                        <div className='text-center bg-[#594c7a] rounded my-5'>
+                        <div className='text-center bg-[#2c2c6f] rounded my-5'>
                             <a href="/">
                                 <button className='uppercase text-xl py-2 text-white font-bold'>Get Quotes</button>
                             </a>
