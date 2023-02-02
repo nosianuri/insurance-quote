@@ -1,11 +1,11 @@
 import React from 'react'
 import './Category.css'
-import category1 from '../../assets/catagories1.png'
-import category2 from '../../assets/catagories2.png'
-import category3 from '../../assets/catagories3.png'
-import category4 from '../../assets/catagories4.png'
-import category5 from '../../assets/catagories5.png'
-import category6 from '../../assets/deals1.png'
+import category1 from '../../assets/life-banner_anim.png'
+import category2 from '../../assets/car-banner-anim.png'
+import category3 from '../../assets/health-banner_anim.png'
+import category4 from '../../assets/home-banner_anim.png'
+import category5 from '../../assets/expense-banner_anim.png'
+import category6 from '../../assets/car-hero_anim.png'
 
 const Category = () => {
     return (

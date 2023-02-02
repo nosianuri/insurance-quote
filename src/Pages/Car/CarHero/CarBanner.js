@@ -1,5 +1,6 @@
 import React from 'react'
 import car from '../../../assets/carwhite_anim.png'
+import carbanner from '../../../assets/car-banner-anim.png'
 
 const CarBanner = () => {
   return (
