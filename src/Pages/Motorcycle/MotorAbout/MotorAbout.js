@@ -1,5 +1,6 @@
 import React from 'react'
 import MotorInfo from './MotorInfo'
+import MotorPolicy from './MotorPolicy'
 
 const MotorAbout = () => {
   return (
@@ -29,6 +30,7 @@ const MotorAbout = () => {
             <p>But that’s just the tip of the iceberg. Visit the coverage page for a full list of motorcycle insurance coverage options.</p>
           </div>
         </div>
+        <MotorPolicy />
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl lg:p-10 p-5 lg:mr-[-335px] relative mt-8'>
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get Progressive motorcycle insurance today</h1>

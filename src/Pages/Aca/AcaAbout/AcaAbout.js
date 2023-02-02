@@ -1,5 +1,6 @@
 import React from 'react'
 import AcaInfo from './AcaInfo'
+import AcaPolicy from './AcaPolicy'
 
 const AcaAbout = () => {
   return (
@@ -16,6 +17,7 @@ const AcaAbout = () => {
         <p className='text-xl font-semibold'>Health Insurance Plans</p>
         <p className='mb-5'>Health insurance helps you pay for medical services and sometimes prescription drugs. You and your insurer each agree to pay a certain dollar amount or percentage of your medical expenses.</p>
         <AcaInfo />
+        <AcaPolicy />
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get better ACA insurance today</h1>

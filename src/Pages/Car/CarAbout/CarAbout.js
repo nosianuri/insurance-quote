@@ -1,5 +1,6 @@
 import React from 'react'
 import CarInfo from './CarInfo'
+import CarPolicy from './CarPolicy'
 
 const CarAbout = () => {
   return (
@@ -22,6 +23,7 @@ const CarAbout = () => {
       <p className='mb-2'>An uninsured driver hits you</p>
       <p className='mb-5'>Uninsured and underinsured motorist coverage helps pay for your injuries and may help repair your vehicle when the other driver is at fault and doesn’t have insurance.</p>
     </div>
+    <CarPolicy />
     <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get a car insurance quote</h1>
