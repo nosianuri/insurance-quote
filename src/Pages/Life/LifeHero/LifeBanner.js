@@ -1,5 +1,6 @@
 import React from 'react'
 import life from '../../../assets/lifewhite_anim.png'
+import lifebanner from '../../../assets/chill-banner.jfif'
 
 const LifeBanner = () => {
   return (
@@ -36,7 +37,7 @@ const LifeBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={lifebanner} alt="" />
     </div>
 </div>
   )

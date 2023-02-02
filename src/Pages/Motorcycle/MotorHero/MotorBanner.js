@@ -1,5 +1,6 @@
 import React from 'react'
 import motorcycle from '../../../assets/motorcyclewhite_anim.png'
+import motorhero from '../../../assets/motorcycle-hero.jfif'
 
 const MotorBanner = () => {
   return (
@@ -36,7 +37,7 @@ const MotorBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={motorhero} alt="" />
     </div>
 </div>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import aca from '../../../assets/acawhite_anim.png'
+import acabanner from '../../../assets/aca-banner.jfif'
 
 const AcaBanner = () => {
   return (
@@ -36,7 +37,7 @@ const AcaBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={acabanner} alt="" />
     </div>
 </div>
   )

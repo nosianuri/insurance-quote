@@ -1,5 +1,6 @@
 import React from 'react'
 import auto from '../../../assets/autowhite_anim.png'
+import autobanner from '../../../assets/auto-hero.jfif'
 
 const AutoBanner = () => {
   return (
@@ -36,7 +37,7 @@ const AutoBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={autobanner} alt="" />
     </div>
 </div>
   )

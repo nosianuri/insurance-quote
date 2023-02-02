@@ -1,5 +1,6 @@
 import React from 'react'
 import expense from '../../../assets/expensewhite_anim.png'
+import final from '../../../assets/final-expense-hero.jfif'
 
 const FeBanner = () => {
   return (
@@ -36,7 +37,7 @@ const FeBanner = () => {
                 </div>
             </div>
             <div className='lg:order-2'>
-                <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+                <img src={final} alt="" />
             </div>
         </div>
   )

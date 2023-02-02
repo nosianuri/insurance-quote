@@ -1,5 +1,6 @@
 import React from 'react'
 import medicare from '../../../assets/medicarewhite_anim.png'
+import medihero from '../../../assets/life-hero.jfif'
 
 const McBanner = () => {
   return (
@@ -36,7 +37,7 @@ const McBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={medihero} alt="" />
     </div>
 </div>
   )

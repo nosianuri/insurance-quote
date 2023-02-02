@@ -1,5 +1,6 @@
 import React from 'react'
 import health from '../../../assets/health-white_anim.png'
+import healthbanner from '../../../assets/health-hero.jfif'
 
 const HealthBanner = () => {
   return (
@@ -36,7 +37,7 @@ const HealthBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={healthbanner} alt="" />
     </div>
 </div>
   )

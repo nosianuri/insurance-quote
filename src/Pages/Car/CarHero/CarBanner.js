@@ -1,6 +1,6 @@
 import React from 'react'
 import car from '../../../assets/carwhite_anim.png'
-import carbanner from '../../../assets/car-banner-anim.png'
+import carbanner from '../../../assets/car-hero.jfif'
 
 const CarBanner = () => {
   return (
@@ -37,7 +37,7 @@ const CarBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+        <img src={carbanner} alt="" />
     </div>
 </div>
   )
