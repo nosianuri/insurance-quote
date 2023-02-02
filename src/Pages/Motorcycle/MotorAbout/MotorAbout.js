@@ -1,4 +1,5 @@
 import React from 'react'
+import MotorInfo from './MotorInfo'
 
 const MotorAbout = () => {
   return (
@@ -8,12 +9,13 @@ const MotorAbout = () => {
         <p className='mb-3'>Protect both yourself and your motorcycle with a motorcycle insurance policy. It takes just minutes to get your quote online today.</p>
         <h3 className='lg:text-3xl text-xl text-center mb-5'>Start a motorcycle insurance quote online</h3>
         <p className='mb-5'>We didn't become the best motorcycle insurance company by giving our riders "the basics." You’re passionate about your bike, so we dig deeper to offer a wide range of coverages and discounts for customized protection. Get a free motorcycle insurance quote, buy online, and see why nearly 1 in 3 insured motorcycle riders choose Progressive.</p>
-        <h5 className='text-2xl font-semibold mb-5 text-center'>If it's cool enough to ride, it's cool enough to cover</h5>
+        <MotorInfo />
+        <h5 className='text-2xl font-semibold mt-5 text-center'>If it's cool enough to ride, it's cool enough to cover</h5>
         <p>Whether you ride a sport bike, touring bike, cruiser, moped, standard motorcycle, or custom hog, we have you covered. Here are a few common types of motorcycles that we insure:</p>
 
         <div className='flex my-10'>
           <div className='border-4 border-white border-r-gray-300'>
-            <h2 className='lg:text-5xl mr-5'>What does motorcycle insurance cover?</h2>
+            <h2 className='lg:text-5xl mr-5 italic'>What does motorcycle insurance cover?</h2>
           </div>
           
           <div className='mx-5'>

@@ -11,6 +11,7 @@ const FeAbout = () => {
       <p className='mb-3'>The average funeral today costs $10,000 or more. These and other end-of-life costs are often overwhelming to families after losing a loved one. A final expense insurance policy can help minimize that stress. Instead of having to drain their savings, your family can have the comfort of knowing there’s a plan in place after your death.</p>
       <p className='mb-3'>Also sometimes called burial insurance or funeral insurance, final expense insurance can help cover costs like medical bills or even credit card debt, or add to any other life insurance coverage you may already have.</p>
       <p className='mb-3'>With quick approval times and no required medical exam, final expense life insurance is a simple way to add important protection for your family. In many cases, coverage is available even if you have a pre-existing health condition. If you’re between the ages of 50 and 85, final expense insurance can offer tax-free protection and peace of mind to the people you love most.</p>
+      
       <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get a final expense insurance quote</h1>

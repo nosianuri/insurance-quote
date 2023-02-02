@@ -1,4 +1,5 @@
 import React from 'react'
+import CarInfo from './CarInfo'
 
 const CarAbout = () => {
   return (
@@ -8,7 +9,8 @@ const CarAbout = () => {
       <h1 className='head-title font-bold text-center lg:text-3xl text-2xl mb-5'>Affordable auto insurance on and off the road</h1>
       <p className='mb-3'>Car insurance policies offer fast, easy access to knowledgeable agents and innovative tools—like Drivewise®—to help safe drivers save money. Get a car insurance quote and stay protected on the road ahead.</p>
       <p className='mb-5'>Depending on the type of car insurance coverages included in your policy, covered vehicles may include most standard 2-door and 4-door vehicles, hybrid and electric cars, and rentals. Classic car insurance policies offer specialized coverage for collector or antique cars.</p>
-      <h1 className='font-bold text-center lg:text-3xl text-xl mb-5'>Why do you need car insurance?</h1>
+      <CarInfo />
+      <h1 className='font-bold text-center lg:text-3xl text-xl my-5'>Why do you need car insurance?</h1>
       <p className='mb-3'>Car insurance can help pay medical bills, repairs, certain legal defense costs, and more, if you’re involved in a covered accident.</p>
       <h5 className='font-semibold lg:text-2xl text-xl'>Examples of risks a driver may face</h5>
       <p className='font-bold'>You cause an accident</p>

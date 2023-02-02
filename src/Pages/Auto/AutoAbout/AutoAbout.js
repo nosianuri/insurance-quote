@@ -1,4 +1,5 @@
 import React from 'react'
+import AutoInfo from './AutoInfo'
 
 const AutoAbout = () => {
   return (
@@ -6,6 +7,14 @@ const AutoAbout = () => {
     <div className='lg:mx-28 mx-5'>
         <h1 className='head-title font-semibold lg:text-5xl text-2xl text-center lg:mb-10 mb-5'>Auto insurance coverage options to better fit your needs</h1>
         <p>When it comes to car insurance, you’ve got plenty of coverage options. State Farm can help you find the right coverage. We’ll also help you find out how much auto insurance you might need. Coverage varies by state and your selection.</p>
+       <AutoInfo />
+        <p className='lg:text-3xl text-xl text-center mt-5'>Auto insurance that makes saving simple & convenient</p>
+        <ul className='terms-article'>
+          <li><span className='text-semibold text-lg'>Bundle auto and property insurance</span> <br /> <span>Save an average of 4% on your auto insurance when you combine with home, renters, or condo.ΔRead the associated disclosure for this claim.</span></li>
+          <li><span className='text-semibold text-lg'>Snapshot: drive safe and save more</span> <br /> <span>Our Snapshot® program personalizes your car insurance rate based on how you drive. The safer you drive, the more you can save.</span></li>
+          <li><span className='text-semibold text-lg'>Compare car insurance quotes</span> <br /> <span>Get a free car insurance quote using AutoQuote Explorer℠ and compare different insurers' prices for the same coverage — see your best rate instantly.</span></li>
+          <li><span className='text-semibold text-lg'>Try Name Your Price</span> <br /> <span>Our Name Your Price® Tool lets you tell us what you want to pay for your auto insurance policy. We'll then show coverage options that fit your budget.</span></li>
+        </ul>
         <div className='grid lg:grid-cols-2 grid-cols-1 lg:my-10 my-5'>
           <div className='p-5'>
             <h1 className='font-semibold text-xl lg:mb-2'>Collision insurance</h1>
@@ -32,13 +41,6 @@ const AutoAbout = () => {
             <p>From uninsured or underinsured motorist coverage to medical payments, and liability coverage, discover all our available options.</p>
           </div>
         </div>
-        <p className='lg:text-3xl text-xl text-center'>Auto insurance that makes saving simple & convenient</p>
-        <ul className='terms-article'>
-          <li><span className='text-semibold text-lg'>Bundle auto and property insurance</span> <br /> <span>Save an average of 4% on your auto insurance when you combine with home, renters, or condo.ΔRead the associated disclosure for this claim.</span></li>
-          <li><span className='text-semibold text-lg'>Snapshot: drive safe and save more</span> <br /> <span>Our Snapshot® program personalizes your car insurance rate based on how you drive. The safer you drive, the more you can save.</span></li>
-          <li><span className='text-semibold text-lg'>Compare car insurance quotes</span> <br /> <span>Get a free car insurance quote using AutoQuote Explorer℠ and compare different insurers' prices for the same coverage — see your best rate instantly.</span></li>
-          <li><span className='text-semibold text-lg'>Try Name Your Price</span> <br /> <span>Our Name Your Price® Tool lets you tell us what you want to pay for your auto insurance policy. We'll then show coverage options that fit your budget.</span></li>
-        </ul>
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get better Auto insurance today</h1>

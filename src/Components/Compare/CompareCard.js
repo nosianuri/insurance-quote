@@ -5,7 +5,7 @@ const CompareCard = () => {
         <div className='my-10 lg:mx-32 mx-16'>
             <div className='grid lg:grid-cols-2 grid-cols-1 max-w-7xl mx-auto justify-center items-center border-2 border-l-[#e3e3e3] shadow-xl'>
                 <div className='text-center'>
-                    <h2 className='text-3xl inline-block align-middle'>Insure today, be sure tomorrow.</h2>
+                    <h2 className='lg:text-3xl text-2xl inline-block font-semibold align-middle'>Insure today, be sure tomorrow.</h2>
                 </div>
                 <div className='lg:flex md:flex '>
                     <div className='p-5 border border-white border-l-[#e3e3e3] align-middle'>
