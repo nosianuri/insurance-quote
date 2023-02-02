@@ -25,23 +25,23 @@ const MotorInfo = () => {
         {
             _id: 4,
             name: 'Flexible Options',
-            description: 'At AMC Insurance, we understand that every client is unique. We offer flexible options to meet your needs and stay within your budget.',
+            description: 'At Insurance Trendy Quote, we understand that every client is unique. We offer flexible options to meet your needs and stay within your budget.',
             link: '/aca-insurance',
         },
     ]
-  return (
-    <div className=' lg:mt-5 md:mt-5 mt-3' id='get-quote'>
-    <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 justify-center items-center '>
-        {
-            products.map(product => <MotorInfoCard
-                key={product._id}
-                product={product}
-            ></MotorInfoCard>)
-        }
+    return (
+        <div className=' lg:mt-5 md:mt-5 mt-3' id='get-quote'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 justify-center items-center '>
+                {
+                    products.map(product => <MotorInfoCard
+                        key={product._id}
+                        product={product}
+                    ></MotorInfoCard>)
+                }
 
-    </div>
-</div>
-  )
+            </div>
+        </div>
+    )
 }
 
 export default MotorInfo

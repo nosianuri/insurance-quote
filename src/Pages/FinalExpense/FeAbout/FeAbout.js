@@ -1,4 +1,5 @@
 import React from 'react'
+import FeInfo from './FeInfo'
 
 const FeAbout = () => {
   return (
@@ -6,8 +7,8 @@ const FeAbout = () => {
     <div className='lg:mx-28 mx-5'>
     <h1 className='head-title font-semibold lg:text-5xl text-2xl text-center lg:mx-24'>Protection for when your family needs it most.</h1>
       <p className='my-10'>With the average funeral costing $10,000 or more, a final expense insurance policy is a type of life insurance that can help minimize financial stress for your family during a difficult time. Let your family focus on what’s important with final expense coverage.</p>
-    
-      <h3 className='text-center font-bold lg:text-3xl text-xl mb-5'>Understanding Final Expense Insurance</h3>
+    <FeInfo />
+      <h3 className='text-center font-bold lg:text-3xl text-xl my-5'>Understanding Final Expense Insurance</h3>
       <p className='mb-3'>The average funeral today costs $10,000 or more. These and other end-of-life costs are often overwhelming to families after losing a loved one. A final expense insurance policy can help minimize that stress. Instead of having to drain their savings, your family can have the comfort of knowing there’s a plan in place after your death.</p>
       <p className='mb-3'>Also sometimes called burial insurance or funeral insurance, final expense insurance can help cover costs like medical bills or even credit card debt, or add to any other life insurance coverage you may already have.</p>
       <p className='mb-3'>With quick approval times and no required medical exam, final expense life insurance is a simple way to add important protection for your family. In many cases, coverage is available even if you have a pre-existing health condition. If you’re between the ages of 50 and 85, final expense insurance can offer tax-free protection and peace of mind to the people you love most.</p>
