@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Pages/About/About';
 import Aca from './Pages/Aca/Aca';
 import Auto from './Pages/Auto/Auto';
 import Car from './Pages/Car/Car';
@@ -29,6 +30,7 @@ function App() {
      <Route path='/medicare-insurance' element={<Medicare />} />
      <Route path='/motorcycle-insurance' element={<Motorcycle />} />
      <Route path='/privacy-policy' element={<Privacy />} />
+     <Route path='/about-us' element={<About />} />
      <Route path='/terms&use' element={<Terms />} />
      <Route path='/contact-us' element={<Contact />} />
      </Routes>

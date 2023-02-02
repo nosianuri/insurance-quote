@@ -64,6 +64,7 @@ export const menuItems = [
         submenu: [
             {
                 title: "Who we are",
+                link: "/about-us",
             },
             {
                 title: "Our values",

@@ -29,10 +29,10 @@ const Footer = () => {
                         <a href='/medicare-insurance' class="link link-hover hover:text-[#2d2640]">Medicare Insurance</a>
                         <a href='/life-insurance' class="link link-hover hover:text-[#2d2640]">Life insurance</a>
                         <a href='/finalexpense-insurance' class="link link-hover hover:text-[#2d2640]">Final Expense insurance</a>
-                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#2d2640]">ACA insurance</a>
-                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#2d2640]">Motorcycle insurance</a>
-                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#2d2640]">Auto insurance</a>
-                        <a href='/finalexpense-insurance' class="link link-hover hover:text-[#2d2640]">Home insurance</a>
+                        <a href='/aca-insurance' class="link link-hover hover:text-[#2d2640]">ACA insurance</a>
+                        <a href='/motorcycle-insurance' class="link link-hover hover:text-[#2d2640]">Motorcycle insurance</a>
+                        <a href='/auto-insurance' class="link link-hover hover:text-[#2d2640]">Auto insurance</a>
+                        <a href='/home-insurance' class="link link-hover hover:text-[#2d2640]">Home insurance</a>
                     </div>
                     <div>
                         <span class="footer-title">Follow Us:</span>
