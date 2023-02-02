@@ -13,7 +13,8 @@ const ContactBody = () => {
                         <div className=''>
                             <div>
                                 <h4 className='text-2xl font-semibold'>Send a message</h4>
-                                <p>For auto, home, and umbrella  policy questions, <a className='hover:underline font-semibold text-[#3b3352]' href="/login">log in</a> or <br /> <a className='hover:underline font-semibold text-[#3b3352]' href="/">register</a>.  For other products, fill out this <a className='hover:underline font-semibold text-[#3b3352]' href="#contact">request form</a>.</p>
+                                <p>Email: info@insurancetrendyquote.com Or </p>
+                                <p> For All Insurances, fill out this <a className='hover:underline font-semibold text-[#3b3352]' href="#contact">request form</a>.</p>
                             </div>
                             
                             <div className='mt-3'>

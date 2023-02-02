@@ -7,7 +7,7 @@ const LifeBanner = () => {
         <div className='lg:py-5 py-5 lg:mx-16 '>
             <img className='mx-auto mb-5 w-16 ' src="https://i.ibb.co/ySxx6hR/life-anim.png" alt="" />
             <h1 className='head-title lg:text-4xl md:text-3xl text-white text-3xl text-center font-semibold'>LIFE INSURANCE </h1>
-            <h3 className='text-[#ede9e9] lg:text-xl md:text-lg text-md text-center  leading-tight font-semibold'>Coverage that protects your biggest asset.
+            <h3 className='text-[#cbc8c8] lg:text-lg md:text-md text-md text-center  leading-tight italic'>Coverage that protects your biggest asset.
             </h3>
             <form action="">
                 <div className='grid lg:grid-cols-2 grid-cols-2 py-5 gap-8'>
@@ -28,7 +28,7 @@ const LifeBanner = () => {
                 </div>
                 <div className='text-center bg-[#2c2c6f] rounded my-5'>
                     <a href="/">
-                        <button className='uppercase text-xl py-2 text-white font-bold'>Get Quotes</button>
+                        <button className='uppercase text-xl py-2 text-white font-semibold'>Get Quotes</button>
                     </a>
                 </div>
             </form>

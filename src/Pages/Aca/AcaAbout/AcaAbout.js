@@ -19,7 +19,7 @@ const AcaAbout = () => {
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get better ACA insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>Looking for health care plans on the Affordable Care Act (ACA) Marketplace?</p>
             <a href="#top-form">
-              <button id='service-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+              <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div className=''>

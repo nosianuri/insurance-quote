@@ -16,7 +16,7 @@ const FeAbout = () => {
             <h1 className='head-title font-bold lg:text-3xl text-xl'>Get a final expense insurance quote</h1>
             <p className='my-3 lg:text-md text-sm'>Get a final expense insurance quote and compare rates in as little as 60 seconds.</p>
             <a href="#top-form">
-            <button id='service-btn' className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+            <button id='action-btn' className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div>
