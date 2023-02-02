@@ -1,6 +1,6 @@
 import React from 'react'
 import medicare from '../../../assets/medicarewhite_anim.png'
-import medihero from '../../../assets/life-hero.jfif'
+import medihero from '../../../assets/aca-banner.jfif'
 
 const McBanner = () => {
   return (

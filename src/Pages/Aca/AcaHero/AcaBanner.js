@@ -1,6 +1,6 @@
 import React from 'react'
 import aca from '../../../assets/acawhite_anim.png'
-import acabanner from '../../../assets/aca-banner.jfif'
+import acabanner from '../../../assets/life-hero.jfif'
 
 const AcaBanner = () => {
   return (
