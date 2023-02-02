@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <span class="footer-title">About</span>
-                        <a href='/' class="link link-hover hover:text-[#453b60]">About us</a>
+                        <a href='/about-us' class="link link-hover hover:text-[#453b60]">About us</a>
                         <a href='/' class="link link-hover hover:text-[#453b60]">Customer Care</a>
                         <a href='/' class="link link-hover hover:text-[#453b60]">Claims</a>
                         <a href='/' class="link link-hover hover:text-[#453b60]">Get a FREE Quote</a>

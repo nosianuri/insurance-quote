@@ -14,7 +14,7 @@ const About = () => {
             </section>
 
             <section className='features top'>
-                <div className='container aboutCard flex justify-between items-center '>
+                <div className='container aboutCard flex justify-between items-center'>
                     <div className='row row1 '>
                         <h1>
                             Our <span>Features</span>
