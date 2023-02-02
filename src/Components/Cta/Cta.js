@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cta.css';
-import cta from '../../assets/AllstateLibrary.png'
+import cta from '../../assets/gosip_anim.png'
 
 const Cta = () => {
   return (

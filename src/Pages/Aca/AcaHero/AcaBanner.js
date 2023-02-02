@@ -1,11 +1,12 @@
 import React from 'react'
+import aca from '../../../assets/acawhite_anim.png'
 
 const AcaBanner = () => {
   return (
     <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10 justify-center items-center bg-[#201e44]'>
     <div className=' order-2 px-3'>
         <div className='lg:py-5 py-5 lg:mx-16 '>
-            <img className='mx-auto mb-5 w-16 ' src="https://i.ibb.co/x3KZrhG/aca-anim.png" alt="" />
+            <img className='mx-auto mb-5 w-16 ' src={aca} alt="" />
             <h1 className='head-title lg:text-4xl md:text-3xl text-white text-3xl text-center font-semibold'>ACA INSURANCE </h1>
             <h3 className='text-[#cbc8c8] lg:text-lg md:text-lg text-md text-center  leading-tight italic'>Coverage that protects your biggest asset.
             </h3>
