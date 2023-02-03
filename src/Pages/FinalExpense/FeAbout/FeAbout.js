@@ -6,7 +6,7 @@ import feimg3 from '../../../assets/aflac-final-expense-insurance-flowers-for-fu
 
 const FeAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
     <div className='lg:mx-28 mx-5'>
     <h1 className='head-title font-semibold lg:text-5xl text-2xl text-center lg:mx-24 text-[#201e44]'>Protection for when your family needs it most.</h1>
       <p className='my-10'>With the average funeral costing $10,000 or more, a final expense insurance policy is a type of life insurance that can help minimize financial stress for your family during a difficult time. Let your family focus on what’s important with final expense coverage.</p>

@@ -3,7 +3,7 @@ import ContactAbout from './ContactAbout'
 
 const ContactBody = () => {
     return (
-        <div id='contact' className='lg:mx-w-7xl lg:px-32 px-3'>
+        <div id='contact' className='max-w-7xl mx-auto lg:px-10 px-3'>
             <ContactAbout />
             <div>
                 <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-10 md:pt-16 pt-10 justify-center items-center '>

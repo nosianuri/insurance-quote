@@ -4,7 +4,7 @@ import CarPolicy from './CarPolicy'
 
 const CarAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
     <div className='lg:mx-28 mx-5'>
     <div>
       <h1 className='text-[#201e44] head-title font-bold text-center lg:text-4xl text-2xl mb-5'>Affordable Car insurance on and off the road</h1>

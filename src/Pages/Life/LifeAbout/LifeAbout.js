@@ -4,7 +4,7 @@ import LifePolicy from './LifePolicy'
 
 const LifeAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
     <div className='lg:mx-28 mx-5'>
       <h1 className='text-[#201e44] head-title italic font-semibold lg:text-5xl text-2xl text-center mb-8'>Life insurance helps protect the ones you love</h1>
       <p className='mb-3'>You can’t put a dollar amount on your family, but you can ensure their future is protected. We can’t predict when the unexpected will happen, but we can help you prepare for it when it does.Individual life insurance is arguably the biggest investment you can make in your loved ones’ security. It’s a complicated field, but don’t let that put you off. We’ll be happy to talk you through the options.</p>

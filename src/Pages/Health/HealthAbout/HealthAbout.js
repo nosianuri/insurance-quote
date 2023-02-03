@@ -4,7 +4,7 @@ import HealthPolicy from './HealthPolicy'
 
 const HealthAbout = () => {
   return (
-    <div className='lg:mx-36 my-16'>
+    <div className='max-w-7xl mx-auto my-16'>
         <div className='lg:mx-28 mx-5'>
         <h1 className='text-[#201e44] head-title font-semibold text-4xl mb-4 text-center '>Programs that support your vision.</h1>
         <p className='mb-5'>Employee Benefits help you attract and retain the people you trust to develop your products and deliver your unique message to your clients. Our job is to assist business owners and decision makers ensure the benefits offered to employees help reinforce your goals while protecting your employees – be it health insurance, life insurance, retirement planning or other benefits.</p>

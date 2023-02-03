@@ -4,7 +4,7 @@ import MediCarePolicy from './MediCarePolicy'
 
 const McAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
       <div className='lg:mx-28 mx-5'>
       <h1 className='text-[#201e44] head-title lg:text-5xl text-2xl font-semibold text-center lg:mb-10 mb-5'>Healthier happens together</h1>
       <p className='mb-3'>Medicare is our country's health insurance program for people age 65 or older. Certain people younger than age 65 can qualify for Medicare too, including those with disabilities and those who have permanent kidney failure.</p>

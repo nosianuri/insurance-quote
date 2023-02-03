@@ -4,7 +4,7 @@ import MotorPolicy from './MotorPolicy'
 
 const MotorAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
       <div className='lg:mx-28 mx-5'>
         <h1 className='text-[#201e44] head-title text-center font-semibold lg:text-5xl text-2xl mb-10'>Gear up for the road knowing you’re protected</h1>
         <p className='mb-3'>Protect both yourself and your motorcycle with a motorcycle insurance policy. It takes just minutes to get your quote online today.</p>

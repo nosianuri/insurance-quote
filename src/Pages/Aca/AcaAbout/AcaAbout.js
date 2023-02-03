@@ -4,7 +4,7 @@ import AcaPolicy from './AcaPolicy'
 
 const AcaAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
       <div className='lg:mx-28 mx-5'>
         <h1 className='text-[#201e44] head-title text-center lg:text-5xl text-2xl font-semibold'>Affordable Care Act (ACA)</h1>
         <p className='my-5'>The comprehensive health care reform law enacted in March 2010 (sometimes known as ACA, PPACA, or “Obamacare”).</p>

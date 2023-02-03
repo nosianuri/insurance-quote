@@ -5,7 +5,7 @@ import HiPolicy from './HiPolicy';
 
 const HiAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
       <div className='lg:mx-28 mx-5'>
         <h1 className='head-title font-semibold lg:text-5xl text-[#201e44] text-2xl text-center mb-5'>Home Insurance Guides & Advice</h1>
         <p className='my-5'>At Insurance Trendy Quote, we strive to provide our customers with the most competitive rates for their home insurance needs. We understand that cost is a major factor in determining coverage and are eager to share valuable information about the factors that will influence this cost. Your home is one of your biggest assets, and it’s important to do all that you can to protect it. We’ll help you plan for the unexpected with insurance coverage that’s just right for you and your family.</p>

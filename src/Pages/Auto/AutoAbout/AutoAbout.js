@@ -4,7 +4,7 @@ import AutoPolicy from './AutoPolicy'
 
 const AutoAbout = () => {
   return (
-    <div className='lg:mx-36 my-10'>
+    <div className='max-w-7xl mx-auto my-10'>
     <div className='lg:mx-28 mx-5'>
         <h1 className='text-[#201e44] head-title font-semibold lg:text-5xl text-2xl text-center lg:mb-10 mb-5'>Auto insurance coverage options to better fit your needs</h1>
         <p>When it comes to car insurance, you’ve got plenty of coverage options. State Farm can help you find the right coverage. We’ll also help you find out how much auto insurance you might need. Coverage varies by state and your selection.</p>
