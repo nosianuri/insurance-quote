@@ -1,4 +1,6 @@
 import React from 'react'
+import home from '../../../assets/home insurance.png'
+import tenant from '../../../assets/tenant insurance.png'
 
 const HiPolicy = () => {
   return (
@@ -8,18 +10,20 @@ const HiPolicy = () => {
     
     <h4 className='text-xl text-center font-semibold text-[#201e44]'>Finding house insurance that fits your needs and budget, We are near you!</h4>
     <p className='my-3 text-sm'>We understand the importance of finding a policy that fits your budget while also providing the coverage you need. That’s why we work with a network of specialized insurance brokers who have access to some of Canada’s most trusted and financially stable insurance companies partners.</p>
-    <div className='grid lg:grid-cols-3 grid-cols-1 gap-5'>
+    <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 mt-5'>
         <div className='text-center'>
-            <h3 className='font-semibold text-[#201e44]'>Home Insurance</h3>
+        <img className='w-12 mx-auto' src={home} alt="" />
+            <h3 className='font-semibold text-[#201e44] mt-2'>Home Insurance</h3>
             <p className='text-sm mt-2'>Get comprehensive protection for your home, valuables, and your family.</p>
         </div>
         <div className='text-center'>
-
-            <h3 className='font-semibold text-[#201e44]'>Tenant Insurance</h3>
+        <img className='w-12 mx-auto' src={tenant} alt="" />
+            <h3 className='font-semibold text-[#201e44] mt-2'>Tenant Insurance</h3>
             <p className='text-sm mt-2'>Protect your valuables and meet rental contract demands with tenant insurance coverage.</p>
         </div>
         <div className='text-center'>
-            <h3 className='font-semibold text-[#201e44]'>Condo Insurance</h3>
+        <img className='w-12 mx-auto' src={home} alt="" />
+            <h3 className='font-semibold text-[#201e44] mt-2'>Condo Insurance</h3>
             <p className='text-sm mt-2'>Get the insurance coverage you need for the unique requirements of condo living.</p>
         </div>
     </div>

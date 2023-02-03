@@ -28,7 +28,7 @@ const LifeAbout = () => {
       <p className='mb-3'>The premiums you pay depend heavily on your age and medical history, along with the amount you want the policy to pay out. So, it’s important to seek expert advice before committing to life insurance.</p>
       <p className='mb-3'>Contact us and we’ll walk you through the options and help you to determine if term life insurance, whole life insurance or universal life insurance are right for you.</p>
       </div>
-      <img className='border-8 border-indigo-500/75' src="https://i.ibb.co/xLSBmzY/boys-wrestling-with-dad.jpg" alt="" />
+      <img className='border-8 border-[#201e44]' src="https://i.ibb.co/xLSBmzY/boys-wrestling-with-dad.jpg" alt="" />
       </div>
       
       <div className='lg:flex my-10'>

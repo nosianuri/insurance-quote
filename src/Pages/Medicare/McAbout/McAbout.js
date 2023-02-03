@@ -1,5 +1,6 @@
 import React from 'react'
 import McInfo from './McInfo'
+import MediCarePolicy from './MediCarePolicy'
 
 const McAbout = () => {
   return (
@@ -12,6 +13,7 @@ const McAbout = () => {
       <p className='text-[#201e44] text-2xl font-semibold mt-5'>Making Sense of Medicare</p>
       <p>Whether you are new to Medicare, approaching age 65, or preparing to retire, you’ll need to make several important decisions about your health insurance coverage. We know that Medicare can be confusing, and the benefits and costs can change every year. That’s why our approach is to educate our consumers, and develop lasting relationships that result in life-long clients. We will help Michigan residents with understanding Original Medicare, Medicare Advantage, Medicare Supplements, and Prescription Drug Plans. As independent agents, we offer a variety of carriers and coverages to complement what you have available through Medicare Parts A and B.
 </p>
+<MediCarePolicy />
       <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
             <h1 className='text-[#201e44] head-title font-bold lg:text-3xl text-xl'>Find medicare insurance plans for the whole family</h1>
