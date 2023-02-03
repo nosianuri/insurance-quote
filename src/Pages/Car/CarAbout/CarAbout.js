@@ -1,6 +1,7 @@
 import React from 'react'
 import CarInfo from './CarInfo'
 import CarPolicy from './CarPolicy'
+import belowcar from '../../../assets/below-car.jfif'
 
 const CarAbout = () => {
   return (
@@ -33,7 +34,7 @@ const CarAbout = () => {
             </a>
           </div>
           <div className=''>
-            <img src="https://i.ibb.co/ncLmv86/Car-Insurance.jpg" alt="" />
+            <img src={belowcar} alt="" />
           </div>
         </div>
     </div>
