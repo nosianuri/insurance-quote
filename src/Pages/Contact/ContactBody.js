@@ -8,7 +8,7 @@ const ContactBody = () => {
             <div>
                 <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-10 md:pt-16 pt-10 justify-center items-center '>
                     <div className='lg:order-2'>
-                        <h2 className='lg:text-4xl text-2xl mb-5'><i class="fa-solid fa-message text-[#3b3352]"></i> Customer Care Center</h2>
+                        <h2 className='text-[#201e44] lg:text-4xl text-2xl mb-5'><i class="fa-solid fa-message text-[#201e44]"></i> Customer Care Center</h2>
                         <p className='mb-5'>Please contact your claim representative for status on an existing claim.</p>
                         <div className=''>
                             <div>

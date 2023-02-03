@@ -6,7 +6,7 @@ const HealthAbout = () => {
   return (
     <div className='lg:mx-36 my-16'>
         <div className='lg:mx-28 mx-5'>
-        <h1 className='head-title font-semibold text-4xl mb-4 text-center '>Programs that support your vision.</h1>
+        <h1 className='text-[#201e44] head-title font-semibold text-4xl mb-4 text-center '>Programs that support your vision.</h1>
         <p className='mb-5'>Employee Benefits help you attract and retain the people you trust to develop your products and deliver your unique message to your clients. Our job is to assist business owners and decision makers ensure the benefits offered to employees help reinforce your goals while protecting your employees – be it health insurance, life insurance, retirement planning or other benefits.</p>
         <HealthInfo />
         {/* <div className='lg:w-full w-full h-[1px] bg-gray-300'></div> */}
@@ -16,7 +16,7 @@ const HealthAbout = () => {
       <HealthPolicy />
         <div className='lg:flex mt-10'>
           <div className='bg-base-100 shadow-2xl p-10 lg:mr-[-335px] relative mt-8'>
-            <h1 className='head-title font-bold lg:text-3xl text-xl'>Get better health insurance today</h1>
+            <h1 className='text-[#201e44] head-title font-bold lg:text-3xl text-xl'>Get better health insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>See what's new in health, care and the community. Explore our health insurance plans.</p>
             <a href="#top-form">
             <button id='action-btn' className='px-4 py-2 text-xl bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>

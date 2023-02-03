@@ -3,23 +3,23 @@ import React from 'react'
 const LifePolicy = () => {
     return (
         <div className='my-5'>
-            <h2 className='text-2xl font-semibold text-center'>Shop Our Life Insurance Policies With Our Specialized Insurance Brokers</h2>
+            <h2 className='text-[#201e44] text-2xl font-semibold text-center'>Shop Our Life Insurance Policies With Our Specialized Insurance Brokers</h2>
             <p className='my-5'>For many, buying life insurance is a tough and complicated process, and it’s okay to feel overwhelmed when looking for the right policy. Take your time when considering how much life insurance is necessary for you and which policy is best for your family.</p>
             <p className='mb-5'>BC life insurance policies cover many different scenarios that you may or may not be interested in, so it’s crucial to review your options carefully with someone who knows life insurance in British Columbia extensively. At Insurance Trendy Quote, our brokers can help you find the right policy for your unique needs.</p>
-            <h4 className='text-xl text-center font-semibold'>Choose Insurance Trendy Quote Broker for Your Life Insurance</h4>
+            <h4 className='text-[#201e44] text-xl text-center font-semibold'>Choose Insurance Trendy Quote Broker for Your Life Insurance</h4>
             <p className='my-3 text-sm'>If you’re still on the fence about whether to buy life insurance, you’re not alone. We know it’s not an easy decision to make. That’s why we work hard to be the insurance company you can trust to find the right protection for your needs. Our team offers the following advantages when working with you to find the right policy:</p>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-5'>
                 <div className='text-center'>
-                    <h3 className='font-semibold'>Experience</h3>
+                    <h3 className='text-[#201e44] font-semibold'>Experience</h3>
                     <p className='text-sm mt-2'>Our agents have extensive experience working with individuals and families across all industries to provide the right coverage for your protection.</p>
                 </div>
                 <div className='text-center'>
 
-                    <h3 className='font-semibold'>Commitment</h3>
+                    <h3 className='text-[#201e44] font-semibold'>Commitment</h3>
                     <p className='text-sm mt-2'>We’re committed to finding you the most affordable rates and work hard to ensure you get the coverage you need at a price you can afford.</p>
                 </div>
                 <div className='text-center'>
-                    <h3 className='font-semibold'>Value</h3>
+                    <h3 className='text-[#201e44] font-semibold'>Value</h3>
                     <p className='text-sm mt-2'>At Insurance Trendy Quote, we understand how much your assets mean to you and how hard you’ve worked to build a life for your family. Our policies protect you financially and give you the peace of mind you deserve.</p>
                 </div>
             </div>

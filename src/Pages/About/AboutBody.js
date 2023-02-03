@@ -20,7 +20,7 @@ const AboutBody = () => {
     return (
         <div className='max-w-7xl mx-auto px-12'>
             <div className=' mt-5'>
-                <h4 className='text-3xl font-semibold text-center mb-3'>Our Mission</h4>
+                <h4 className='text-[#201e44] lg:text-4xl text-2xl font-semibold text-center mb-3'>Our Mission</h4>
                 <p>Insurance Trendy Quote understands insurance is invaluable but finding the right insurance plan can be challenging. Our mission is to simplify the process and make insurance fit your individual needs. We work hard to find the best coverage options at the most affordable rates, whether you need personal or professional insurance.</p>
             </div>
             <div className='my-8'>
@@ -32,7 +32,7 @@ const AboutBody = () => {
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 justify-center items-center '>
                     <img className='' src={about} alt="" />
                     <div>
-                        <h4 className='text-2xl font-semibold mb-3'>Changing Insurance With A Deeply Rooted Customer-Centric Approach</h4>
+                        <h4 className='text-[#201e44] text-2xl font-semibold mb-3'>Changing Insurance With A Deeply Rooted Customer-Centric Approach</h4>
                         <p className='mb-2'>The insurance industry is ever-changing, so finding the right coverage can be stressful. Our team focuses on communication to ensure you get the best option for your individual needs. While many other insurance brokers make assumptions when looking for the best fit, we listen to you and gather the right information to ensure you truly get the best coverage options.</p>
                         <p className='mb-2'>The best way to get you the insurance you need is to give you our undivided attention. At Insurance Trendy Quote, we listen to you, research the latest rates, and discuss your coverage options at length. This ensures you genuinely understand the policies available and what you’re getting when choosing your coverage.</p>
                         <p>Our goal is to create lasting client relationships beyond your initial visit and provide lifelong assistance for your future insurance needs. Mutual respect and understanding for our clients allow us to offer outstanding customer service, excellent coverage, competitive rates, and the industry’s best client experience.</p>
@@ -41,17 +41,17 @@ const AboutBody = () => {
             </div>
 
             <div className=' mt-5'>
-                <h4 className='text-xl font-semibold mb-3'>Protecting our customers from financial loss </h4>
+                <h4 className='text-[#201e44] text-xl font-semibold mb-3'>Protecting our customers from financial loss </h4>
                 <p>Your family, your business and your possessions are all important to you, but you may not know how to best protect them. We have the experience to navigate the unique risks you face, serving as your insurance advisor in Michigan.  The Emil Rummel Agency is an independent insurance agency, family owned and operated, now in its third generation of ownership.
                 </p>
             </div>
             <div className=' mt-5'>
-                <h4 className='text-xl font-semibold mb-3'>The key to our agency’s success over the years is we care about our customers and treat their insurance needs as if they were our own.</h4>
+                <h4 className='text-[#201e44] text-xl font-semibold mb-3'>The key to our agency’s success over the years is we care about our customers and treat their insurance needs as if they were our own.</h4>
                 <p>This means we take the time to ask you questions, listen to your responses, discuss your insurance requirements and educate you on how insurance protects you from financial loss.
                 </p>
             </div>
             <div className=' mt-5'>
-                <h4 className='text-xl font-semibold mb-3'>Service, whether it is in response to an insurance claim or general question, is the most important value we offer you.</h4>
+                <h4 className='text-[#201e44] text-xl font-semibold mb-3'>Service, whether it is in response to an insurance claim or general question, is the most important value we offer you.</h4>
                 <p>Your satisfaction is very important to us. We work hard to build a trusted relationship with you.  Give us a call and find out what it’s like to work with caring, knowledgeable and experienced insurance professionals!  You’ll be glad you did.
                 </p>
             </div>
@@ -61,41 +61,41 @@ const AboutBody = () => {
 
             <AboutInfo />
             <div className='mt-8'>
-                <h4 className='text-2xl mb-2'>Trusted Choice – Pledge of Performance</h4>
+                <h4 className='text-[#201e44] text-2xl mb-2'>Trusted Choice – Pledge of Performance</h4>
                 <p className='mb-2'>Trusted Choice® agencies are insurance and financial services firms whose access to multiple companies and commitment to quality service enable us to offer our clients competitive pricing, a broad choice of products and unparalleled advocacy.</p>
                 <p>As a Trusted Choice® agency, we are dedicated to you and are committed to treating you as a person, not a policy. This commitment means we shall:</p>
                 <div className='my-5 bg-white pl-8'>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-sharp fa-solid fa-person text-[#696464] text-3xl"></i></div>
-                        <div className='text-[#696464]'>Work with you to identify the insurance and financial services that are right for you, your family or your business and use our access to multiple companies to deliver those products.</div>
+                    <div><i class="fa-sharp fa-solid fa-person text-[#8d8ca9] text-3xl"></i></div>
+                        <div className='text-[#99999b]'>Work with you to identify the insurance and financial services that are right for you, your family or your business and use our access to multiple companies to deliver those products.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-road text-[#696464] text-lg"></i></div>
-                        <div className='text-[#696464]'>Guide you through the claims process for a prompt and fair resolution of your claim. Help you solve problems related to your coverage or account.</div>
+                    <div><i class="fa-solid fa-road text-[#8d8ca9] text-lg"></i></div>
+                        <div className='text-[#99999b]'>Guide you through the claims process for a prompt and fair resolution of your claim. Help you solve problems related to your coverage or account.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-book text-[#696464] text-xl"></i></div>
-                        <div className='text-[#696464]'>Explain the coverages and options available to you through our agency, at your request.</div>
+                    <div><i class="fa-solid fa-book text-[#8d8ca9] text-xl"></i></div>
+                        <div className='text-[#99999b]'>Explain the coverages and options available to you through our agency, at your request.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-clock text-[#696464] text-lg"></i></div>
-                        <div className='text-[#696464]'>Return your phone calls and e-mails promptly and respond to your requests in a timely manner.</div>
+                    <div><i class="fa-solid fa-clock text-[#8d8ca9] text-lg"></i></div>
+                        <div className='text-[#99999b]'>Return your phone calls and e-mails promptly and respond to your requests in a timely manner.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-headphones text-[#696464] text-lg"></i></div>
-                        <div className='text-[#696464]'>Provide 24/7 services for our customers, offering any or all of the following: emergency phone numbers, Internet account access, e-mail and call center services.</div>
+                    <div><i class="fa-solid fa-headphones text-[#8d8ca9] text-lg"></i></div>
+                        <div className='text-[#99999b]'>Provide 24/7 services for our customers, offering any or all of the following: emergency phone numbers, Internet account access, e-mail and call center services.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-lightbulb text-[#696464] text-xl"></i></div>
-                        <div className='text-[#696464]'>Use our experience and multiple company relationships to customize your coverage as needed.</div>
+                    <div><i class="fa-solid fa-lightbulb text-[#8d8ca9] text-xl"></i></div>
+                        <div className='text-[#99999b]'>Use our experience and multiple company relationships to customize your coverage as needed.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-regular fa-heart text-[#696464] text-lg"></i></div>
-                        <div className='text-[#696464]'>Treat you with respect and courtesy.</div>
+                    <div><i class="fa-regular fa-heart text-[#8d8ca9] text-lg"></i></div>
+                        <div className='text-[#99999b]'>Treat you with respect and courtesy.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-handshake text-[#696464] text-lg"></i></div>
-                        <div className='text-[#696464]'>Conduct our business in an ethical manner.</div>
+                    <div><i class="fa-solid fa-handshake text-[#8d8ca9] text-lg"></i></div>
+                        <div className='text-[#99999b]'>Conduct our business in an ethical manner.</div>
                     </div>
                 </div>
                 <p>We pledge this to you, our clients and ask that you let us know if we fail to meet our commitment, so we may take corrective action.</p>

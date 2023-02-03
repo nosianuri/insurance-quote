@@ -9,7 +9,7 @@ const Services = (props) => {
             <img src={img} alt="" className='h-16 w-16 my-6 mx-auto' />
             </a>
                 <a href={link}>
-                <h2 className='head-title text-center px-2 font-bold text-xl mb-2'>{name}</h2>
+                <h2 className='text-[#201e44] head-title text-center px-2 font-bold text-xl mb-2'>{name}</h2>
                 </a>
                 
                 {/* <p className='text-center px-2 pb-5'>{description}</p>

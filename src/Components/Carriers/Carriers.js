@@ -8,7 +8,7 @@ import img5 from '../../assets/progressive.png';
 const Carriers = () => {
   return (
     <div className='my-16 '>
-      <h2 className='head-title text-center lg:text-4xl text-2xl font-semibold mb-8'>Insurance Carriers include</h2>
+      <h2 className='head-title text-center text-[#201e44] lg:text-4xl text-2xl font-semibold mb-8'>Insurance Carriers include</h2>
       <div className='flex justify-center items-center lg:mb-8'>
         <img className='lg:w-52 w-16' src={img1} alt="" />
         <img className='lg:w-52 w-16' src={img2} alt="" />
