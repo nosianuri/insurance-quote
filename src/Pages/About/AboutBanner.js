@@ -15,7 +15,7 @@ const AboutBanner = () => {
                 </div>
                 </p>
             </div>
-            <div className='mb-10'>
+            <div className='mb-10 mt-8'>
                 <img className='mx-auto order-first md:order-last lg:order-last' src={aboutBanner} alt="" />
             </div>
         </div>
