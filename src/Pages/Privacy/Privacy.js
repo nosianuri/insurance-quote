@@ -16,7 +16,7 @@ const Privacy = () => {
       <Header />
       <ShortNav />
       <PrivacyBody />
-      <Carriers />
+      
       <Footer />
         </>
     )
