@@ -1,5 +1,5 @@
 import React from 'react'
-import contact from '../../assets/Home Insurance Remeber Forget .png'
+import contactBanner from '../../assets/contact-bannr.png'
 
 const ContactHero = () => {
   return (
@@ -16,7 +16,7 @@ const ContactHero = () => {
                 </p>
             </div>
             <div className='mb-10'>
-                <img className='mx-auto order-first md:order-last lg:order-last' src={contact} alt="" />
+                <img className='mx-auto order-first md:order-last lg:order-last' src={contactBanner} alt="" />
             </div>
         </div>
     </div>

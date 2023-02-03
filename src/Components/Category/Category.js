@@ -21,9 +21,12 @@ previous</h1> */}
                             <img src={category1} alt="A foggy Golden Gate Bridge" />
                             <div class="overly">
                                 <h3 className='font-semibold'>
-                                    Top 7 Insurance Coverages To Protect Your Business.
+                                    Top 9 Insurance Coverages To Protect Your Business.
                                 </h3>
+                                <a href="/about-us">
                                 <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -33,7 +36,10 @@ previous</h1> */}
                             <div class="overly">
                                 <h3 className='font-semibold'>How Are Driverless Cars Going To Impact The Insurance Industry?
                                     </h3>
-                                <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                    <a href="car-insurance">
+                                    <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                    </a>
+                                
                             </div>
                         </div>
                         <div class="overly-conteiner">
@@ -41,7 +47,10 @@ previous</h1> */}
                             <div class="overly">
                                 <h3 className='font-semibold'>
                                     Why Renter’s Insurance Should Be Reviewed Annually</h3>
-                                <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                    <a href="/life-insurance">
+                                    <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                    </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -52,7 +61,10 @@ previous</h1> */}
                                 <h3 className='font-semibold'>
                                     What Are The Major Prerequisites For Buying A Home In BC?
                                 </h3>
+                                <a href="/home-insurance">
                                 <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                </a>
+                                
                             </div>
                         </div>
                         <div class="categories-item3">
@@ -61,14 +73,20 @@ previous</h1> */}
                                 <div class="overly">
                                     <h3 className='font-semibold'>Insurance Acquires Ken Rystead
                                         </h3>
-                                    <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                        <a href="/finalexpense-insurance">
+                                        <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                        </a>
+                                    
                                 </div>
                             </div>
                             <div class="overly-conteiner">
                                 <img src={category6} alt="A foggy Golden Gate Bridge" />
                                 <div class="overly">
                                     <h3 className='font-semibold'>The Perils Of Distracted Driving</h3>
+                                    <a href="/auto-insurance">
                                     <button>Explore <i class="fa fa-long-arrow-right"></i></button>
+                                    </a>
+                                    
                                 </div>
                             </div>
                         </div>
