@@ -1,5 +1,8 @@
 import React from 'react'
 import AboutInfoCard from './AboutInfoCard'
+import choice from '../../assets/choice.png'
+import expertise from '../../assets/expertise.png'
+import service from '../../assets/service.png'
 
 const AboutInfo = () => {
     const products = [
@@ -7,20 +10,20 @@ const AboutInfo = () => {
             _id: 1,
             name: 'Choice',
             description: 'As an independent insurance agency we have great relationships with many well-known, reputable insurance companies, giving you the power of choice.',
-            link: '/home-insurance',
+            img: choice,
 
         },
         {
             _id: 2,
             name: 'Expertise',
             description: 'Our insurance professionals have years of experience in the insurance industry and serve as your advocate from selecting coverage through filing a claim.',
-            link: '/medicare-insurance',
+            img: expertise,
         },
         {
             _id: 3,
             name: 'Service',
             description: 'As a Trusted Choice independent agency we have many insurance companies to work with and a pledge of service that we take very seriously.',
-            link: '/car-insurance',
+            img: service,
         },
         
     ]

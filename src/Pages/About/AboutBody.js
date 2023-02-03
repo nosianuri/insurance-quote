@@ -67,35 +67,35 @@ const AboutBody = () => {
                 <div className='my-5 bg-white pl-8'>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-sharp fa-solid fa-person text-[#8d8ca9] text-3xl"></i></div>
-                        <div className='text-[#99999b]'>Work with you to identify the insurance and financial services that are right for you, your family or your business and use our access to multiple companies to deliver those products.</div>
+                        <div className=''>Work with you to identify the insurance and financial services that are right for you, your family or your business and use our access to multiple companies to deliver those products.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-solid fa-road text-[#8d8ca9] text-lg"></i></div>
-                        <div className='text-[#99999b]'>Guide you through the claims process for a prompt and fair resolution of your claim. Help you solve problems related to your coverage or account.</div>
+                        <div className=''>Guide you through the claims process for a prompt and fair resolution of your claim. Help you solve problems related to your coverage or account.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-solid fa-book text-[#8d8ca9] text-xl"></i></div>
-                        <div className='text-[#99999b]'>Explain the coverages and options available to you through our agency, at your request.</div>
+                        <div className=''>Explain the coverages and options available to you through our agency, at your request.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-solid fa-clock text-[#8d8ca9] text-lg"></i></div>
-                        <div className='text-[#99999b]'>Return your phone calls and e-mails promptly and respond to your requests in a timely manner.</div>
+                        <div className=''>Return your phone calls and e-mails promptly and respond to your requests in a timely manner.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-solid fa-headphones text-[#8d8ca9] text-lg"></i></div>
-                        <div className='text-[#99999b]'>Provide 24/7 services for our customers, offering any or all of the following: emergency phone numbers, Internet account access, e-mail and call center services.</div>
+                        <div className=''>Provide 24/7 services for our customers, offering any or all of the following: emergency phone numbers, Internet account access, e-mail and call center services.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-solid fa-lightbulb text-[#8d8ca9] text-xl"></i></div>
-                        <div className='text-[#99999b]'>Use our experience and multiple company relationships to customize your coverage as needed.</div>
+                        <div className=''>Use our experience and multiple company relationships to customize your coverage as needed.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-regular fa-heart text-[#8d8ca9] text-lg"></i></div>
-                        <div className='text-[#99999b]'>Treat you with respect and courtesy.</div>
+                        <div className=''>Treat you with respect and courtesy.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
                     <div><i class="fa-solid fa-handshake text-[#8d8ca9] text-lg"></i></div>
-                        <div className='text-[#99999b]'>Conduct our business in an ethical manner.</div>
+                        <div className=''>Conduct our business in an ethical manner.</div>
                     </div>
                 </div>
                 <p>We pledge this to you, our clients and ask that you let us know if we fail to meet our commitment, so we may take corrective action.</p>

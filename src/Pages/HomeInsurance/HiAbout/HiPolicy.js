@@ -1,6 +1,7 @@
 import React from 'react'
 import home from '../../../assets/home insurance.png'
 import tenant from '../../../assets/tenant insurance.png'
+import condo from '../../../assets/conso.png'
 
 const HiPolicy = () => {
   return (
@@ -22,7 +23,7 @@ const HiPolicy = () => {
             <p className='text-sm mt-2'>Protect your valuables and meet rental contract demands with tenant insurance coverage.</p>
         </div>
         <div className='text-center'>
-        <img className='w-12 mx-auto' src={home} alt="" />
+        <img className='w-12 mx-auto' src={condo} alt="" />
             <h3 className='font-semibold text-[#201e44] mt-2'>Condo Insurance</h3>
             <p className='text-sm mt-2'>Get the insurance coverage you need for the unique requirements of condo living.</p>
         </div>
