@@ -9,8 +9,8 @@ import category6 from '../../assets/car-hero_anim.png'
 
 const Category = () => {
     return (
-        <section class="categories" id="shop">
-            <div class="container">
+        <section className="categories" id="shop">
+            <div className="container mx-auto">
                 {/* <h1 class="categories-title">Stories & tips
 for everyday life
 previous</h1> */}
