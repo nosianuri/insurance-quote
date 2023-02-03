@@ -20,7 +20,7 @@ const LifePolicy = () => {
                 </div>
                 <div className='text-center'>
                     <h3 className='font-semibold'>Value</h3>
-                    <p className='text-sm mt-2'>At AMC, we understand how much your assets mean to you and how hard you’ve worked to build a life for your family. Our policies protect you financially and give you the peace of mind you deserve.</p>
+                    <p className='text-sm mt-2'>At Insurance Trendy Quote, we understand how much your assets mean to you and how hard you’ve worked to build a life for your family. Our policies protect you financially and give you the peace of mind you deserve.</p>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const ContactHero = () => {
                 <h1 className='uppercase lg:text-5xl md:text-3xl text-2xl font-semibold !leading-normal text-white lg:text-left text-center'>Contact For A Quick Quote</h1>
                 <p><span className='text-white mt-3 lg:text-left text-center'>Work with our local insurance agents and find the best coverage to fit your lifestyle. <br /> Need assistance?</span>
                 <div className='lg:text-left text-center'>
-                <a href="/">
+                <a href="tel:18445010362">
                 <button id="service-btn" className='bg-[#594c7a] text-white my-10 p-3'>Contact an insurance Professional</button>
                 </a>
                 </div>
