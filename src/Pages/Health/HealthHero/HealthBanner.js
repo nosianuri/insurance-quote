@@ -1,6 +1,6 @@
 import React from 'react'
 import health from '../../../assets/health-white_anim.png'
-import healthbanner from '../../../assets/health-hero.jfif'
+import healthbanner from '../../../assets/health-top-banner.jfif'
 
 const HealthBanner = () => {
   return (

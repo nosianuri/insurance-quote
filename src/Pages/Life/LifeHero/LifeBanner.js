@@ -1,6 +1,6 @@
 import React from 'react'
 import life from '../../../assets/lifewhite_anim.png'
-import lifebanner from '../../../assets/chill-banner.jfif'
+import lifebanner from '../../../assets/life-top-banner.jfif'
 
 const LifeBanner = () => {
   return (

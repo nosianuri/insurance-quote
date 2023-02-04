@@ -1,5 +1,6 @@
 import React from 'react'
 import home2 from '../../../assets/home2_anim.png'
+import homebanner from '../../../assets/home-top-banner.jfif'
 
 const HiBanner = () => {
 
@@ -37,7 +38,7 @@ const HiBanner = () => {
                 </div>
             </div>
             <div className='lg:order-2'>
-                <img src="https://i.ibb.co/9TMdWdz/photo-home.jpg" alt="" />
+                <img src={homebanner} alt="" />
             </div>
         </div>
     )
