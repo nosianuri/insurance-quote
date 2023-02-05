@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/Insuranc.png';
+import Logo from '../../assets/trendyquote.png';
 import Button from '../Shared/Button/Button';
 import ShortNav from '../Shared/Navbar/ShortNav';
 

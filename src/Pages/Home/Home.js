@@ -30,7 +30,8 @@ const Home = () => {
       <div>
         <Header />
         <ShortNav />
-        <BannerBody />
+        {/* <BannerBody /> */}
+        <MainBanner />
         <Service />
         <Coverage />
         {/* <Insure />

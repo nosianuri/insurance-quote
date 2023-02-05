@@ -5,7 +5,7 @@ const SliderHome = () => {
   return (
     <div className='contentWidth'>
         <div className='homeSlide '>
-            <div className='container'>
+            <div className=''>
                 <SlideCard />
             </div>
         </div>

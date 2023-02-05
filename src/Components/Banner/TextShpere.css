@@ -1,0 +1,41 @@
+.combined {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-stroke: 2px white;
+ }
+.text-shpere {
+    position: relative;
+    top: 0;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1e1e1e; */
+}
+
+.tagcloud{
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0615em;
+    font-size: 1em;
+}
+
+.tagcloud--item {
+    color: #00ffffff;
+    text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+    color: #ff6347;
+}
+
+@media screen and (max-width: 780px) {
+    .text-shpere {
+        width: 30%;
+        height: 60vh;
+    }
+}

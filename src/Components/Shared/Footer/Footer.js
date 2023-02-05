@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../../assets/Insuranc.png';
+import Logo from '../../../assets/trendy-below.png';
 
 const Footer = () => {
     return (
@@ -7,7 +7,7 @@ const Footer = () => {
             <div>
                 <footer class="footer lg:py-10 lg:px-36 p-5 cta bg-opacity-25 lg:gap-20 ">
                     <div>
-                        <img className='w-48' src={Logo} alt="" />
+                        <img className='lg:w-40 w-24' src={Logo} alt="" />
                         {/* <p>Insurance is an invaluable asset that promises peace of mind for the best coverage in case any mishappen occurs. The best resourceful insurance advisor can help to achieve peace of mind and satisfaction.</p> */}
                         {/* <p>Insurance Trendy Quote<br />We Save Your Time & Money</p> */}
                         <p className='lg:w-96'>Insurance is an invaluable asset that promises peace of mind for the best coverage in case any mishappen occurs. The best resourceful insurance advisor can help to achieve peace of mind and satisfaction.</p>

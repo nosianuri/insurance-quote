@@ -4,7 +4,7 @@ import coverage from '../../assets/coverage.png';
 const Coverage = () => {
   return (
     <div>
-      <div className='cta lg:mx-10 mx-5 py-10 my-16 px-5'>
+      <div className=' lg:mx-10 mx-5 py-10 my-16 px-5'>
         <div className='lg:flex justify-center items-center space-y-5 gap-10 lg:mx-28'>
           <div className='order-last'>
             <h2 className='head-title font-semibold lg:text-4xl text-[#201e44] text-2xl'>Get The Coverage You Need</h2>
