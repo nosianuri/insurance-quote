@@ -29,6 +29,7 @@
 .categories-item{
     width: 100% !important;
 }
+
 .categories-item2{
     display: flex;
     flex-direction: column;
@@ -68,3 +69,22 @@
     font-size: 24px;
 }
 /* =========  Categories section end  ======== */
+/* Slow-motion Zoom Container */
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    max-width: 700px;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    /* height: auto; */
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}

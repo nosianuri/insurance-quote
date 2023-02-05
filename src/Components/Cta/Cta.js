@@ -4,7 +4,7 @@ import cta from '../../assets/gosip_anim.png'
 
 const Cta = () => {
   return (
-    <div className='bg-[#201e44] lg:mx-32 mx-3'>
+    <div className='bg-[#201e44] max-w-7xl  mx-auto'>
       <div className='grid lg:grid-cols-2 grid-cols-1 justify-center items-center shadow-xl'>
         <div className='text-center px-10 my-5 order-2'>
           <h2 className='head-title font-semibold lg:text-2xl text-xl !leading-tight mb-3 text-white'>Get The Coverage You Need And The Protection You Deserve!</h2>
@@ -24,8 +24,8 @@ const Cta = () => {
           {/* <p className='lg:text-2xl font-bold mt-3 text-white hover:text-[#2d2640]'><a href="tel:18445010362">(844) 501-0362
           </a></p> */}
         </div>
-        <div className='lg:order-2'>
-          <img className='lg:order-last' src={cta} alt="" />
+        <div className='lg:order-2 image-box'>
+          <img className='lg:order-last ' src={cta} alt="" />
         </div>
       </div>
     </div>

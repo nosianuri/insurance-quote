@@ -31,6 +31,9 @@ header {
     position: relative;
     font-size: 18px;
   }
+  /* .drop{
+    font-size: 14px;
+  } */
   
   .menu-items a {
     display: block;

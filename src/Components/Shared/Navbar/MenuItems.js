@@ -31,7 +31,7 @@ const MenuItems = ({items, link, depthLevel}) => {
 
   return (
     <li
-      className="menu-items"
+      className="menu-items drop"
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
@@ -54,7 +54,7 @@ const MenuItems = ({items, link, depthLevel}) => {
           />
         </>
       ) : (
-        <a href={items.link}>{items.title}</a>
+        <a className='!text-sm' href={items.link}>{items.title}</a>
       )}
     </li>
   )

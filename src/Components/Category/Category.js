@@ -43,20 +43,19 @@ previous</h1> */}
                             </div>
                         </div>
                         <div class="overly-conteiner">
-                            <img src={category3} alt="A foggy Golden Gate Bridge" />
+                        <img src={category3} alt="A foggy Golden Gate Bridge" />
                             <div class="overly">
                                 <h3 className='font-semibold'>
                                     Why Renter’s Insurance Should Be Reviewed Annually</h3>
                                     <a href="/life-insurance">
                                     <button className='hover:space-x-5'><span >Explore</span> <i class="fa fa-long-arrow-right"></i></button>
                                     </a>
-                                
                             </div>
                         </div>
                     </div>
                     <div class="categories-item categories-item2">
                         <div class="overly-conteiner">
-                            <img src={category4} alt="A foggy Golden Gate Bridge" />
+                            <img className='zoom' src={category4} alt="A foggy Golden Gate Bridge" />
                             <div class="overly">
                                 <h3 className='font-semibold'>
                                     What Are The Major Prerequisites For Buying A Home In BC?
