@@ -1,6 +1,9 @@
 .homeSlide h1 {
     font-size: 45px;
 }
+.sl-box{
+    border-radius: 15px 300px;
+}
 
 /* .homeSlide p {
     margin: 20px 0;

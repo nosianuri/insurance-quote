@@ -1,5 +1,5 @@
 import React from 'react';
-import coverage from '../../assets/catagories1.png';
+import coverage from '../../assets/coverage.png';
 
 const Coverage = () => {
   return (
