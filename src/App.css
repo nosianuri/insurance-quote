@@ -63,12 +63,12 @@
 }
 /* category */
 #service-btn {
-  background: #fff;
+  background: #8278F7;
   position: relative;
   padding: 10px 30px;
   font-weight: 700;
-  font-size: 16px;
-  color: #3e37b7;
+  font-size: 18px;
+  color: #fff;
   border-radius: 5px;
   text-transform: uppercase;
   outline: 0;
