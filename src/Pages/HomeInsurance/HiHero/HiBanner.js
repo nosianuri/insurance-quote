@@ -37,8 +37,10 @@ const HiBanner = () => {
                     </form>
                 </div>
             </div>
-            <div className='lg:order-2'>
+            <div className='lg:order-2 '>
+            <div className=''>
                 <img src={homebanner} alt="" />
+                </div>
             </div>
         </div>
     )
