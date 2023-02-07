@@ -7,8 +7,8 @@ const Cta = () => {
     <div className='bg-[#201e44] max-w-7xl  mx-auto'>
       <div className='grid lg:grid-cols-2 grid-cols-1 justify-center items-center shadow-xl'>
         <div className='text-center px-10 my-5 order-2'>
-          <h2 className='head-title font-semibold lg:text-2xl text-xl !leading-tight mb-3 text-white'>Get The Coverage You Need And The Protection You Deserve!</h2>
-          <p className='my-3 text-white lg:text-md text-xs'>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
+          <h2 className='head-title font-semibold lg:text-3xl text-xl !leading-tight mb-3 text-white'>Get The Coverage You Need And The Protection You Deserve!</h2>
+          <p className='my-3 text-white lg:text-md '>Ready to get started? Our agents are waiting to help you explore your insurance coverage options.</p>
           <a href="/#get-quote">
             <button
               padding="10px 15px"

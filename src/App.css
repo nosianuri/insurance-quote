@@ -63,7 +63,7 @@
 }
 /* category */
 #service-btn {
-  background: #8278F7;
+  background: #F77878;
   position: relative;
   padding: 10px 30px;
   font-weight: 700;
@@ -79,7 +79,7 @@
   content: "";
   color: #ffffff;
   position: absolute;
-  background: #F77878;
+  background: #8278F7;
   border-radius: 5px;
   bottom: 0;
   left: 0;
