@@ -3,7 +3,7 @@ import React from 'react'
 const Services = (props) => {
     const { name, img, link } = props.product;
     return (
-        <div className='flip-card'>
+        <div className='flip-card' data-aos='fade-down' data-aos-delay='500'>
             <div className='flip-card-inner'>
                 <div className='flex flip-card-front'>
                     <div className='flex flex-col bg-white rounded-lg shadow-md hover:shadow-2xl w-full m-6 overflow-hidden border-4 border-white border-b-[#2d2640] '>

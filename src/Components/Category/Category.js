@@ -9,14 +9,14 @@ import category6 from '../../assets/car-hero_anim.png'
 
 const Category = () => {
     return (
-        <section className="categories" id="shop">
+        <section className="categories" id="shop" >
             <div className="container mx-auto">
                 {/* <h1 class="categories-title">Stories & tips
 for everyday life
 previous</h1> */}
 
                 <div class="categories-container mt-16">
-                    <div class="categories-item">
+                    <div class="categories-item" data-aos='fade-right' data-aos-delay='500'>
                         <div class="overly-conteiner ">
                         <div className='image-box'>
                         <img src={category1} alt="A foggy Golden Gate Bridge" />
@@ -33,7 +33,7 @@ previous</h1> */}
                             </div>
                         </div>
                     </div>
-                    <div class="categories-item categories-item2">
+                    <div class="categories-item categories-item2" data-aos='fade-top' data-aos-delay='500'>
                         <div class="overly-conteiner">
                         <div className='image-box'>
                         <img src={category2} alt="A foggy Golden Gate Bridge" />
@@ -62,7 +62,7 @@ previous</h1> */}
                             </div>
                         </div>
                     </div>
-                    <div class="categories-item categories-item2">
+                    <div class="categories-item categories-item2" data-aos='fade-left' data-aos-delay='500'>
                         <div class="overly-conteiner">
                         <div className='image-box'>
                         <img className='zoom' src={category4} alt="A foggy Golden Gate Bridge" />
