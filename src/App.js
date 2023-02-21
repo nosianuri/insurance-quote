@@ -16,6 +16,7 @@ import Privacy from './Pages/Privacy/Privacy';
 import Terms from './Pages/Terms/Terms';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import StepForm from './Pages/stepForm/StepForm';
 
 function App() {
   Aos.init({
@@ -39,6 +40,7 @@ function App() {
      <Route path='/about-us' element={<About />} />
      <Route path='/terms&use' element={<Terms />} />
      <Route path='/contact-us' element={<Contact />} />
+     <Route path='/step-form' element={<StepForm />} />
      </Routes>
     </>
   );
