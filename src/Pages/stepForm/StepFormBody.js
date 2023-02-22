@@ -41,7 +41,7 @@ const StepFormBody = () => {
   return (
     <div className='lg:pt-[100px] mb-16'>
       {/* Stepper */}
-      <div className="mx-auto rounded-2xl bg-white pb-2 shadow-xl md:w-1/2">
+      <div className="mx-auto rounded-2xl bg-white pb-2  md:w-1/2">
       {/* Stepper */}
       <div className="horizontal container mt-5 ">
         <Stepper steps={steps} currentStep={currentStep} />

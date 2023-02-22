@@ -1,15 +1,5 @@
 import React from 'react'
-import img1 from '../../assets/home_anim.png';
-import img2 from '../../assets/medicare_anim.png';
-import img3 from '../../assets/car_anim.png';
-import img4 from '../../assets/aca_anim.png';
-import img5 from '../../assets/health_anim.png';
-import img6 from '../../assets/life_anim.png';
-import img7 from '../../assets/auto_anim.png';
-import img8 from '../../assets/motorcycle_anim.png';
-import img9 from '../../assets/money_anim.png';
 import Services from './Services';
-import Carriers from '../Carriers/Carriers';
 
 const Service = () => {
     const products = [
@@ -79,7 +69,7 @@ const Service = () => {
 
     ]
     return (
-        <div className='lg:mx-36 mx-5 lg:mt-3 md:mt-16 mt-8' id='get-quote'>
+        <div className='lg:mx-36 mx-5 lg:mt-24 md:mt-16 mt-8' id='services'>
             <div className='text-center mb-10'>
                 <h1 className='head-title text-[#201e44] font-semibold lg:text-5xl md:text-3xl text-2xl mb-5'>Joining Forces to Bring You Better Insurance</h1>
                 <p>Are you looking for insurance with better coverage, better prices, or just better service? We’ve got you covered!</p>

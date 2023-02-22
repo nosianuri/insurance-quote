@@ -19,6 +19,8 @@ import BannerBody from '../../Components/Banner/BannerBody'
 import Compare from '../../Components/Compare/Compare'
 import Category from '../../Components/Category/Category'
 import CompareCard from '../../Components/Compare/CompareCard'
+import NewBanner from '../../Components/MainBanner/newBanner/NewBanner'
+import HeadNav from '../../Components/Shared/HeadNav/HeadNav'
 
 const Home = () => {
   return (
@@ -27,11 +29,13 @@ const Home = () => {
         <meta charSet="utf-8" />
         <title>Insurance Trendy Quote </title>
       </Helmet>
-      <div>
+      <div className='overflow-hidden'>
         <Header />
-        <ShortNav />
+        {/* <HeadNav /> */}
+        {/* <ShortNav /> */}
         {/* <BannerBody /> */}
-        <MainBanner />
+        {/* <MainBanner /> */}
+        <NewBanner />
         <Service />
         <Coverage />
         {/* <Insure />

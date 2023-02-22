@@ -50,7 +50,7 @@ const Stepper = ({ steps, currentStep }) => {
         Object.assign(
           {},
           {
-            description: step,
+            // description: step,
             completed: false,
             highlighted: index === 0 ? true : false,
             selected: index === 0 ? true : false,
