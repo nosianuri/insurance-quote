@@ -34,8 +34,8 @@ const Home = () => {
         {/* <HeadNav /> */}
         {/* <ShortNav /> */}
         {/* <BannerBody /> */}
-        {/* <MainBanner /> */}
-        <NewBanner />
+        <MainBanner />
+        {/* <NewBanner /> */}
         <Service />
         <Coverage />
         {/* <Insure />
