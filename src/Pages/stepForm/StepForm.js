@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import TopHead from '../../Components/Header/TopHead'
 import Footer from '../../Components/Shared/Footer/Footer'
+import Form from './Multi-step/MultiForm/Form'
 import StepFormBody from './StepFormBody'
 
 const StepForm = () => {

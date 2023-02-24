@@ -23,13 +23,26 @@ const StepFormBody = () => {
         return <Account />;
       case 2:
         return <Details />;
-      case 3:
-        return <Payment />;
-      case 4:
-        return <Final />;
+      // case 3:
+      //   return <Payment />;
+      // case 4:
+      //   return <Final />;
       default:
     }
   };
+  // const displayStep = (step) => {
+  //   switch (step) {
+  //     case 1:
+  //       return <Account />;
+  //     case 2:
+  //       return <Details />;
+  //     case 3:
+  //       return <Payment />;
+  //     case 4:
+  //       return <Final />;
+  //     default:
+  //   }
+  // };
 
   const handleClick = (direction) => {
     let newStep = currentStep;
@@ -39,14 +52,14 @@ const StepFormBody = () => {
     newStep > 0 && newStep <= steps.length && setCurrentStep(newStep);
   };
   return (
-    <div className='lg:pt-[100px] mb-16'>
+    <div className='lg:pt-[180px] mb-16'>
       {/* Stepper */}
       <div className="mx-auto rounded-2xl bg-white pb-2  md:w-1/2">
       {/* Stepper */}
       <div className="horizontal container mt-5 ">
-        <Stepper steps={steps} currentStep={currentStep} />
+        {/* <Stepper steps={steps} currentStep={currentStep} /> */}
 
-        <div className="my-10 p-10 ">
+        <div className="my-3 px-10 ">
           <UseContextProvider>{displayStep(currentStep)}</UseContextProvider>
         </div>
       </div>

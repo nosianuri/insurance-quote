@@ -16,6 +16,7 @@ const Account = () => {
           <h4 className='text-2xl mt-2'>Americans In Dhaka Division That Make Under $20,000 Income Could Qualify For Free Healthcare That Covers Healthcare Expenses!</h4>
           <p className='mt-1'>Thanks to a State Regulated Program, Americans Get Free Healthcare Benefits Before The Deadline.</p>
         </div>
+        {/* <div>
         <div className="mt-3 h-6 text-xs font-bold uppercase leading-8 text-gray-500">
           Username
         </div>
@@ -28,8 +29,8 @@ const Account = () => {
             className="w-full appearance-none p-1 px-2 text-gray-800 outline-none"
           />
         </div>
-      </div>
-      <div className="mx-2 w-full flex-1">
+        </div> */}
+      {/* <div className="mx-2 w-full flex-1">
         <div className="mt-3 h-6 text-xs font-bold uppercase leading-8 text-gray-500">
           Password
         </div>
@@ -43,6 +44,7 @@ const Account = () => {
             className="w-full appearance-none p-1 px-2 text-gray-800 outline-none"
           />
         </div>
+      </div> */}
       </div>
     </div>
   )
