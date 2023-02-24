@@ -52,7 +52,7 @@ const StepFormBody = () => {
     newStep > 0 && newStep <= steps.length && setCurrentStep(newStep);
   };
   return (
-    <div className='lg:pt-[180px] mb-16'>
+    <div className='lg:pt-[140px] mb-16'>
       {/* Stepper */}
       <div className="mx-auto rounded-2xl bg-white pb-2  md:w-1/2">
       {/* Stepper */}
