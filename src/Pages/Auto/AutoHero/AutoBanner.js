@@ -1,6 +1,6 @@
 import React from 'react'
 import auto from '../../../assets/autowhite_anim.png'
-import autobanner from '../../../assets/car-hero.jfif'
+import autobanner from '../../../assets/autojfif.jfif'
 
 const AutoBanner = () => {
   return (
