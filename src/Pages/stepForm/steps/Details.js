@@ -11,7 +11,6 @@ const Details = () => {
   };
   return (
     <div>
-      
       <Form />
     </div>
     //   <div className="flex flex-col ">

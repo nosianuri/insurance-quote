@@ -20,7 +20,7 @@ function Form() {
         other: "",
     });
 
-    const FormTitles = ["Sign Up", "Personal Info", "Annual", "AreEnroll","Details","ContactInfo", "Other"];
+    const FormTitles = ["Sign Up", "Personal Info", "Annual", "AreEnroll","Details","ContactInfo","Other"];
 
     const PageDisplay = () => {
         if (page === 0) {
@@ -75,7 +75,7 @@ function Form() {
                             }
                         }}
                     >
-                        {page === FormTitles.length - 1 ? "Submit" : "Continue"}
+                        {page === FormTitles.length - 2 ? "Submit" : "Continue"}
                     </button>
                 </div>
             </div>

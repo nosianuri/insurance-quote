@@ -13,8 +13,8 @@ const StepFormBody = () => {
   const steps = [
     "Account Information",
     "Personal Details",
-    "Payment",
-    "Complete",
+    // "Payment",
+    // "Complete",
   ];
 
   const displayStep = (step) => {
