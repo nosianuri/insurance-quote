@@ -31,21 +31,11 @@ const Home = () => {
       </Helmet>
       <div className='overflow-hidden'>
         <Header />
-        {/* <HeadNav /> */}
-        {/* <ShortNav /> */}
-        {/* <BannerBody /> */}
         <MainBanner />
-        {/* <NewBanner /> */}
         <Service />
         <Coverage />
-        {/* <Insure />
-        <Compare /> */}
         <CompareCard />
         <Cta />
-        {/* <Offer /> */}
-        {/* <div className='lg:mx-36 mx-5'>
-          <div className='lg:w-full w-full h-[1px] bg-gray-300 '></div>
-        </div> */}
         <Category />
         <Carriers />
         <Footer />
