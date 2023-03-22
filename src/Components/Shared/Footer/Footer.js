@@ -63,7 +63,7 @@ const Footer = () => {
                 <footer class="lg:px-32 px-4 py-4 bg-[#201e44] text-white">
                     <div className='lg:flex justify-between'>
                         <div>
-                            <p className='text-xs'>Copyright © 2023 - INSURANCE TRENDY QUOTE | ALL RIGHTS RESERVED.</p>
+                            <p className='text-xs'>Copyright © 2023 - Insurance Trendy Quote | All Rights Reserved.</p>
                         </div>
                         <div>
                             <p className=''><span className='text-xs text-white hover:underline'><a href="/privacy-policy">Privacy Policy</a></span> | <span className='text-xs text-white hover:underline'><a href="/terms&use">Terms of Use</a></span></p>

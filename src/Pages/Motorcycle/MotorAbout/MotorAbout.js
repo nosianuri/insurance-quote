@@ -16,7 +16,7 @@ const MotorAbout = () => {
 
         <div className='flex my-10'>
           <div className='border-4 border-white border-r-gray-300'>
-            <h2 className='text-[#201e44] lg:text-4xl mr-5 italic'>What does motorcycle insurance cover?</h2>
+            <h2 className='text-[#201e44] font-semibold lg:text-4xl mr-5 '>What does motorcycle insurance cover?</h2>
           </div>
           
           <div className='mx-5'>

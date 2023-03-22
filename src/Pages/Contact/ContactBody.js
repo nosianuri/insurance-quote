@@ -14,12 +14,12 @@ const ContactBody = () => {
                             <div>
                                 <h4 className='text-2xl font-semibold'>Send a message</h4>
                                 <p>Email: info@insurancetrendyquote.com Or </p>
-                                <p> For All Insurances, fill out this <a className='hover:underline font-semibold text-[#3b3352]' href="#contact">request form</a>.</p>
+                                <p> For All Insurances, fill out this <a className='hover:underline font-semibold text-[#1e48b1] underline' href="#contact">request form</a>.</p>
                             </div>
                             
                             <div className='mt-3'>
                                 <h4 className='text-2xl font-semibold '>Contact us on social media</h4>
-                                <p><a className=' hover:underline text-[#3b3352] font-semibold' href="/">(844) 501-0362</a></p>
+                                <p><a className=' hover:underline text-[#3b3352] font-semibold' href="/"><i class="fa-solid fa-phone-volume pr-3"></i>(844) 501-0362</a></p>
                                 <p>We're available 24/7 hours.</p>
                             </div>
                             <div className='mt-3'>

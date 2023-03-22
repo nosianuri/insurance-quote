@@ -6,7 +6,7 @@ const LifeAbout = () => {
   return (
     <div className='max-w-7xl mx-auto my-10'>
     <div className='lg:mx-28 mx-5'>
-      <h1 className='text-[#201e44] head-title italic font-semibold lg:text-5xl text-2xl text-center mb-8'>Life insurance helps protect the ones you love</h1>
+      <h2 className='text-[#201e44] head-title  font-semibold lg:text-5xl text-2xl text-center mb-8'>Life insurance helps protect the ones you love</h2>
       <p className='mb-3'>You can’t put a dollar amount on your family, but you can ensure their future is protected. We can’t predict when the unexpected will happen, but we can help you prepare for it when it does.Individual life insurance is arguably the biggest investment you can make in your loved ones’ security. It’s a complicated field, but don’t let that put you off. We’ll be happy to talk you through the options.</p>
       <p className='mb-3'>First, you’ll need to determine the type of life insurance you want to buy, with the most common types being term life insurance, whole life insurance and universal life insurance.</p>
       <p className='mb-3'>To put it very simply, with term life insurance you pay regular premiums for a set period and the policy only pays out if you die during this period.</p>
@@ -33,7 +33,7 @@ const LifeAbout = () => {
       
       <div className='lg:flex my-10'>
           <div className='border-4 border-white border-r-gray-300'>
-            <h2 className='text-[#201e44] lg:text-4xl text-2xl mr-5 italic'>What factors shape my life insurance cost?</h2>
+            <h2 className='text-[#201e44] lg:text-4xl text-2xl mr-5 font-semibold'>What factors shape my life insurance cost?</h2>
           </div>
           
           <div className='mx-5'>

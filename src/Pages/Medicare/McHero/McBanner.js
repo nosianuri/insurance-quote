@@ -21,7 +21,7 @@ const McBanner = () => {
                     <div className='space-y-3'>
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' type="text" name='phone' placeholder='Phone' />
                         <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' type="text" name='address' placeholder='Address' />
-                        <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' type="text" name='zip' placeholder='ZIP' />
+                        <input className='px-2 rounded w-full py-2 hover:outline-none focus:outline-none focus:ring-1 focus:ring-[#2d2640]' type="text" name='zip' placeholder='ZIP Code' />
                     </div>
                 </div>
 
