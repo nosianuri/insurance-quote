@@ -37,7 +37,7 @@ const McBanner = () => {
         </div>
     </div>
     <div className='lg:order-2'>
-        <img src={medihero} alt="" />
+        <img src='https://i.ibb.co/bRLhxfp/medicare-banner.png' alt="" />
     </div>
 </div>
   )
