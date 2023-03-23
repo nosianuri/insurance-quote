@@ -15,10 +15,10 @@ const Sdata = [
     },
     {
         id: 3,
-        title: "Car Insurance",
-        desc: "Find Affordable Car Insurance Rates With Various Coverage Options.",
+        title: "Auto Insurance",
+        desc: "Find Affordable Auto Insurance Rates With Various Coverage Options.",
         cover: "https://i.ibb.co/7SS8zns/car-blue.png",
-        link: "/car-insurance",
+        link: "/auto-insurance",
     },
     {
         id: 4,

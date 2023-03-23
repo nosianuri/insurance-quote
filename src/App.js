@@ -29,7 +29,7 @@ function App() {
      <Route path='/' element={<Home />} />
      <Route path='/aca-insurance' element={<Aca />} />
      <Route path='/auto-insurance' element={<Auto />} />
-     <Route path='/car-insurance' element={<Car/>} />
+     {/* <Route path='/car-insurance' element={<Car/>} /> */}
      <Route path='/finalexpense-insurance' element={<FinalExpense />} />
      <Route path='/health-insurance' element={<Health />} />
      <Route path='/home-insurance' element={<HomeInsurance />} />

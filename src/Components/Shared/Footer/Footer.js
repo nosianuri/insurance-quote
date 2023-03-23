@@ -40,7 +40,7 @@ const Footer = () => {
                        </div>
                        <div>
                        <p className='text-lg font-bold'>Vahicle</p>
-                        <a href='/car-insurance' class="link link-hover hover:text-[#2d2640]">Car Insurance</a>
+                        <a href='/' class="link link-hover hover:text-[#2d2640]">Car Insurance</a>
                         <a href='/motorcycle-insurance' class="link link-hover hover:text-[#2d2640]">Motorcycle insurance</a>
                         <a href='/auto-insurance' class="link link-hover hover:text-[#2d2640]">Auto insurance</a>
                         </div>

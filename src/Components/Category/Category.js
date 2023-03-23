@@ -40,9 +40,9 @@ previous</h1> */}
                         </div>
                             
                             <div class="overly">
-                                <h3 className='font-semibold'>How Are Driverless Cars Going To Impact The Insurance Industry?
+                                <h3 className='font-semibold'>How Are Driverless Auto's Going To Impact The Insurance Industry?
                                     </h3>
-                                    <a href="car-insurance">
+                                    <a href="auto-insurance">
                                     <button className='hover:space-x-5'><span >Explore</span> <i class="fa fa-long-arrow-right"></i></button>
                                     </a>
                                 

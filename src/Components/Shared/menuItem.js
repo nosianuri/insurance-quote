@@ -19,10 +19,6 @@ export const menuItems = [
                 link: "/auto-insurance",
             },
             {
-                title: "Car Insurance",
-                link: "/car-insurance",
-            },
-            {
                 title: "Motorcycle Insurance",
                 link: "/motorcycle-insurance",
             },
