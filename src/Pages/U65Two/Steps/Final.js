@@ -35,7 +35,7 @@ const Final = () => {
     <div className='max-w-7xl mx-auto'>
     {finished ? (
       <div className='text-center'>
-      {isTimeUp && <div className='sm:w-[500px]'><Confetti /></div>}
+      {isTimeUp && <div><Confetti /></div>}
        <h1 className='sm:text-4xl text-3xl font-extrabold text-center mt-5 step-head'>CONGRATULATIONS!</h1>
         <p className='sm:text-2xl text-xl mt-3 text-center'>We matched you with plans! Connect below to review your options.</p>
        </div>
