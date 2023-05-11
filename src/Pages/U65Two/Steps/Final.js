@@ -32,18 +32,18 @@ const Final = () => {
   };
   
   return (
-    <div className='max-w-7xl'>
+    <div className='max-w-7xl mx-auto'>
     {finished ? (
       <div className='text-center'>
       {isTimeUp && <div className='sm:w-[500px]'><Confetti /></div>}
-       <h1 className='sm:text-4xl text-3xl font-extrabold text-center mt-5'>CONGRATULATIONS!</h1>
-        <p className='text-2xl mt-3 text-center'>We matched you with plans! Connect below to review your options.</p>
+       <h1 className='sm:text-4xl text-3xl font-extrabold text-center mt-5 step-head'>CONGRATULATIONS!</h1>
+        <p className='sm:text-2xl text-xl mt-3 text-center'>We matched you with plans! Connect below to review your options.</p>
        </div>
       ) : (
         
         <div>
-       <h1 className='sm:text-5xl text-3xl font-extrabold text-center mt-5'>CONGRATULATIONS!</h1>
-        <p className='text-2xl mt-3 text-center'>Yh, you have health insurance rates waiting for you</p>
+       <h1 className='sm:text-4xl text-3xl font-extrabold text-center mt-5 step-head'>CONGRATULATIONS!</h1>
+        <p className='sm:text-2xl text-xl mt-3 text-center'>Yh, you have health insurance rates waiting for you</p>
        </div>
        
       )}

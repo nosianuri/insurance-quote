@@ -263,3 +263,6 @@ input:focus {
 .u65-shadow{
   box-shadow: 0px 0px 3px rgba(1, 2, 2, 0.2);
 }
+.step-head{
+  font-family: 'Montserrat', sans-serif;
+}
