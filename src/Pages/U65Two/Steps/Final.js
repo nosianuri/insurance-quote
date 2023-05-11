@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Timer from './Timer';
 import Confetti from 'react-confetti';
 
 const Final = () => {

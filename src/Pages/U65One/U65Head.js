@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../Components/Shared/Button/Button';
 import Logo from '../../assets/trendyquote.png';
+import ButtonU65 from '../../Components/Shared/Button/ButtonU65';
 
 const U65Head = () => {
   return (
@@ -13,7 +14,7 @@ const U65Head = () => {
           </a>
         </div>
         <div>
-          <Button />
+          <ButtonU65 />
         </div>
       </div>
     </div>
