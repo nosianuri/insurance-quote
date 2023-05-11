@@ -6,8 +6,8 @@ const Step1 = ({ page, setPage }) => {
       };
     return (
         <div>
-            <p className='sm:text-4xl text-2xl text-center font-extrabold leading-snug'>DO YOU HAVE HEALTH INSURANCE?</p>
-            <div className='flex gap-5 my-10'>
+            <p className='sm:text-4xl text-2xl text-center font-extrabold !leading-snug sm:w-[590px] mx-auto'>DO YOU HAVE HEALTH INSURANCE?</p>
+            <div className='flex gap-5 my-10 sm:w-[390px] mx-auto'>
                 <div onClick={() => handleChange("YES")} className='bg-[#337ab7] sm:w-[250px]  mx-auto shadow-2xl hover:shadow-md text-[#fff] rounded-full py-5 px-8'>
                     <p className='text-3xl text-center'>YES</p>
                 </div>

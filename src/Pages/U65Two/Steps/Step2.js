@@ -8,7 +8,7 @@ const Step2 = ({ page, setPage }) => {
     return (
         <div>
             <p className='text-4xl text-center font-extrabold'>ARE YOU +25?</p>
-            <div className='flex gap-5 my-10'>
+            <div className='flex gap-5 my-10 sm:w-[390px] mx-auto'>
                 <div onClick={() => handleChange("YES")} className='bg-[#337ab7] w-[250px] shadow-2xl hover:shadow-md text-[#fff] rounded-full py-5 px-8'>
                     <p className='text-3xl text-center'>YES</p>
                 </div>
