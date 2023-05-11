@@ -4,7 +4,7 @@ import bblogo from '../../assets/BBB-Logo.svg';
 
 const U65Footer = () => {
     return (
-        <div className='mt-16 px-3 max-w-7xl mx-auto text-[#1C2B33]'>
+        <div className='mt-16 px-3 max-w-7xl mx-auto text-[#1C2B33] pb-8'>
             <div className='flex justify-between mb-5'>
                 <img src={Logo} alt="" className='w-64' />
                 <img src={bblogo} alt="" />
