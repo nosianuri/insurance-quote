@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Confetti from 'react-confetti';
+
 
 function Timer() {
   const [seconds, setSeconds] = useState(120);
+  const [isTimeUp, setIsTimeUp] = useState(false);
   const timerRef = useRef(null);
 
   useEffect(() => {
@@ -17,6 +20,7 @@ function Timer() {
   useEffect(() => {
     if (seconds === 0) {
       clearInterval(timerRef.current);
+      setIsTimeUp(true);
     }
   }, [seconds]);
 
@@ -28,9 +32,10 @@ function Timer() {
 
   return (
     <div>
-      <h1>{formatTime(seconds)}</h1>
+      {/* <h1>{formatTime(seconds)}</h1> */}
+      {isTimeUp && <Confetti />}
     </div>
   );
 }
 
-export default Timer;
+export default Timer
