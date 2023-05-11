@@ -28,14 +28,14 @@ const StepForm = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex gap-4 justify-center items-center mt-8'>
-                <img src="https://i.ibb.co/t3rfXGp/humana2.png" alt="" className='shadow' />
-                <img src="https://i.ibb.co/bPYcffp/aetna.png" alt="" className='shadow' />
-                <img src="https://i.ibb.co/rkNCNhN/ambette.png" alt="" className='shadow' />
-                <img src="https://i.ibb.co/cvKQ26c/Antheme.png" alt="" className='shadow' />
-                <img src="https://i.ibb.co/hCmZPZK/blue-crus.png" alt="" className='shadow' />
-                <img src="https://i.ibb.co/CJb1CQR/bright-Health.png" alt="" className='shadow' />
-                <img src="https://i.ibb.co/Prr3Kx9/Cigna2.png" alt="" className='shadow' />
+            <div className='grid sm:grid-cols-7 grid-cols-3  justify-center items-center mt-8 '>
+                <img src="https://i.ibb.co/t3rfXGp/humana2.png" alt="" className='shadow mx-auto ' />
+                <img src="https://i.ibb.co/bPYcffp/aetna.png" alt="" className='shadow mx-auto' />
+                <img src="https://i.ibb.co/rkNCNhN/ambette.png" alt="" className='shadow mx-auto' />
+                <img src="https://i.ibb.co/cvKQ26c/Antheme.png" alt="" className='shadow mx-auto' />
+                <img src="https://i.ibb.co/hCmZPZK/blue-crus.png" alt="" className='shadow mx-auto' />
+                <img src="https://i.ibb.co/CJb1CQR/bright-Health.png" alt="" className='shadow mx-auto' />
+                <img src="https://i.ibb.co/Prr3Kx9/Cigna2.png" alt="" className='shadow mx-auto' />
             </div>
             <div className='my-8  text-xs px-2'>
                 <p className='mt-2'><span className='font-bold'>DISCLAIMER:</span> ENROLLMENT IN THE DESCRIBED PLAN TYPE MAY BE LIMITED TO CERTAIN TIMES OF THE YEAR UNLESS YOU QUALIFY FOR A SPECIAL ENROLLMENT PERIOD. PLAN AVAILABILITY VARIES BY REGION AND STATE.
