@@ -17,6 +17,8 @@ import Terms from './Pages/Terms/Terms';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import StepForm from './Pages/stepForm/StepForm';
+import U65One from './Pages/U65One/U65One';
+import U65Two from './Pages/U65Two/U65Two';
 
 function App() {
   Aos.init({
@@ -41,6 +43,8 @@ function App() {
      <Route path='/terms&use' element={<Terms />} />
      <Route path='/contact-us' element={<Contact />} />
      <Route path='/step-form' element={<StepForm />} />
+     <Route path='/u65-1' element={<U65One />} />
+     <Route path='/u65-2' element={<U65Two />} />
      </Routes>
     </>
   );

@@ -30,7 +30,7 @@ const Footer = () => {
                         
                         <a href='/contact-us' class="link link-hover hover:text-[#453b60]">Contact Us</a>
                         <a href='/privacy-policy' class="link link-hover hover:text-[#453b60]">Privacy Policy</a>
-                        <a href='/privacy-policy' class="link link-hover hover:text-[#453b60]">Terms of Use</a>
+                        <a href='/terms&use' class="link link-hover hover:text-[#453b60]">Terms of Use</a>
                     </div>
                     <div>
                         <span class="text-lg font-bold">Insurance</span>
