@@ -57,21 +57,21 @@ const Categories = () => {
             link: "/motorcycle-insurance",
         },
     ]
-  return (
-    <>
-        <div className='category bg-[#92a3ec] bg-opacity-25'>
-        <h1 className='text-center mb-8 text-2xl'>All Category Insurance</h1>
-            {data.map((value, index) => {
-                return (
-                    <div className='box flex category1' key={index}>
-                    <img src={value.cateImg} alt="" />
-                    <span><a href={value.link}>{value.cateName}</a></span>
-                    </div>
-                )
-            })}
-        </div>
-    </>
-  )
+    return (
+        <>
+            <div className='category bg-[#92a3ec] bg-opacity-25'>
+                <h1 className='text-center mb-8 text-2xl'>All Category Insurance</h1>
+                {data.map((value, index) => {
+                    return (
+                        <div className='box flex category1' key={index}>
+                            <img src={value.cateImg} alt="" />
+                            <span><a href={value.link}>{value.cateName}</a></span>
+                        </div>
+                    )
+                })}
+            </div>
+        </>
+    )
 }
 
 export default Categories

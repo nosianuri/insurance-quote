@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { links } from './MyLinks';
 
 const NavLinks = () => {
-    const [heading, setHeading] = useState("");
+  const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
     <>
@@ -20,9 +20,8 @@ const NavLinks = () => {
               {link.name}
               <span className="text-xl md:hidden inline">
                 <ion-icon
-                  name={`${
-                    heading === link.name ? "chevron-up" : "chevron-down"
-                  }`}
+                  name={`${heading === link.name ? "chevron-up" : "chevron-down"
+                    }`}
                 ></ion-icon>
               </span>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
@@ -83,18 +82,16 @@ const NavLinks = () => {
 
                     <span className="text-xl md:mt-1 md:ml-2 inline">
                       <ion-icon
-                        name={`${
-                          subHeading === slinks.Head
+                        name={`${subHeading === slinks.Head
                             ? "chevron-up"
                             : "chevron-down"
-                        }`}
+                          }`}
                       ></ion-icon>
                     </span>
                   </h1>
                   <div
-                    className={`${
-                      subHeading === slinks.Head ? "md:hidden" : "hidden"
-                    }`}
+                    className={`${subHeading === slinks.Head ? "md:hidden" : "hidden"
+                      }`}
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">

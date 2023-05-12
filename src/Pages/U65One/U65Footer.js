@@ -14,7 +14,7 @@ const U65Footer = () => {
                     We are committed to protect your privacy. If you do not want to share your information please click on <a href="/privacy-policy" className='underline'>Do Not Sell My Personal Information for more details</a>.</p>
             </div>
             <div>
-                <p className='text-sm mt-2'>Copyright © 2023 InsuranceTrendyQuote | All rights reserved 
+                <p className='text-sm mt-2'>Copyright © 2023 InsuranceTrendyQuote | All rights reserved
                 </p>
                 <p className='text-sm mt-2'>
                     *Possible plan options include, but are not limited to Major Medical Plans, Short Term Plans, Fixed Indemnity Plans, Community/Cost-Sharing Plans and more. Prices may vary based on plan types, location, and other factors.

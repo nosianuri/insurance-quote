@@ -31,7 +31,7 @@ const NewBanner = () => {
                             </div>
                         </div>
                         <a href="#services">
-                        <button id='#services' className='my-3 px-5 py-2 text-lg font-semibold bg-[#3e37b7] text-white hover:bg-[#6a63ef] border-none'>See all insurance </button>
+                            <button id='#services' className='my-3 px-5 py-2 text-lg font-semibold bg-[#3e37b7] text-white hover:bg-[#6a63ef] border-none'>See all insurance </button>
                         </a>
                         <p>Or call <a href="tel:18445010362" className='underline hover:underline-none hover:text-[#3e37b7]'>(844) 501-0362</a> for a quote</p>
                     </div>

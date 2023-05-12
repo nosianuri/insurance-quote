@@ -30,7 +30,7 @@ const Account = () => {
           />
         </div>
         </div> */}
-      {/* <div className="mx-2 w-full flex-1">
+        {/* <div className="mx-2 w-full flex-1">
         <div className="mt-3 h-6 text-xs font-bold uppercase leading-8 text-gray-500">
           Password
         </div>

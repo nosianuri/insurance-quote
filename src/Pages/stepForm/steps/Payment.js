@@ -1,8 +1,8 @@
 import React from 'react'
-import {useStepperContext} from "../contexts/StepperContext"
+import { useStepperContext } from "../contexts/StepperContext"
 
 export default function Payment() {
-    const { userData, setUserData } = useStepperContext();
+  const { userData, setUserData } = useStepperContext();
 
   const handleChange = (e) => {
     const { name, value } = e.target;

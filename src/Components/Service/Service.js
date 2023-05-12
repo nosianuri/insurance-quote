@@ -17,7 +17,7 @@ const Service = () => {
             link: '/medicare-insurance',
             img: 'https://i.ibb.co/sb10Gkh/medicare-blue.png',
         },
-        
+
         {
             _id: 3,
             name: 'ACA Insurance',

@@ -6,11 +6,11 @@ import U65Head from './U65Head'
 const U65Two = () => {
     return (
         <div>
-           <U65Head />
+            <U65Head />
             <div className='pt-24'>
                 <StepForm />
             </div>
-            
+
         </div>
     )
 }

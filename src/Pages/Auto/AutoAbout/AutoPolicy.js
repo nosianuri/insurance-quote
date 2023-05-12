@@ -12,17 +12,17 @@ const AutoPolicy = () => {
             <p className='my-3 text-sm'>Insurance Trendy Quote’s insurance brokers are committed to helping you find the best, most comprehensive private auto coverage. We compare rates from several companies to find the best rates for your unique situation. With Insurance Trendy Quote, you get policies that are:</p>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 my-5'>
                 <div className='text-center'>
-                <img className='w-12 mx-auto' src={affordable} alt="" />
+                    <img className='w-12 mx-auto' src={affordable} alt="" />
                     <h3 className='text-[#201e44] font-semibold mt-2'>Affordable</h3>
                     <p className='text-sm mt-2'>Our agents have an extensive professional network that gives us access to the best rates on the market. Trust our team to find you a policy that fits within your budget and meets your requirements.</p>
                 </div>
                 <div className='text-center'>
-                <img className='w-12 mx-auto' src={highquality} alt="" />
+                    <img className='w-12 mx-auto' src={highquality} alt="" />
                     <h3 className='text-[#201e44] font-semibold mt-2'>High Quality</h3>
                     <p className='text-sm mt-2'>We’re committed to finding you the absolute best in private auto insurance. We work hard to save you money without sacrificing the quality of your coverage.</p>
                 </div>
                 <div className='text-center'>
-                <img className='w-12 mx-auto' src={valuable} alt="" />
+                    <img className='w-12 mx-auto' src={valuable} alt="" />
                     <h3 className='text-[#201e44] font-semibold mt-2'>Valuable</h3>
                     <p className='text-sm mt-2'>At Insurance Trendy Quote, we understand how much your assets mean to you. Our policies protect you financially and give you the peace of mind you deserve.</p>
                 </div>

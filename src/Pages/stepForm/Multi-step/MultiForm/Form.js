@@ -20,7 +20,7 @@ function Form() {
         other: "",
     });
 
-    const FormTitles = ["Sign Up", "Personal Info", "Annual", "AreEnroll","Details","ContactInfo","Other"];
+    const FormTitles = ["Sign Up", "Personal Info", "Annual", "AreEnroll", "Details", "ContactInfo", "Other"];
 
     const PageDisplay = () => {
         if (page === 0) {
@@ -48,7 +48,7 @@ function Form() {
             </div>
             <div className="progressbar">
                 <div
-                    style={{ width: page === 0 ? "20%" : page == 1? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
+                    style={{ width: page === 0 ? "20%" : page == 1 ? "40%" : page == 2 ? "50%" : page == 3 ? "60%" : page == 4 ? "80%" : page == 5 ? "90%" : "100%" }}
                 ></div>
             </div>
             <div className="form-container">
@@ -57,14 +57,14 @@ function Form() {
         </div> */}
                 <div className="body">{PageDisplay()}</div>
                 <div className="footer mt-5">
-                    <button  className="bg-[#444092] text-white py-2 px-4 text-xl"
-            disabled={page == 0}
-            onClick={() => {
-              setPage((currPage) => currPage - 1);
-            }}
-          >
-            Back
-          </button>
+                    <button className="bg-[#444092] text-white py-2 px-4 text-xl"
+                        disabled={page == 0}
+                        onClick={() => {
+                            setPage((currPage) => currPage - 1);
+                        }}
+                    >
+                        Back
+                    </button>
                     <button className="bg-[#444092] text-white py-2 px-4 text-xl"
                         onClick={() => {
                             if (page === FormTitles.length - 1) {

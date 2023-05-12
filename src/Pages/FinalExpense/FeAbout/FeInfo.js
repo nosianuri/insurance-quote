@@ -29,19 +29,19 @@ const FeInfo = () => {
             link: '/aca-insurance',
         },
     ]
-  return (
-    <div className=' lg:mt-5 md:mt-5 mt-3' id='get-quote'>
-    <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 justify-center items-center '>
-        {
-            products.map(product => <FeInfoCard
-                key={product._id}
-                product={product}
-            ></FeInfoCard>)
-        }
+    return (
+        <div className=' lg:mt-5 md:mt-5 mt-3' id='get-quote'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 justify-center items-center '>
+                {
+                    products.map(product => <FeInfoCard
+                        key={product._id}
+                        product={product}
+                    ></FeInfoCard>)
+                }
 
-    </div>
-</div>
-  )
+            </div>
+        </div>
+    )
 }
 
 export default FeInfo

@@ -18,7 +18,7 @@ const MotorAbout = () => {
           <div className='border-4 border-white border-r-gray-300'>
             <h2 className='text-[#201e44] font-semibold lg:text-4xl mr-5 '>What does motorcycle insurance cover?</h2>
           </div>
-          
+
           <div className='mx-5'>
             <p>Motorcycle insurance was designed to protect your bike…and you.</p>
             <p>A standard motorcycle policy will typically cover:</p>
@@ -36,7 +36,7 @@ const MotorAbout = () => {
             <h1 className='text-[#201e44] head-title font-bold lg:text-3xl text-xl'>Get Progressive motorcycle insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>Get covered and get riding. Get a quick, personalized motorcycle insurance quote today, and then hit the open road.</p>
             <a href="#top-form">
-            <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+              <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div>

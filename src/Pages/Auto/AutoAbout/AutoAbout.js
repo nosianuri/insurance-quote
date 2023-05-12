@@ -5,10 +5,10 @@ import AutoPolicy from './AutoPolicy'
 const AutoAbout = () => {
   return (
     <div className='max-w-7xl mx-auto my-10'>
-    <div className='lg:mx-28 mx-5'>
+      <div className='lg:mx-28 mx-5'>
         <h1 className='text-[#201e44] head-title font-semibold lg:text-5xl text-2xl text-center lg:mb-10 mb-5'>Auto insurance coverage options to better fit your needs</h1>
         <p>When it comes to car insurance, you’ve got plenty of coverage options. State Farm can help you find the right coverage. We’ll also help you find out how much auto insurance you might need. Coverage varies by state and your selection.</p>
-       <AutoInfo />
+        <AutoInfo />
         <p className='text-[#201e44] lg:text-3xl text-xl text-center mt-5'>Auto insurance that makes saving simple & convenient</p>
         <ul className='terms-article'>
           <li><span className='text-semibold text-lg'>Bundle auto and property insurance</span> <br /> <span>Save an average of 4% on your auto insurance when you combine with home, renters, or condo.ΔRead the associated disclosure for this claim.</span></li>
@@ -34,7 +34,7 @@ const AutoAbout = () => {
             <p>When you use your personal car to drive for a ride sharing company like Uber or Lyft, help protect your vehicle with ride share coverage.</p>
           </div>
           <div className='p-5'>
-          <h1 className='text-[#201e44] font-semibold text-xl lg:mb-2'>Emergency roadside service</h1>
+            <h1 className='text-[#201e44] font-semibold text-xl lg:mb-2'>Emergency roadside service</h1>
             <p>With emergency road service, we'll pay for the common, reasonable expenses you need to get your covered vehicle back in service.</p>
           </div>
           <div className='p-5'>
@@ -48,14 +48,14 @@ const AutoAbout = () => {
             <h1 className='text-[#201e44] head-title font-bold lg:text-3xl text-xl'>Get better Auto insurance today</h1>
             <p className='my-3 lg:text-md text-sm'>Auto insurance offers the right protection to meet your specific needs.</p>
             <a href="#top-form">
-            <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
+              <button id='action-btn' className='px-4 py-2 lg:text-xl text-md bg-[#3e37b7] text-white font-semibold'>Get a Quote</button>
             </a>
           </div>
           <div>
             <img src="https://i.ibb.co/sy0QBx3/Auto-insurance.jpg" alt="" />
           </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }

@@ -8,7 +8,7 @@ const ContactBody = () => {
             <div>
                 <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-10 md:pt-16 pt-10 justify-center items-center '>
                     <div className='lg:order-2'>
-                        <h2 className='text-[#201e44] lg:text-4xl text-2xl mb-5'><i class="fa-solid fa-message text-[#201e44]"></i> Customer Care Center</h2>
+                        <h2 className='text-[#201e44] lg:text-4xl text-2xl mb-5'><i className="fa-solid fa-message text-[#201e44]"></i> Customer Care Center</h2>
                         <p className='mb-5'>Please contact your claim representative for status on an existing claim.</p>
                         <div className=''>
                             <div>
@@ -16,19 +16,19 @@ const ContactBody = () => {
                                 <p>Email: info@insurancetrendyquote.com Or </p>
                                 <p> For All Insurances, fill out this <a className='hover:underline font-semibold text-[#1e48b1] underline' href="#contact">request form</a>.</p>
                             </div>
-                            
+
                             <div className='mt-3'>
                                 <h4 className='text-2xl font-semibold '>Contact us on social media</h4>
-                                <p><a className=' hover:underline text-[#3b3352] font-semibold' href="/"><i class="fa-solid fa-phone-volume pr-3"></i>(844) 501-0362</a></p>
+                                <p><a className=' hover:underline text-[#3b3352] font-semibold' href="/"><i className="fa-solid fa-phone-volume pr-3"></i>(844) 501-0362</a></p>
                                 <p>We're available 24/7 hours.</p>
                             </div>
                             <div className='mt-3'>
                                 <h4 className='text-2xl font-semibold '>Give us a call</h4>
                                 <p>Ask us a question on social, and we'll get back to you as soon as we can. <br /> And make sure you connect so we can stay friends! - <a className='hover:underline text-[#3b3352] font-semibold' href="https://www.facebook.com/insurancetrendyquote"> Facebook </a></p>
                                 <div className='mt-1'>
-                                
+
                                 </div>
-                                
+
                             </div>
                         </div>
                         {/* <div className=''>
@@ -47,7 +47,7 @@ const ContactBody = () => {
                     <div className='bg-[#201e44] order-2 px-3 shadow-md hover:shadow-2xl'>
                         <div className='lg:py-5 py-5 lg:mx-16 '>
                             <div className='text-center pb-5'>
-                                <i class="fa-regular fa-handshake text-7xl text-white"></i>
+                                <i className="fa-regular fa-handshake text-7xl text-white"></i>
                             </div>
 
                             <h1 className='head-title lg:text-3xl md:text-3xl text-white text-xl text-center font-semibold'>START NOW, IT'S FAST & FREE!</h1>

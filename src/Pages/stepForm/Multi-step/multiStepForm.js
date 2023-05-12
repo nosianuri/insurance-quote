@@ -4,7 +4,7 @@ import Form from './MultiForm/Form'
 const multiStepForm = () => {
   return (
     <div className='text-center'>
-        <Form />
+      <Form />
     </div>
   )
 }

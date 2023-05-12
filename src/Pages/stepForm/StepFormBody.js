@@ -55,24 +55,24 @@ const StepFormBody = () => {
     <div className='lg:pt-[140px] mb-16'>
       {/* Stepper */}
       <div className="mx-auto rounded-2xl bg-white pb-2  md:w-1/2">
-      {/* Stepper */}
-      <div className="horizontal container mt-5 ">
-        {/* <Stepper steps={steps} currentStep={currentStep} /> */}
+        {/* Stepper */}
+        <div className="horizontal container mt-5 ">
+          {/* <Stepper steps={steps} currentStep={currentStep} /> */}
 
-        <div className="my-3 px-10 ">
-          <UseContextProvider>{displayStep(currentStep)}</UseContextProvider>
+          <div className="my-3 px-10 ">
+            <UseContextProvider>{displayStep(currentStep)}</UseContextProvider>
+          </div>
         </div>
-      </div>
 
-      {/* navigation button */}
-      {currentStep !== steps.length && (
-        <StepperControl
-          handleClick={handleClick}
-          currentStep={currentStep}
-          steps={steps}
-        />
-      )}
-    </div>
+        {/* navigation button */}
+        {currentStep !== steps.length && (
+          <StepperControl
+            handleClick={handleClick}
+            currentStep={currentStep}
+            steps={steps}
+          />
+        )}
+      </div>
       {/* navigation Controls */}
     </div>
   )

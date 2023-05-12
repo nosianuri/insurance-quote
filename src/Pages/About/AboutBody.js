@@ -26,7 +26,7 @@ const AboutBody = () => {
             <div className='my-8'>
                 {/* <div className='flex w-full justify-center items-center'>
                 <div className='lg:w-[400px] w-[50px] h-[2px] !text-gray-500'></div>
-                <div class="lg:mx-4  lg:w-auto w-full lg:text-lg text-[10px]"> Our Core Values</div>
+                <div className="lg:mx-4  lg:w-auto w-full lg:text-lg text-[10px]"> Our Core Values</div>
                 <div className='lg:w-[400px] w-[50px] h-[2px] '></div>
             </div> */}
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 justify-center items-center '>
@@ -66,35 +66,35 @@ const AboutBody = () => {
                 <p>As a Trusted Choice® agency, we are dedicated to you and are committed to treating you as a person, not a policy. This commitment means we shall:</p>
                 <div className='my-5 bg-white pl-8'>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-sharp fa-solid fa-person text-[#8d8ca9] text-3xl"></i></div>
+                        <div><i className="fa-sharp fa-solid fa-person text-[#8d8ca9] text-3xl"></i></div>
                         <div className=''>Work with you to identify the insurance and financial services that are right for you, your family or your business and use our access to multiple companies to deliver those products.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-road text-[#8d8ca9] text-lg"></i></div>
+                        <div><i className="fa-solid fa-road text-[#8d8ca9] text-lg"></i></div>
                         <div className=''>Guide you through the claims process for a prompt and fair resolution of your claim. Help you solve problems related to your coverage or account.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-book text-[#8d8ca9] text-xl"></i></div>
+                        <div><i className="fa-solid fa-book text-[#8d8ca9] text-xl"></i></div>
                         <div className=''>Explain the coverages and options available to you through our agency, at your request.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-clock text-[#8d8ca9] text-lg"></i></div>
+                        <div><i className="fa-solid fa-clock text-[#8d8ca9] text-lg"></i></div>
                         <div className=''>Return your phone calls and e-mails promptly and respond to your requests in a timely manner.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-headphones text-[#8d8ca9] text-lg"></i></div>
+                        <div><i className="fa-solid fa-headphones text-[#8d8ca9] text-lg"></i></div>
                         <div className=''>Provide 24/7 services for our customers, offering any or all of the following: emergency phone numbers, Internet account access, e-mail and call center services.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-lightbulb text-[#8d8ca9] text-xl"></i></div>
+                        <div><i className="fa-solid fa-lightbulb text-[#8d8ca9] text-xl"></i></div>
                         <div className=''>Use our experience and multiple company relationships to customize your coverage as needed.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-regular fa-heart text-[#8d8ca9] text-lg"></i></div>
+                        <div><i className="fa-regular fa-heart text-[#8d8ca9] text-lg"></i></div>
                         <div className=''>Treat you with respect and courtesy.</div>
                     </div>
                     <div className='flex gap-10 mb-2'>
-                    <div><i class="fa-solid fa-handshake text-[#8d8ca9] text-lg"></i></div>
+                        <div><i className="fa-solid fa-handshake text-[#8d8ca9] text-lg"></i></div>
                         <div className=''>Conduct our business in an ethical manner.</div>
                     </div>
                 </div>

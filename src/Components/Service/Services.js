@@ -17,7 +17,7 @@ const Services = (props) => {
                         {/* <p className='text-center px-2 pb-5'>{description}</p>
                 <a href={link} id="service-btn" className='bg-[#584FF7] hover:bg-[#daa440] text-white p-3 text-center font-bold'>Read More</a> */}
                     </div>
-                    {/* <div class="flip-card-back">
+                    {/* <div className="flip-card-back">
                         <h1>John Doe</h1>
                         <p>Architect & Engineer</p>
                         <p>We love that guy</p>
@@ -25,16 +25,16 @@ const Services = (props) => {
                 </div>
             </div>
         </div>
-        // <div class=" w-96 bg-base-100 shadow-xl ">
-        //     <figure class="px-10 pt-10">
+        // <div className=" w-96 bg-base-100 shadow-xl ">
+        //     <figure className="px-10 pt-10">
         //         <img className='w-16 rounded-xl' src={img} alt="Shoes" />
         //     </figure>
-        //     <div class="card-body items-center text-center">
-        //         <h2 class="card-title">{name}</h2>
+        //     <div className="card-body items-center text-center">
+        //         <h2 className="card-title">{name}</h2>
         //         <p>{description}</p>
-        //         <div class="card-actions">
+        //         <div className="card-actions">
         //             <a href={link}>
-        //                 <button class="btn text-white bg-[#584FF7] hover:bg-[#daa440] border-none">Get a quote</button>
+        //                 <button className="btn text-white bg-[#584FF7] hover:bg-[#daa440] border-none">Get a quote</button>
         //             </a>
         //         </div>
         //     </div>

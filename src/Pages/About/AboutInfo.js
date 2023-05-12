@@ -25,21 +25,21 @@ const AboutInfo = () => {
             description: 'As a Trusted Choice independent agency we have many insurance companies to work with and a pledge of service that we take very seriously.',
             img: service,
         },
-        
-    ]
-  return (
-    <div className=' lg:mt-5 md:mt-5 mt-3' id='get-quote'>
-    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 justify-center items-center '>
-        {
-            products.map(product => <AboutInfoCard
-                key={product._id}
-                product={product}
-            ></AboutInfoCard>)
-        }
 
-    </div>
-</div>
-  )
+    ]
+    return (
+        <div className=' lg:mt-5 md:mt-5 mt-3' id='get-quote'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 justify-center items-center '>
+                {
+                    products.map(product => <AboutInfoCard
+                        key={product._id}
+                        product={product}
+                    ></AboutInfoCard>)
+                }
+
+            </div>
+        </div>
+    )
 }
 
 export default AboutInfo

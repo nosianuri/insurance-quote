@@ -2,22 +2,85 @@ import React, { useState } from 'react'
 import Step1 from './Steps/Step1';
 import Step2 from './Steps/Step2';
 import Final from './Steps/Final';
+import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
 
 const StepForm = () => {
     const [page, setPage] = useState(0);
+    const [loading, setLoading] = useState(false);
+    const { register, reset, formState: { errors }, handleSubmit } = useForm();
+    const [Insurance, setInsurance] = useState();
+    const [Age, setAge] = useState();
+
+    const onSubmit = formData => {
+        setLoading(true);
+
+        const data = {
+            do_you_have_health_insurance: Insurance,
+            age: Age,
+        }
+        console.log(data, "so good");
+        if (Object.keys(data).length > 0) {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                event: "roofing_lead_submitted",
+                "data": data,
+            })
+            console.log("Form Data Pushed!", data)
+        }
+        else {
+            toast.warning("Input fields can't be empty", {
+                position: toast.POSITION.TOP_CENTER
+            })
+        }
+
+        fetch('https://api.insurancetrendyquote.com/api/post-affordable-health', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(data)
+        })
+            .then(res => {
+                return res.json();
+            })
+
+            .then(data => {
+                if (data) {
+                    toast.success('Successful post data');
+                    reset();
+                    setLoading(false)
+                    // window.dataLayer = window.dataLayer || [];
+                    // window.dataLayer.push({
+                    //     "message": "Roofing form submitted",
+                    //     event: data
+                    //   })
+
+                    setPage(page + 1);
+                    console.log(data);
+                } else if (data.errors) {
+                    toast.error('Something went wrong', data.errors.message);
+                    setLoading(false)
+                }
+                console.log(data, "response data");
+            })
+            .catch(error => {
+                // console.error(error);
+                toast.error(`Error: ${error.message}`);
+                setLoading(false);
+            });
+    }
 
     const PageDisplay = () => {
         if (page === 0) {
-            return <Step1 page={page} setPage={setPage} />;
+            return <Step1 page={page} setPage={setPage} Insurance={Insurance} setInsurance={setInsurance} />;
         } else if (page === 1) {
-            return <Step2 page={page} setPage={setPage} />;
+            return <Step2 page={page} setPage={setPage} Age={Age} setAge={setAge} />;
         } else {
-            return <Final page={page} setPage={setPage} />;
+            return <Final page={page} setPage={setPage} onSubmit={onSubmit} />;
         }
     };
     return (
         <div className='max-w-7xl mx-auto'>
-        <div className='mx-auto rounded-2xl text-gray-900 bg-[#EEE] py-5'>
+            <div className='mx-auto rounded-2xl text-gray-900 bg-[#EEE] py-5'>
                 <div className="  ">
                     {/* <div className="progressbar">
                         <div style={{ width: page === 0 ? "25%" : page == 1 ? "45%" : page == 2 ? "75%" : "100%" }}

@@ -3,8 +3,8 @@ import expense from '../../../assets/expensewhite_anim.png'
 import final from '../../../assets/final-expense-hero.jfif'
 
 const FeBanner = () => {
-  return (
-    <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10 justify-center items-center bg-[#201e44]'>
+    return (
+        <div id='top-form' className='grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 lg:pt-28 md:pt-16 pt-10 justify-center items-center bg-[#201e44]'>
             <div className=' order-2 px-3'>
                 <div className='lg:py-5 py-5 lg:mx-16 '>
                     <img className='mx-auto mb-5 w-16 ' src={expense} alt="" />
@@ -40,7 +40,7 @@ const FeBanner = () => {
                 <img src={final} alt="" />
             </div>
         </div>
-  )
+    )
 }
 
 export default FeBanner

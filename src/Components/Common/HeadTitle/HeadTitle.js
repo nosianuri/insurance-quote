@@ -3,10 +3,10 @@ import { Link, useLocation } from 'react-router-dom'
 import './HeadTitle.css'
 
 const HeadTitle = () => {
-    const location = useLocation()
+  const location = useLocation()
   return (
     <>
-         <section className='image-heading'>
+      <section className='image-heading'>
         <div className='container'>
           {/*<h1>{location.pathname.slice(1, -2, -1)}</h1>*/}
           <h1>{location.pathname.split("/")[1]}</h1>

@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Step1 = ({ page, setPage }) => {
+const Step1 = ({ page, setPage, setInsurance }) => {
     const handleChange = (e) => {
+        setInsurance(e);
         setPage(page + 1);
-      };
+    };
     return (
         <div className=''>
             <p className='sm:text-4xl text-2xl text-center font-extrabold !leading-snug sm:w-[590px] mx-auto mt-5 step-head'>DO YOU HAVE HEALTH INSURANCE?</p>

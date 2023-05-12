@@ -13,17 +13,17 @@ const LifePolicy = () => {
             <p className='my-3 text-sm'>If you’re still on the fence about whether to buy life insurance, you’re not alone. We know it’s not an easy decision to make. That’s why we work hard to be the insurance company you can trust to find the right protection for your needs. Our team offers the following advantages when working with you to find the right policy:</p>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 my-5'>
                 <div className='text-center'>
-                <img className='w-12 mx-auto' src={experience} alt="" />
+                    <img className='w-12 mx-auto' src={experience} alt="" />
                     <h3 className='text-[#201e44] font-semibold mt-2'>Experience</h3>
                     <p className='text-sm mt-2'>Our agents have extensive experience working with individuals and families across all industries to provide the right coverage for your protection.</p>
                 </div>
                 <div className='text-center'>
-                <img className='w-12 mx-auto' src={commitment} alt="" />
+                    <img className='w-12 mx-auto' src={commitment} alt="" />
                     <h3 className='text-[#201e44] font-semibold'>Commitment</h3>
                     <p className='text-sm mt-2'>We’re committed to finding you the most affordable rates and work hard to ensure you get the coverage you need at a price you can afford.</p>
                 </div>
                 <div className='text-center'>
-                <img className='w-12 mx-auto' src={value} alt="" />
+                    <img className='w-12 mx-auto' src={value} alt="" />
                     <h3 className='text-[#201e44] font-semibold'>Value</h3>
                     <p className='text-sm mt-2'>At Insurance Trendy Quote, we understand how much your assets mean to you and how hard you’ve worked to build a life for your family. Our policies protect you financially and give you the peace of mind you deserve.</p>
                 </div>

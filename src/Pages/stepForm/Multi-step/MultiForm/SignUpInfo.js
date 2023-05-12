@@ -1,18 +1,18 @@
 import React from "react";
 
 function SignUpInfo({ formData, setFormData }) {
-    return (
-            <div className="sign-up-container">
-                <p className="text-2xl mb-2">What's your zipcode?</p>
-                <input
-                    type="text"
-                    placeholder="Zipcode..."
-                    value={formData.email}
-                    onChange={(event) =>
-                        setFormData({ ...formData, email: event.target.value })
-                    }
-                />
-                {/* <input
+  return (
+    <div className="sign-up-container">
+      <p className="text-2xl mb-2">What's your zipcode?</p>
+      <input
+        type="text"
+        placeholder="Zipcode..."
+        value={formData.email}
+        onChange={(event) =>
+          setFormData({ ...formData, email: event.target.value })
+        }
+      />
+      {/* <input
         type="text"
         placeholder="Password..."
         value={formData.password}
@@ -20,7 +20,7 @@ function SignUpInfo({ formData, setFormData }) {
           setFormData({ ...formData, password: event.target.value })
         }
       /> */}
-                {/* <input
+      {/* <input
         type="text"
         placeholder="Confirm Password..."
         value={formData.confirmPassword}
@@ -28,8 +28,8 @@ function SignUpInfo({ formData, setFormData }) {
           setFormData({ ...formData, confirmPassword: event.target.value })
         }
       /> */}
-            </div>
-    );
+    </div>
+  );
 }
 
 export default SignUpInfo;

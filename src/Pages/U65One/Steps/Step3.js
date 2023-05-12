@@ -1,7 +1,8 @@
 import React from 'react'
 
-const Step3 = ({ page, setPage }) => {
+const Step3 = ({ page, setPage, setEarning }) => {
   const handleChange = (e) => {
+    setEarning(e);
     setPage(page + 1);
   };
   return (
@@ -16,7 +17,7 @@ const Step3 = ({ page, setPage }) => {
         <a href="tel:+18445942106">
           <div className='flex gap-5 justify-center items-center'>
             <div className='mt-2'>
-              <i class="fa-solid fa-phone text-[#4A94DB]"></i>
+              <i className="fa-solid fa-phone text-[#4A94DB]"></i>
             </div>
             <p className='text-2xl text-center mt-2'>18445942106</p>
           </div>

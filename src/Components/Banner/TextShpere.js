@@ -25,14 +25,14 @@ const TextShpere = () => {
             };
             TagCloud(container, texts, options);
         };
-    },[]);
-  return (
-    <>
-        <div className='text-shpere'>
-            <span className='tagcloud'></span>
-        </div>
-    </>
-  )
+    }, []);
+    return (
+        <>
+            <div className='text-shpere'>
+                <span className='tagcloud'></span>
+            </div>
+        </>
+    )
 }
 
 export default TextShpere;

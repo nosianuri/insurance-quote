@@ -25,7 +25,7 @@ const SlideCard = () => {
                         <div key={index}>
                             <div style={{
                                 background: `url(${value.cover})`
-                            }} class="bg-no-repeat !bg-cover sl-box">
+                            }} className="bg-no-repeat !bg-cover sl-box">
                                 <div className='max-w-7xl mx-auto'>
                                     <div className='lg:pl-10 my-10 ml-5 pt-40 pb-32'>
                                         <div className='bg-black bg-opacity-40 lg:w-[490px] w-[350px] p-5 shadow-xl rounded'>
@@ -33,7 +33,7 @@ const SlideCard = () => {
                                             <p className='text-white text-xl'>{value.desc}</p>
                                             <a href={value.link}>
                                                 <div className='!mx-auto'>
-                                                <button id='service-btn' className='my-3 px-3 py-2 text-lg font-semibold bg-[#3e37b7] text-white hover:bg-[#daa440] border-none'>Get Free Quote</button>
+                                                    <button id='service-btn' className='my-3 px-3 py-2 text-lg font-semibold bg-[#3e37b7] text-white hover:bg-[#daa440] border-none'>Get Free Quote</button>
                                                 </div>
                                             </a>
                                         </div>
