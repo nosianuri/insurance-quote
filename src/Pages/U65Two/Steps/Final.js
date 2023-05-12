@@ -43,7 +43,7 @@ const Final = () => {
         
         <div>
        <h1 className='sm:text-4xl text-3xl font-extrabold text-center mt-5 step-head'>CONGRATULATIONS!</h1>
-        <p className='sm:text-2xl text-xl mt-3 text-center'>Yh, you have health insurance rates waiting for you</p>
+        <p className='sm:text-2xl text-xl mt-3 text-center'>You have health insurance rates waiting for you</p>
        </div>
        
       )}
