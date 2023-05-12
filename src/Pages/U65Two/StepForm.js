@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Step1 from './Steps/Step1';
 import Step2 from './Steps/Step2';
 import Final from './Steps/Final';
@@ -8,74 +8,59 @@ import { toast } from 'react-toastify';
 const StepForm = () => {
     const [page, setPage] = useState(0);
     const [loading, setLoading] = useState(false);
-    const { register, reset, formState: { errors }, handleSubmit } = useForm();
-    const [Insurance, setInsurance] = useState();
-    const [Age, setAge] = useState();
+    const { register, reset, handleSubmit } = useForm();
+    const [age, setAge] = useState();
 
-    const onSubmit = formData => {
+    useEffect(() => {
+        if (loading) {
+            // Perform data fetching here
+            fetchData()
+                .then(responseData => {
+                    // Handle the response data
+                    toast.success('Successful data fetching');
+                    reset();
+                    setLoading(false);
+                    setPage(page + 1);
+                    console.log(responseData);
+                })
+                .catch(error => {
+                    toast.error(`Error: ${error.message}`);
+                    setLoading(false);
+                });
+        }
+    }, [loading]);
+
+    const fetchData = async () => {
+        const response = await fetch('https://api.insurancetrendyquote.com/api/post-health-insurance');
+        const data = await response.json();
+        return data;
+    };
+
+    const onSubmit = (formData) => {
         setLoading(true);
 
         const data = {
-            do_you_have_health_insurance: Insurance,
-            age: Age,
-        }
-        console.log(data, "so good");
+            do_you_have_health_insurance: formData.insurance,
+            age: age,
+        };
+
         if (Object.keys(data).length > 0) {
-            window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({
-                event: "roofing_lead_submitted",
-                "data": data,
-            })
-            console.log("Form Data Pushed!", data)
-        }
-        else {
+            // Rest of your code
+        } else {
             toast.warning("Input fields can't be empty", {
                 position: toast.POSITION.TOP_CENTER
-            })
-        }
-
-        fetch('https://api.insurancetrendyquote.com/api/post-affordable-health', {
-            method: 'POST',
-            headers: { 'content-type': 'application/json' },
-            body: JSON.stringify(data)
-        })
-            .then(res => {
-                return res.json();
-            })
-
-            .then(data => {
-                if (data) {
-                    toast.success('Successful post data');
-                    reset();
-                    setLoading(false)
-                    // window.dataLayer = window.dataLayer || [];
-                    // window.dataLayer.push({
-                    //     "message": "Roofing form submitted",
-                    //     event: data
-                    //   })
-
-                    setPage(page + 1);
-                    console.log(data);
-                } else if (data.errors) {
-                    toast.error('Something went wrong', data.errors.message);
-                    setLoading(false)
-                }
-                console.log(data, "response data");
-            })
-            .catch(error => {
-                // console.error(error);
-                toast.error(`Error: ${error.message}`);
-                setLoading(false);
             });
-    }
-
+            setLoading(false);
+        }
+    };
+    
     const PageDisplay = () => {
         if (page === 0) {
-            return <Step1 page={page} setPage={setPage} Insurance={Insurance} setInsurance={setInsurance} />;
+            return <Step1 page={page} setPage={setPage} register={register} />;
         } else if (page === 1) {
-            return <Step2 page={page} setPage={setPage} Age={Age} setAge={setAge} />;
+            return <Step2 page={page} setPage={setPage} age={age} setAge={setAge} onSubmit={handleSubmit(onSubmit)} />;
         } else {
-            return <Final page={page} setPage={setPage} onSubmit={onSubmit} />;
+            return <Final page={page} setPage={setPage} />;
         }
     };
     return (

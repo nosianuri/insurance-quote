@@ -9,8 +9,8 @@ const Step3 = ({ page, setPage, setEarning }) => {
     <div>
       <h1 className='text-center text-4xl'>Do you make more than $4,000 per month?</h1>
       <div className='flex gap-4 mt-5 justify-center items-center'>
-        <button onClick={() => handleChange("yes")} className='bg-[#4A94DB] text-[#fff] rounded text-center w-[150px] py-2'>YES</button>
-        <button onClick={() => handleChange("no")} className='bg-[#4A94DB] text-[#fff] rounded text-center w-[150px] py-2'>NO</button>
+        <button onClick={() => handleChange("$4000+")} className='bg-[#4A94DB] text-[#fff] rounded text-center w-[150px] py-2'>YES</button>
+        <button onClick={() => handleChange("$4000-")} className='bg-[#4A94DB] text-[#fff] rounded text-center w-[150px] py-2'>NO</button>
       </div>
       <p className='text-center mt-8'>Or call:</p>
       <div className='mb-8 mt-2'>
