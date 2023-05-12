@@ -105,7 +105,7 @@ const StepFprm = () => {
                     ></div>
                 </div>
                 <div className="sm:w-[600px] mx-auto ">
-                    <div className="form-container pb-5 sm:px-10 px-3 ">
+                    <div className=" pb-5 sm:px-10 px-3 ">
                         <div className="body ">{PageDisplay()}</div>
                     </div>
                 </div>

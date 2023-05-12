@@ -266,3 +266,16 @@ input:focus {
 .step-head{
   font-family: 'Montserrat', sans-serif;
 }
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateY(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.phone-icon {
+  display: inline-block;
+  animation: shake 1s infinite;
+}

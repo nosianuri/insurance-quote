@@ -11,13 +11,13 @@ const Step1 = ({ page, setPage }) => {
         <li className='flex gap-3  items-center text-lg'><i className="fa-solid fa-circle-check text-[#4A96DC]"></i>Fixed indemnity plans</li>
         <li className='flex gap-3  items-center text-lg'><i className="fa-solid fa-circle-check text-[#4A96DC]"></i>Community/Cost-Sharing plans</li>
       </ul>
-      <div onClick={() => handleChange("start")} className='bg-[#F14742] shadow-2xl hover:shadow-md text-[#fff] rounded-2xl py-3 px-8 my-8 sm:text-[23px] text-[20px] sm:w-[390px] w-4/5 mx-auto'>
+      <div onClick={() => handleChange("start")} className='bg-[#F14742] shadow-2xl hover:shadow-md text-[#fff] rounded-2xl py-3 px-8 my-8 sm:text-[23px] text-[20px] sm:w-[390px] w-4/5 !mx-auto'>
         <p className='uppercase text-center font-bold mt-2'>Get Started</p>
       </div>
-      <div className='flex gap-4 justify-center items-center'>
-        <img src="https://i.ibb.co/ph7GWJz/Cigna.png" alt="" />
-        <img src="https://i.ibb.co/6HwXCV7/humana.png" alt="" />
-        <img src="https://i.ibb.co/WxP4Sjy/Anthem.png" alt="" />
+      <div className='sm:flex space-y-2 gap-4 justify-center items-center'>
+        <img src="https://i.ibb.co/ph7GWJz/Cigna.png" alt="" className='mx-auto' />
+        <img src="https://i.ibb.co/6HwXCV7/humana.png" alt="" className='mx-auto' />
+        <img src="https://i.ibb.co/WxP4Sjy/Anthem.png" alt="" className='mx-auto' />
       </div>
       <div className='flex justify-center px-2 pb-8 sm:w-[500px] mx-auto mt-5'>
         <i className="fa-solid fa-circle-check mt-1 mr-1"></i>

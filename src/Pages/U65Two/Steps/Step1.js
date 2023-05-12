@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Step1 = ({ page, setPage, setInsurance, register }) => {
+const Step1 = ({ page, setPage, setInsurance,  }) => {
     const handleChange = (e) => {
-        // setInsurance(e);
+        setInsurance(e);
         setPage(page + 1);
     };
     return (
@@ -17,10 +17,10 @@ const Step1 = ({ page, setPage, setInsurance, register }) => {
                 </div>
             </div>
             <div>
-        <input
+        {/* <input
           type='hidden'
-          {...register('insurance')} // Register the input field with the name 'insurance'
-        />
+          {...register('insurance')} 
+        /> */}
       </div>
         </div>
     )

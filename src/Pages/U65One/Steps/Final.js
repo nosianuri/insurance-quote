@@ -50,7 +50,7 @@ const Final = () => {
       <a href="tel:+18445942106">
         <div className='bg-[#F14742] shadow-2xl hover:shadow-md text-[#fff] rounded-2xl py-5 px-8 my-8 sm:text-[23px] text-[20px] sm:w-[390px] w-4/5 mx-auto'>
           <div className='flex gap-5 justify-center items-center'>
-            <div className='mt-2'>
+            <div className='mt-2 phone-icon'>
               <i className="fa-solid fa-phone"></i>
             </div>
             <p className=' text-center mt-2'>18445942106</p>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Step1 from './Steps/Step1';
 import Step2 from './Steps/Step2';
 import Final from './Steps/Final';
@@ -8,59 +8,54 @@ import { toast } from 'react-toastify';
 const StepForm = () => {
     const [page, setPage] = useState(0);
     const [loading, setLoading] = useState(false);
-    const { register, reset, handleSubmit } = useForm();
-    const [age, setAge] = useState();
+    const { register, reset, formState: { errors }, handleSubmit } = useForm();
+    const [Insurance, setInsurance] = useState();
+    const [Age, setAge] = useState();
 
-    useEffect(() => {
-        if (loading) {
-            // Perform data fetching here
-            fetchData()
-                .then(responseData => {
-                    // Handle the response data
-                    toast.success('Successful data fetching');
+    const onSubmit = async () => {
+        setLoading(true);
+    
+        const data = {
+            do_you_have_health_insurance: Insurance,
+            age: Age,
+        };
+    
+        try {
+            if (Object.keys(data).length > 0) {
+                const response = await fetch('https://api.insurancetrendyquote.com/api/post-health-insurance', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+    
+                if (response.ok) {
+                    const responseData = await response.json();
+                    toast.success('Successful post data');
                     reset();
                     setLoading(false);
                     setPage(page + 1);
                     console.log(responseData);
-                })
-                .catch(error => {
-                    toast.error(`Error: ${error.message}`);
-                    setLoading(false);
+                } else {
+                    throw new Error('Error submitting data');
+                }
+            } else {
+                toast.warning("Input fields can't be empty", {
+                    position: toast.POSITION.TOP_CENTER
                 });
-        }
-    }, [loading]);
-
-    const fetchData = async () => {
-        const response = await fetch('https://api.insurancetrendyquote.com/api/post-health-insurance');
-        const data = await response.json();
-        return data;
-    };
-
-    const onSubmit = (formData) => {
-        setLoading(true);
-
-        const data = {
-            do_you_have_health_insurance: formData.insurance,
-            age: age,
-        };
-
-        if (Object.keys(data).length > 0) {
-            // Rest of your code
-        } else {
-            toast.warning("Input fields can't be empty", {
-                position: toast.POSITION.TOP_CENTER
-            });
+            }
+        } catch (error) {
+            toast.error(`Error: ${error.message}`);
             setLoading(false);
         }
     };
-    
+
     const PageDisplay = () => {
         if (page === 0) {
-            return <Step1 page={page} setPage={setPage} register={register} />;
+            return <Step1 page={page} setPage={setPage} Insurance={Insurance} setInsurance={setInsurance} />;
         } else if (page === 1) {
-            return <Step2 page={page} setPage={setPage} age={age} setAge={setAge} onSubmit={handleSubmit(onSubmit)} />;
+            return <Step2 page={page} setPage={setPage} Age={Age} setAge={setAge} onSubmit={handleSubmit(onSubmit)} />;
         } else {
-            return <Final page={page} setPage={setPage} />;
+            return <Final page={page} setPage={setPage}  />;
         }
     };
     return (
