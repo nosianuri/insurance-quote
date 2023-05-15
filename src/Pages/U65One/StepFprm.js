@@ -30,7 +30,7 @@ const StepFprm = () => {
         if (Object.keys(data).length > 0) {
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({
-                event: "health_insurance_lead_submitted",
+                event: "health_insurance_u65 ",
                 "data": data,
             })
             console.log("Form Data Pushed!", data)
