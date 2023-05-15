@@ -1,7 +1,5 @@
-import React from 'react'
-import insurance from '../../assets/Home Insurance Remeber Forget .png'
-import TextShpere from './TextShpere'
-
+import React from 'react';
+import TextShpere from './TextShpere';
 
 const BannerBody = () => {
   return (

@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
-import './TextShpere.css'
-import TagCloud from 'TagCloud'
+import React, { useEffect } from 'react';
+import './TextShpere.css';
+import TagCloud from 'TagCloud';
 
 const TextShpere = () => {
     useEffect(() => {
